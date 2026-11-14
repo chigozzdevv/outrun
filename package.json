@@ -1,0 +1,36 @@
+{
+  "name": "outrun",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A live NEAR investment thesis with validated observations and synchronized calculations.",
+  "scripts": {
+    "dev": "vite --config web/vite.config.ts",
+    "build": "tsc --noEmit && vite build --config web/vite.config.ts",
+    "preview": "vite preview --config web/vite.config.ts --host 127.0.0.1 --port 4173 --strictPort",
+    "test": "node --import tsx --test web/tests/*.test.ts server/tests/*.test.ts compute/tests/*.test.ts && python3 -B -m unittest discover -s compute/tests -p catalog.py",
+    "verify:data": "python3 -B -m compute.src.verify.evidence && python3 -B -m compute.src.publish --check",
+    "verify:research": "python3 -B -m compute.src.verify.studies && python3 -B -m compute.src.publish --check",
+    "data:build": "python3 -B -m compute.src.build.observations && python3 -B -m compute.src.withdrawals.matches && node --import tsx compute/src/build/publisher.ts && python3 -B -m compute.src.publish --from-workspace",
+    "start": "node --import tsx server/src/main.ts",
+    "live:refresh": "node --import tsx server/src/refresh.ts",
+    "evidence:download": "python3 -B -m compute.src.archive --download"
+  },
+  "dependencies": {
+    "echarts": "6.1.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
