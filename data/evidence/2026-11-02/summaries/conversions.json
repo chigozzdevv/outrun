@@ -1,0 +1,505 @@
+{
+  "signedWithdrawals": 794,
+  "uniqueSignedIntents": 794,
+  "executedSameIntentConversions": 205,
+  "wrappedNEARReceivedInMatchedConversionLegs": "2468.180264040558446050045334",
+  "nativeNEARWithdrawnInThoseTransactions": "90471.465944253243022279744359",
+  "inputAssets": [
+    {
+      "assetId": "nep141:17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+      "symbol": "USDC",
+      "rawUnits": "215568022",
+      "units": "215.568022"
+    },
+    {
+      "assetId": "nep141:aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+      "symbol": "AURORA",
+      "rawUnits": "188125187282180065124",
+      "units": "188.125187282180065124"
+    },
+    {
+      "assetId": "nep141:arb-0xaf88d065e77c8cc2239327c5edb3a432268e5831.omft.near",
+      "symbol": "USDC",
+      "rawUnits": "48456116",
+      "units": "48.456116"
+    },
+    {
+      "assetId": "nep141:arb-0xca7dec8550f43a5e46e3dfb95801f64280e75b27.omft.near",
+      "symbol": "SWEAT",
+      "rawUnits": "163639467796758005",
+      "units": "0.163639467796758005"
+    },
+    {
+      "assetId": "nep141:arb-0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.omft.near",
+      "symbol": "USDT0",
+      "rawUnits": "25235770",
+      "units": "25.235770"
+    },
+    {
+      "assetId": "nep141:arb.omft.near",
+      "symbol": "ETH",
+      "rawUnits": "151135206920000000",
+      "units": "0.151135206920000000"
+    },
+    {
+      "assetId": "nep141:base.omft.near",
+      "symbol": "ETH",
+      "rawUnits": "1879655882794799",
+      "units": "0.001879655882794799"
+    },
+    {
+      "assetId": "nep141:blackdragon.tkn.near",
+      "symbol": "BLACKDRAGON",
+      "rawUnits": "33051279191140806208666404162038",
+      "units": "33051279.191140806208666404162038"
+    },
+    {
+      "assetId": "nep141:cfi.consumer-fi.near",
+      "symbol": "CFI",
+      "rawUnits": "635285876392958",
+      "units": "0.000635285876392958"
+    },
+    {
+      "assetId": "nep141:d9c2d319cd7e6177336b0a9c93c21cb48d84fb54.factory.bridge.near",
+      "symbol": "HAPI",
+      "rawUnits": "21781529786101",
+      "units": "0.000021781529786101"
+    },
+    {
+      "assetId": "nep141:eth-0x6b175474e89094c44da98b954eedeac495271d0f.omft.near",
+      "symbol": "DAI",
+      "rawUnits": "300743869089715154099",
+      "units": "300.743869089715154099"
+    },
+    {
+      "assetId": "nep141:eth-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.omft.near",
+      "symbol": "USDC",
+      "rawUnits": "1686748291",
+      "units": "1686.748291"
+    },
+    {
+      "assetId": "nep141:eth-0xaaaaaa20d9e0e2461697782ef11675f668207961.omft.near",
+      "symbol": "AURORA",
+      "rawUnits": "5881226988644072373",
+      "units": "5.881226988644072373"
+    },
+    {
+      "assetId": "nep141:eth-0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35.omft.near",
+      "symbol": "SWEAT",
+      "rawUnits": "11801203720407440792",
+      "units": "11.801203720407440792"
+    },
+    {
+      "assetId": "nep141:eth-0xd9c2d319cd7e6177336b0a9c93c21cb48d84fb54.omft.near",
+      "symbol": "HAPI",
+      "rawUnits": "681160070657658926",
+      "units": "0.681160070657658926"
+    },
+    {
+      "assetId": "nep141:eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near",
+      "symbol": "USDT",
+      "rawUnits": "241141816",
+      "units": "241.141816"
+    },
+    {
+      "assetId": "nep141:eth.bridge.near",
+      "symbol": "ETH",
+      "rawUnits": "401425541030601",
+      "units": "0.000401425541030601"
+    },
+    {
+      "assetId": "nep141:jambo-1679.meme-cooking.near",
+      "symbol": "JAMBO",
+      "rawUnits": "175438441607691101391",
+      "units": "175.438441607691101391"
+    },
+    {
+      "assetId": "nep141:kat.token0.near",
+      "symbol": "NearKat",
+      "rawUnits": "2516139941124267210673",
+      "units": "2516.139941124267210673"
+    },
+    {
+      "assetId": "nep141:mpdao-token.near",
+      "symbol": "mpDAO",
+      "rawUnits": "1748",
+      "units": "0.001748"
+    },
+    {
+      "assetId": "nep141:nbtc.bridge.near",
+      "symbol": "BTC",
+      "rawUnits": "2874418",
+      "units": "0.02874418"
+    },
+    {
+      "assetId": "nep141:npro.nearmobile.near",
+      "symbol": "NPRO",
+      "rawUnits": "2746469425876846614093641",
+      "units": "2.746469425876846614093641"
+    },
+    {
+      "assetId": "nep141:sol-c800a4bd850783ccb82c2b2c7e84175443606352.omft.near",
+      "symbol": "USDT",
+      "rawUnits": "15672142",
+      "units": "15.672142"
+    },
+    {
+      "assetId": "nep141:token.0xshitzu.near",
+      "symbol": "SHITZU",
+      "rawUnits": "489840968911965533938",
+      "units": "489.840968911965533938"
+    },
+    {
+      "assetId": "nep141:token.publicailab.near",
+      "symbol": "PUBLIC",
+      "rawUnits": "448762421306820522843",
+      "units": "448.762421306820522843"
+    },
+    {
+      "assetId": "nep141:token.rhealab.near",
+      "symbol": "RHEA",
+      "rawUnits": "522842816794546705488",
+      "units": "522.842816794546705488"
+    },
+    {
+      "assetId": "nep141:token.sweat",
+      "symbol": "SWEAT",
+      "rawUnits": "193399605719007354",
+      "units": "0.193399605719007354"
+    },
+    {
+      "assetId": "nep141:tron-d28a265909efecdcee7c5028585214ea0b96f015.omft.near",
+      "symbol": "USDT",
+      "rawUnits": "159705161",
+      "units": "159.705161"
+    },
+    {
+      "assetId": "nep141:tron.omft.near",
+      "symbol": "TRX",
+      "rawUnits": "168002141",
+      "units": "168.002141"
+    },
+    {
+      "assetId": "nep141:usdt.tether-token.near",
+      "symbol": "USDT",
+      "rawUnits": "44207063",
+      "units": "44.207063"
+    },
+    {
+      "assetId": "nep141:xrp.omft.near",
+      "symbol": "XRP",
+      "rawUnits": "36123418",
+      "units": "36.123418"
+    },
+    {
+      "assetId": "nep141:zec.omft.near",
+      "symbol": "ZEC",
+      "rawUnits": "260768144",
+      "units": "2.60768144"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:10_359RPSJVdTxwTJT9TyGssr2rFoWo",
+      "symbol": "USDT",
+      "rawUnits": "700000",
+      "units": "0.700000"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:1100_111bzQBB65GxAPAVoxqmMcgYo5oS3txhqs1Uh1cgahKQUeTUq1TJu",
+      "symbol": "USDC",
+      "rawUnits": "200568624",
+      "units": "20.0568624"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:137_3hpYoaLtt8MP1Z2GH1U473DMRKgr",
+      "symbol": "USDT",
+      "rawUnits": "5811203",
+      "units": "5.811203"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:137_qiStmoQJDQPTebaPjgx5VBxZv6L",
+      "symbol": "USDC",
+      "rawUnits": "1022959",
+      "units": "1.022959"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:56_11111111111111111111",
+      "symbol": "BNB",
+      "rawUnits": "113210457607253159",
+      "units": "0.113210457607253159"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:56_2CMMyVTGZkeyNZTSvS5sarzfir6g",
+      "symbol": "USDT",
+      "rawUnits": "80444440925915544930",
+      "units": "80.444440925915544930"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:56_2w93GqMcEmQFDru84j3HZZWt557r",
+      "symbol": "USDC",
+      "rawUnits": "5019606009706009707",
+      "units": "5.019606009706009707"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:56_SZzgw3HSudhZcTwPWUTi2RJB19t",
+      "symbol": "NEAR",
+      "rawUnits": "153123519160981799",
+      "units": "0.153123519160981799"
+    }
+  ],
+  "otherNetWrappedNearTransfersOnMatchedReceipts": "0.000140591962953221585269",
+  "exchangeEventFeesCollected": [
+    {
+      "assetId": "nep141:17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+      "symbol": "USDC",
+      "rawUnits": "217",
+      "units": "0.000217"
+    },
+    {
+      "assetId": "nep141:aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+      "symbol": "AURORA",
+      "rawUnits": "188125187282197",
+      "units": "0.000188125187282197"
+    },
+    {
+      "assetId": "nep141:arb-0xaf88d065e77c8cc2239327c5edb3a432268e5831.omft.near",
+      "symbol": "USDC",
+      "rawUnits": "50",
+      "units": "0.000050"
+    },
+    {
+      "assetId": "nep141:arb-0xca7dec8550f43a5e46e3dfb95801f64280e75b27.omft.near",
+      "symbol": "SWEAT",
+      "rawUnits": "163639467797",
+      "units": "0.000000163639467797"
+    },
+    {
+      "assetId": "nep141:arb-0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.omft.near",
+      "symbol": "USDT0",
+      "rawUnits": "27",
+      "units": "0.000027"
+    },
+    {
+      "assetId": "nep141:arb.omft.near",
+      "symbol": "ETH",
+      "rawUnits": "151135206920",
+      "units": "0.000000151135206920"
+    },
+    {
+      "assetId": "nep141:base.omft.near",
+      "symbol": "ETH",
+      "rawUnits": "1879655883",
+      "units": "0.000000001879655883"
+    },
+    {
+      "assetId": "nep141:blackdragon.tkn.near",
+      "symbol": "BLACKDRAGON",
+      "rawUnits": "33051279191140806208666405",
+      "units": "33.051279191140806208666405"
+    },
+    {
+      "assetId": "nep141:cfi.consumer-fi.near",
+      "symbol": "CFI",
+      "rawUnits": "635285877",
+      "units": "0.000000000635285877"
+    },
+    {
+      "assetId": "nep141:d9c2d319cd7e6177336b0a9c93c21cb48d84fb54.factory.bridge.near",
+      "symbol": "HAPI",
+      "rawUnits": "21781530",
+      "units": "0.000000000021781530"
+    },
+    {
+      "assetId": "nep141:eth-0x6b175474e89094c44da98b954eedeac495271d0f.omft.near",
+      "symbol": "DAI",
+      "rawUnits": "300743869089718",
+      "units": "0.000300743869089718"
+    },
+    {
+      "assetId": "nep141:eth-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.omft.near",
+      "symbol": "USDC",
+      "rawUnits": "1688",
+      "units": "0.001688"
+    },
+    {
+      "assetId": "nep141:eth-0xaaaaaa20d9e0e2461697782ef11675f668207961.omft.near",
+      "symbol": "AURORA",
+      "rawUnits": "5881226988647",
+      "units": "0.000005881226988647"
+    },
+    {
+      "assetId": "nep141:eth-0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35.omft.near",
+      "symbol": "SWEAT",
+      "rawUnits": "11801203720408",
+      "units": "0.000011801203720408"
+    },
+    {
+      "assetId": "nep141:eth-0xd9c2d319cd7e6177336b0a9c93c21cb48d84fb54.omft.near",
+      "symbol": "HAPI",
+      "rawUnits": "681160070658",
+      "units": "0.000000681160070658"
+    },
+    {
+      "assetId": "nep141:eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near",
+      "symbol": "USDT",
+      "rawUnits": "243",
+      "units": "0.000243"
+    },
+    {
+      "assetId": "nep141:eth.bridge.near",
+      "symbol": "ETH",
+      "rawUnits": "401425542",
+      "units": "0.000000000401425542"
+    },
+    {
+      "assetId": "nep141:jambo-1679.meme-cooking.near",
+      "symbol": "JAMBO",
+      "rawUnits": "175438441607693",
+      "units": "0.000175438441607693"
+    },
+    {
+      "assetId": "nep141:kat.token0.near",
+      "symbol": "NearKat",
+      "rawUnits": "2516139941124269",
+      "units": "0.002516139941124269"
+    },
+    {
+      "assetId": "nep141:mpdao-token.near",
+      "symbol": "mpDAO",
+      "rawUnits": "1",
+      "units": "0.000001"
+    },
+    {
+      "assetId": "nep141:nbtc.bridge.near",
+      "symbol": "BTC",
+      "rawUnits": "17",
+      "units": "0.00000017"
+    },
+    {
+      "assetId": "nep141:npro.nearmobile.near",
+      "symbol": "NPRO",
+      "rawUnits": "2746469425876846622",
+      "units": "0.000002746469425876846622"
+    },
+    {
+      "assetId": "nep141:sol-c800a4bd850783ccb82c2b2c7e84175443606352.omft.near",
+      "symbol": "USDT",
+      "rawUnits": "16",
+      "units": "0.000016"
+    },
+    {
+      "assetId": "nep141:token.0xshitzu.near",
+      "symbol": "SHITZU",
+      "rawUnits": "489840968911966",
+      "units": "0.000489840968911966"
+    },
+    {
+      "assetId": "nep141:token.publicailab.near",
+      "symbol": "PUBLIC",
+      "rawUnits": "448762421306825",
+      "units": "0.000448762421306825"
+    },
+    {
+      "assetId": "nep141:token.rhealab.near",
+      "symbol": "RHEA",
+      "rawUnits": "522842816794550",
+      "units": "0.000522842816794550"
+    },
+    {
+      "assetId": "nep141:token.sweat",
+      "symbol": "SWEAT",
+      "rawUnits": "193399605720",
+      "units": "0.000000193399605720"
+    },
+    {
+      "assetId": "nep141:tron-d28a265909efecdcee7c5028585214ea0b96f015.omft.near",
+      "symbol": "USDT",
+      "rawUnits": "160",
+      "units": "0.000160"
+    },
+    {
+      "assetId": "nep141:tron.omft.near",
+      "symbol": "TRX",
+      "rawUnits": "171",
+      "units": "0.000171"
+    },
+    {
+      "assetId": "nep141:usdt.tether-token.near",
+      "symbol": "USDT",
+      "rawUnits": "45",
+      "units": "0.000045"
+    },
+    {
+      "assetId": "nep141:xrp.omft.near",
+      "symbol": "XRP",
+      "rawUnits": "38",
+      "units": "0.000038"
+    },
+    {
+      "assetId": "nep141:zec.omft.near",
+      "symbol": "ZEC",
+      "rawUnits": "272",
+      "units": "0.00000272"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:10_359RPSJVdTxwTJT9TyGssr2rFoWo",
+      "symbol": "USDT",
+      "rawUnits": "1",
+      "units": "0.000001"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:1100_111bzQBB65GxAPAVoxqmMcgYo5oS3txhqs1Uh1cgahKQUeTUq1TJu",
+      "symbol": "USDC",
+      "rawUnits": "201",
+      "units": "0.0000201"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:137_3hpYoaLtt8MP1Z2GH1U473DMRKgr",
+      "symbol": "USDT",
+      "rawUnits": "6",
+      "units": "0.000006"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:137_qiStmoQJDQPTebaPjgx5VBxZv6L",
+      "symbol": "USDC",
+      "rawUnits": "2",
+      "units": "0.000002"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:56_11111111111111111111",
+      "symbol": "BNB",
+      "rawUnits": "113210457608",
+      "units": "0.000000113210457608"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:56_2CMMyVTGZkeyNZTSvS5sarzfir6g",
+      "symbol": "USDT",
+      "rawUnits": "80444440925917",
+      "units": "0.000080444440925917"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:56_2w93GqMcEmQFDru84j3HZZWt557r",
+      "symbol": "USDC",
+      "rawUnits": "5019606009707",
+      "units": "0.000005019606009707"
+    },
+    {
+      "assetId": "nep245:v2_1.omni.hot.tg:56_SZzgw3HSudhZcTwPWUTi2RJB19t",
+      "symbol": "NEAR",
+      "rawUnits": "153123519165",
+      "units": "0.000000153123519165"
+    }
+  ],
+  "stablecoinExample": {
+    "transactionHash": "4Fwg4notuLyvjkVDBaJSUs9AAW1PZmAEkBLDnSzK4zGY",
+    "date": "2026-09-05",
+    "fromToken": "USDC",
+    "fromChain": "Arbitrum",
+    "fromAssetId": "nep141:arb-0xaf88d065e77c8cc2239327c5edb3a432268e5831.omft.near",
+    "units": "46.232142",
+    "principalWrappedNEAR": "21.03460349916295621251",
+    "additionalRelayWrappedNEAR": "0.000140591962953221585269",
+    "nativeWithdrawalNEAR": "563.611044299567906488969047",
+    "publicURL": "https://nearblocks.io/txns/4Fwg4notuLyvjkVDBaJSUs9AAW1PZmAEkBLDnSzK4zGY"
+  },
+  "scope": "Only collector-signed exchanges in the very same verified intent as a delivered native withdrawal. Later withdrawals can use earlier inventory. Exchange inputs establish token units spent in these events, not payer identity or net cash earnings."
+}

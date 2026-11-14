@@ -1,0 +1,1056 @@
+{
+  "publicationDate": "2026-10-28",
+  "status": "partial-economic-provenance",
+  "snapshot": {
+    "blockHeight": 221944496,
+    "blockHash": "9W1M6idoHgJt7X8GDtdVcB6c6yMsVa46qtSsMeRCZq3x",
+    "timestampNanosec": "1793172407281150058",
+    "timeUTC": "2026-10-28T07:26:47.281150+00:00"
+  },
+  "accounts": [
+    {
+      "accountId": "buybacks.multisignature.near",
+      "nativeNEAR": "2100346.933997011490681130165918",
+      "nativeLockedNEAR": "0",
+      "codeHash": "2v9kZJHN4sogHuKtKHaqYAqQBazkqH2cjY1rrjQYvNQa",
+      "sameBlockCanonicalAccount": true,
+      "fastNearPools": [],
+      "scope": "Native state at the pinned finalized block; staking-pool inventory is an independent indexer view with its own coverage limits."
+    },
+    {
+      "accountId": "fefundsadmin.sputnik-dao.near",
+      "nativeNEAR": "1947016.561631150805604217238948",
+      "nativeLockedNEAR": "0",
+      "codeHash": "4zSoHkLjJWZm34Psd4Eq2WUXHELt6LxtKmUXpsZWAECp",
+      "sameBlockCanonicalAccount": true,
+      "fastNearPools": [],
+      "scope": "Native state at the pinned finalized block; staking-pool inventory is an independent indexer view with its own coverage limits."
+    },
+    {
+      "accountId": "1csfundsadmin.sputnik-dao.near",
+      "nativeNEAR": "270.875891412420848813311023",
+      "nativeLockedNEAR": "0",
+      "codeHash": "4zSoHkLjJWZm34Psd4Eq2WUXHELt6LxtKmUXpsZWAECp",
+      "sameBlockCanonicalAccount": true,
+      "fastNearPools": [],
+      "scope": "Native state at the pinned finalized block; staking-pool inventory is an independent indexer view with its own coverage limits."
+    }
+  ],
+  "externalStablecoinStocks": [
+    {
+      "wallet": "fefundsadmin.sputnik-dao.near",
+      "contractId": "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "rawBalance": "71283790077",
+      "tokenUnits": "71283.790077",
+      "scope": "Verified current token stock at pinned block. Original fee provenance and revenue-period attribution are not established by this balance."
+    },
+    {
+      "wallet": "fefundsadmin.sputnik-dao.near",
+      "contractId": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+      "name": "Bridged USDC",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "rawBalance": "0",
+      "tokenUnits": "0",
+      "scope": "Verified current token stock at pinned block. Original fee provenance and revenue-period attribution are not established by this balance."
+    }
+  ],
+  "nativeRetentionBridges": [
+    {
+      "accountId": "buybacks.multisignature.near",
+      "openingBlockExclusive": 221610582,
+      "closingBlockInclusive": 221944496,
+      "openingBalanceNEAR": "2073656.60890967517934681426588",
+      "closingBalanceNEAR": "2100346.933997011490681130165918",
+      "balanceChangeNEAR": "26690.325087336311334315900038",
+      "indexedNativeInflowNEAR": "26690.32508733631155",
+      "indexedNativeTransferOutflowNEAR": "0",
+      "indexedAttachedNativeOutflowNEAR": "0",
+      "unexplainedResidualNEAR": "-2.15684099962E-13",
+      "indexerMinFetchedBlock": 221520966,
+      "receiptCountInInterval": 77,
+      "receiptIds": [
+        "ADgjwukqTmQUWSJ2GcJMT3LDnWTVELBMSFzQJryrTXCs",
+        "9gjtRhSkf64jgqvwrRVaF6QR23YSv6z2Wi5CNerjdERj",
+        "2nXeRtUbdrmzFAtCzDctMESmnEGMEHo17ARwEC4TE4eg",
+        "5cBRUFR8no4uKBHiARAJN6LVojDGFAWjVwA4xv4YVQhg",
+        "E5GcdMAFMGauKizwgjQMs1KvmUWvVgXJNrLksDi7F7rw",
+        "GbS7HyPbfPZNPd35tDZN32qEZyrybqncvQsnMB2t4hLT",
+        "7pkMJeGbDqMf99JKRPPA2FebRsD8T5vavfACcBwmc1eE",
+        "2aKqUGLKNew7yCBagcZi3qLA9a5UaFMKR8f3ScUT9kvp",
+        "6y1yLrb2FvzoyEasnavgKcwM5FmUZPHa4jcCuQKhx3W6",
+        "DukTN1VGX6UM6USYsAQfuJqMRyMpnFdWvdepgvd8Wk1F",
+        "EvmVhZNZPSLWQsusojyXXY9ANP1RZYd8wv4mKL5TzmSP",
+        "GEnYYcdKbNRKdYndFbWgsRyVRQgWG4EqKuE1SeCaG88B",
+        "CmucSSseHdsTjPq5tb5K3ikHqaNTz1myQGXrJ65SKWcC",
+        "2asZPqy1yFY9MRzxkwthzqe8RaaiDYTUHjfcDaN99WSJ",
+        "BRBtmWm8xAUsw8g9rS7fFtFoGCFuW3hm4WvHy7scgPuV",
+        "59MxAgNjs87Vtq65KDqzVAapEqiSVkpuQgFnx23jetHb",
+        "2RuycYDQ7XgBNdEBXCbgCzpBnRM5S1dKhvxfuMbrV3qt",
+        "DMouDqyGevezVmePLBc12u8UnakTdo8TWeyJZ21ApBJU",
+        "2vXVZcdqydRh8V4HQ6TPUVbD4UzCiWq6jgMSvXwDn7o7",
+        "HBV87hPguyQCqKrNsqaH6HnDeMrn45DCtU19aq827EuX",
+        "2vydRBktAPuH19QsZfF1GpC1oSn4dzzkHRJTFACyc9Fp",
+        "C8vdoUMfi5PNgyPgEoRXRpscGeiGYU3C6K1ukLChhFJS",
+        "BY7onoHw7YHahdHYJoB7zQgJuKGuNE7BYtpcgfYTKSG1",
+        "68TAbbHdkxZkjm2wtqyZuCfuBd2mhdYTLbo4GemJhSfe",
+        "2ueJUNDDxgHvWxMK32GMse3mH2VvXpsfNmWj93nYtvEU",
+        "HTdYftpz1xMsJbbK5oWPNe7FAcXCX4DN68C2zsxVnvcf",
+        "FYqSHGo1G4AA6SDpMapxiF1msCXaKXZSy2G5kL6EsEHX",
+        "CEojUTCWAhqXo79GdGqiLboNUUFMCW5p9SPYNRVBWDsh",
+        "Ht6hvMsWUfm7XLMj5ueRzG5K6DhtGperkHcuAdDwejp4",
+        "DdTDixJQVjnjpbUjiPppcHhKUgt1j3r7YRT7D8JHh3p1",
+        "6TZDNYbxyvtNu5UuzakeA8TMDJ5zqPnVUTXZhREEXeh7",
+        "Dpgn6MxMoUytQbiRf9R7tEepG1B1nEXCoXH4N4DbYRzJ",
+        "5YDCsqmLEUGNVkJLjdPao3k1yFvYXGaMWayuBDURpQDw",
+        "CXwsDj2toxdbeK7DcCMTArzbmbMM6wJw9i8RsX57vbj8",
+        "BM8CRNseF35ERagpyuvhzy6HtTvDUDo9YFNqSex9vHnG",
+        "6N1nTmjXzGUvPdLWqEWGUqoEPKQLLMZP3QqJ9jjwumur",
+        "Di63ZkjQpfRTE7qJ2q4DwDkuZ29aAyJ5V3wH2ixqytcT",
+        "73QfRswYN8ovotstd9KhVE1qCbbEW8GAVDLpj8dPXnAi",
+        "JBg2yUdanaULYh1GU3iRCeMdPLwpggcadh1FFWQbwqik",
+        "CHWEY4S6PnKdaG7tJmS2M6H7vSwehJ9hPVGwiWyEn2Lk",
+        "8zy6zxyqtTkKqpw41bDDVkphowK8Wb2DRMyR289sRxy",
+        "BJkssC74NVGrKHKPDLrvyBL9tarZM6NZ6FS5Kd9rYY2X",
+        "Et63s2n68WTpjrCrH91bGkT3cVtHGdeAGJFLSwuXRvT4",
+        "DqcHauKuUQs35MEDkzKLigFgcu8xPqExNrQFn7BCfB21",
+        "5U6vRWfo3otrtK89gzEA8dV8HQTNaGYJaKhMDZtKAmcE",
+        "2cB8NaWkYhUNoHEe9uNQno6mTHfCgKxiQMN8yAVNrLEs",
+        "2azZPhYvp5MCVBQUNB7De3KPVmd9BmxvCWqY3H1h1Be5",
+        "5n8mecK9KjuTzptWohoLcMmy9pAicmzyZRYeCfrknkCv",
+        "CcyVh59aQ5vmdRxhnutW3mncJRgFbrcCzGBFCs8RyFv6",
+        "Hr3JSW7BJNA5tGrxcHCjehrv3axuhVXk6yoi93VTpBRG",
+        "FQnRNweEmmMEdZmau5eKv2ByxmPL2nr4FKBEX622QzXV",
+        "HndVhh88X7cNDYMM2L2S5sfPy51iAiPScwxLoVMy27FY",
+        "678Z3ueKuHsPDG451YM8T73qhzb554E7Bbu55hLmactY",
+        "uUtmH5FgjWXLqyza9xYZxsiPMKSaoM2YHntqPxknPLk",
+        "5NJ6A6xRgy2vgx3MkXmsKpVdVvXwQYCQmQQiX4iYB1ki",
+        "6h8LqW631QPhwN4cKwzCCodF2JTsBf4UjMK8HUpvak6c",
+        "DTSgTvtPoJrDBXWeWQrJLM6B7VCb72W3CicLzryAuzsS",
+        "GAgABPoH9JbP66zbWAJ9mnSgNrWUBEywmMi51HKa352g",
+        "AJgcVaKGhstu2GmnXrTb96DuCVmcGNcK9K4ssn9BZRh7",
+        "Ep7hf4HRbLaMJjcNfKkAzYW66TBCGUB59SnEtypRJja3",
+        "AWvRgZieKULc5G5Lra8B6DEnbgKjxWYKCPhijbBydetc",
+        "DfHfNMbk5uBiorYjzUMVvF9uSA1ToKTMafKjNEc2JvCd",
+        "G6NyRbytrqtM5bXyb8uXF7NVHhaJRr1v24nt74dPKceC",
+        "DnCeSzPv4Twv8CghhpCyJnGGwWU24DZMaK8LkejVYkBy",
+        "HUEFMW26yoPaRqjqNR8g24zCJVVv8bduEGb48A38gGaG",
+        "GVxXJJqWBLt56dh8yTML1UpiNeByj21yx3je9XFNujr6",
+        "9DcrpomEetCJrDaTYzbgQVpHKNWmf6MoicYRCE7ZSn4M",
+        "6JtXQPaZe782314eztrgo82oRXG3TkZp1Q536EW4QaWF",
+        "5g1nBy5s844WPzrtFrRXu6prTAXDzsQTXrFwka9CWhEd",
+        "nDtSbbaFf4y3SkoX8z531z63REe7d3pFuykuSsgtJ1m",
+        "6nid4UY9JiozDB9DHEGFhVxmjbVWx5stVQ1i5dRY61uM",
+        "HGuXaxBPS1v5H3eVuXTSUimDzRf4hxPWQkWt8JkZwrdF",
+        "CQt1PmLh1EdUPpVD6teSYYKkMjaHxCECyNistaJuSShE",
+        "Fks2cxLxFLdPpKnNLeWBoBExeg3m1FjpH1yUxUp1GAZs",
+        "FjpeYBrURywGLuqviZDbxkS5nHH1YRfejStc8yAFT5JD",
+        "751HNVXG2D1m5AUxJjiPt5MA3Bxmbr3F3TeATY6jP6oq",
+        "4s8YPwnWEcrM9DL6EFsgqgVXk8BpeRc9FRfShkzkAuWv"
+      ],
+      "scope": "Bounded native inventory reconciliation. Each prior account snapshot is separately dated by block; not a synchronized combined treasury ledger, lifetime disposition audit, other-token audit or fee-provenance proof."
+    },
+    {
+      "accountId": "fefundsadmin.sputnik-dao.near",
+      "openingBlockExclusive": 221610585,
+      "closingBlockInclusive": 221944496,
+      "openingBalanceNEAR": "1937438.668383016963362721593922",
+      "closingBalanceNEAR": "1947016.561631150805604217238948",
+      "balanceChangeNEAR": "9577.893248133842241495645026",
+      "indexedNativeInflowNEAR": "9577.89324813384205",
+      "indexedNativeTransferOutflowNEAR": "0",
+      "indexedAttachedNativeOutflowNEAR": "0",
+      "unexplainedResidualNEAR": "1.91495645026E-13",
+      "indexerMinFetchedBlock": 220670590,
+      "receiptCountInInterval": 27,
+      "receiptIds": [
+        "6UeAUeXaiVKxQz6WH5SuM2AdpgRtokZZsKvFDjJgH3eJ",
+        "84s3vo4yY4mw3SKD4y9JqKdjzL67RmddtK8JVvgbGffo",
+        "8h6Ro64qGe37CXgVNNLR4cGX6oUGnwoGSY8duR8c9GW7",
+        "HCTBZcPDTr6SHqpGAjrQJWxbSikZpmM3gziQTN7cGC7o",
+        "F2pAiM8PiqkjQnAaDJRSZm8DNaYbCyqDZHs86txkCY42",
+        "9CC1W72HnWVnUHGtCmMuMAXgBnBzmDsiYEaVMqokx3iM",
+        "8S57RNumu74JA6fcriEt3g57eBb6KFj8rNzVNMyebk69",
+        "2GrJKMbzx35VEEmxQedDkp1HYua57fyrwLTD3pn8x144",
+        "83AeW389L3xZYTU9Tj7pBKtXdrZDmAqKTLju54WKA7dE",
+        "8PpeEFfcQi2LDAACWFdY9syizKCmzND5PFguRwFWsfVU",
+        "5AMiFeSdJqyUVPkAyTgJ7K6uXtUh4hd1zjdcehbyaUzm",
+        "299QZpyaZUH3VSs9phLx4jkh1wP9SNHR3krnnXMKJtZr",
+        "2LgpgKEaa8DyH551f4otop6UVW6xkNJMmepBd7dFYiNt",
+        "GRHzEFv97Wr69Rc7xXCye4nPJn7qKTr2JQEMoHZKAJMZ",
+        "GbDHe6MrT2kNpyHNCnjgxcs1i9648wHoEehfC2EittVj",
+        "6A4wwaufv4KG1En6iKrkTGYW8BcUyyXaSbVW7m5SNyJE",
+        "FjJiqi7jmniFT3G1PDZRvxxfc1oQMvMWqBWAzoXSUgTv",
+        "7vT9GnSVSiU429QnZc9SLHNSRyMhpwy8F1jzo94pgaW3",
+        "BUY7SHSTC2A2TGrDfY7C6Rd96PdiYPFRSZmBK4qzXDYk",
+        "3NwnLLzvY7mrGofTPRvCprJtakHvuot7byWxiGLoDyEJ",
+        "J7VrdXBwSenPhTu9KrTnmujKaiw2rANRAH6n79jUK92F",
+        "GWgb9g1n5L33kxSuLKPyAXM28N3Xx5H3xRUKRgoY9Qvz",
+        "7ZGc9bNGytM3sCHJ4jHVrPExENw7AQ1TMkzhaGmsyUFE",
+        "CUofFf5kyR6mZSkp2fdRf1Bm1zDAyLuZ4oMBkLkgAgUa",
+        "9LSVQFwV8MUczbTebn59aUVW6twQvcpdTCu8Hmep1MYM",
+        "4CEHYCNX7hT9YFB7ne5YPZnhGTHyY52WNqkt4HUo8vF4",
+        "7YVfhvy83jxkzECpqiPmHUUnXHV16h4MQFKNDn3igCSJ"
+      ],
+      "scope": "Bounded native inventory reconciliation. Each prior account snapshot is separately dated by block; not a synchronized combined treasury ledger, lifetime disposition audit, other-token audit or fee-provenance proof."
+    }
+  ],
+  "collectorDiscovery": {
+    "sampleSize": 17,
+    "distinctSignerCount": 17,
+    "samplingMethod": "For each tracked wallet and each frozen 30-day window, select first, middle, last, and largest unmatched Intents-origin receipt, then deduplicate. Deterministic purposeful sample, not statistically representative.",
+    "indexerNormalization": "Legacy NearBlocks returns structural quotes overescaped inside a JSON signed-message field; normalization is recorded and all 17 normalized payloads authenticate under their NEP-413 signatures. Two samples additionally agree with unescaped source-native transaction bytes from a second provider.",
+    "probes": [
+      {
+        "owner": "004fc2a52cba1b42978c5e3e1afc8b0b9b23624a972356e40451feab78e41bf7",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "034f342eea5fb42386a07e30b536d4cec73e44839174d3e17fe86d29b7f3f7bd",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "0bc39dd4082e871df81eaa28250bf403fe900320a9d9929dc1304f17df462bac",
+        "withdrawalHTTPStatus": 200,
+        "statusHTTPStatus": 200,
+        "quoteRequest": {
+          "dry": false,
+          "swapType": "ANY_INPUT",
+          "depositMode": "SIMPLE",
+          "slippageTolerance": 0,
+          "originAsset": "1cs_v1:any",
+          "depositType": "INTENTS",
+          "destinationAsset": "nep141:wrap.near",
+          "amount": "0",
+          "refundTo": "1csfundsadmin.sputnik-dao.near",
+          "refundType": "INTENTS",
+          "recipient": "1csfundsadmin.sputnik-dao.near",
+          "recipientType": "DESTINATION_CHAIN",
+          "deadline": "2026-03-31T00:00:00.000Z",
+          "appFees": [],
+          "virtualChainRecipient": null,
+          "virtualChainRefundRecipient": null,
+          "referral": "1cs",
+          "confidentiality": "public"
+        },
+        "serviceRecipient": "1csfundsadmin.sputnik-dao.near",
+        "serviceAsset": "nep141:wrap.near",
+        "returnedWithdrawalCount": 1,
+        "returnedPageShort": true,
+        "receiptMatches": [
+          {
+            "transactionHash": "J3tpPjvcDtyhd7fKD58cT1yHXcG4vhpXEwxxChddFqbD",
+            "amountNEAR": "263.107004321113754467715181",
+            "receiptDifferenceNEAR": "1.5532284819E-14",
+            "serviceTimestampUTC": "2026-09-19T01:57:20.654Z"
+          }
+        ]
+      },
+      {
+        "owner": "11045a5e1bdafc0257c6d6cc3ef09b01de8ede5fa314dd7691c03680cffbd786",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "12eedb78e60fb30a61297ee9f82866451c032143f7da3d95c1d88e5412310b1c",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "2cc18e3fb2d51a2831c50e7e2b3600775ef5c6eb7b16094245831da64c20f293",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "6c66b1db452cda87a99aeec8e7af1bd4e364ed2589a3d8f0d0c01619e323e91a",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "7d595577d9d0bc75ed40c014f38455524fbefdc2b534e4517ff36ed2b9772b6f",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "9c587c20d053eb794ea352995b6bf61981d3c5095cc10a66dd3895a6a0e32a1b",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "a640f94db8f30ec5abc5210c6368e13c1eab4a0d0f5375a5173527298af5cb19",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "a9a595d9b588d36aafe02acfa6d9a9e7d4d66d1221a80cf31ead1becb246ef40",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "b63fe08372b2fb91b404febc3c893aa7bd99c94e79777c21bbdd722f68405078",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "d4725883fa65053cf55d0e5f3287d2e5b608a9bbed8504ed90056bb329fa17b3",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "d7be7b7ed2e495b3c8367c176473f2c34cb61ce0faaf8f564cb05e7d40245091",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "d887fcb2902ae73be5e9642a4da4facbda035d6bff28b5a3714379b655eb2af4",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "edd6ea78faf76964881e6e5733d198d2a415490eb89166883168d70830d88492",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      },
+      {
+        "owner": "fa2121b4cade0f8fa46378825690471129abc36aea0fb598e1d898c35e0b49b7",
+        "withdrawalHTTPStatus": 404,
+        "statusHTTPStatus": 404
+      }
+    ],
+    "newVerifiedConfiguredCollectorCount": 1,
+    "originalMatchedWithdrawalCount": 702,
+    "expandedMatchedWithdrawalCount": 703,
+    "scope": "The additional configured collector expands output corroboration. HTTP 404 does not identify the other flows as nonfees, nor prove fee conversions did not occur."
+  },
+  "signatureVerification": {
+    "officialTestVectorPassed": true,
+    "verificationSources": [
+      "https://github.com/near/intents/blob/d340060afe1debb8c8f2f2fc6b6c999d48c886b0/crates/signatures/nep413/src/lib.rs",
+      "https://github.com/near/NEPs/blob/91562ccd72f6d30f4e37e4b53f7f193cc808b5d8/neps/nep-0413.md"
+    ],
+    "results": [
+      {
+        "transactionHash": "23tVBWCXoN2RcQ48hw6dbh1RLUEEtkzgSi35XRA3aYCt",
+        "inclusionHeight": 212516337,
+        "inclusionBlockHash": "B1qTgAHXYRbSJtnQTSV34Bi2wZd7t7Dv2UJ3wyd4hEBo",
+        "sourceFile": "raw/neardata-inclusion-212516337.json",
+        "signerId": "edd6ea78faf76964881e6e5733d198d2a415490eb89166883168d70830d88492",
+        "publicKeyHex": "edd6ea78faf76964881e6e5733d198d2a415490eb89166883168d70830d88492",
+        "implicitAccountMatchesPublicKey": true,
+        "recipient": "intents.near",
+        "message": {
+          "deadline": "2026-09-22T04:40:36.797Z",
+          "intents": [
+            {
+              "intent": "native_withdraw",
+              "receiver_id": "buybacks.multisignature.near",
+              "amount": "604927860402524649327632871"
+            }
+          ],
+          "signer_id": "edd6ea78faf76964881e6e5733d198d2a415490eb89166883168d70830d88492"
+        },
+        "nep413SignatureVerified": true,
+        "tamperedMessageRejected": true,
+        "prehashHex": "964c3006d8ae9bc5e7ce31179cd7ef1dd495c6d9f2b105ca22dffe99be92cd81",
+        "scope": "Verifies the signed public payload and implicit-account identifier. Does not independently verify consensus/finality, complete receipt chain, original fee provenance or acquisition cost."
+      },
+      {
+        "transactionHash": "CfxcFYRXHw3prnqwyMApfhkauQo99AvMQMnLTKX3hVVB",
+        "inclusionHeight": 212520074,
+        "inclusionBlockHash": "HuQ9ghyVSvSV9J7fJAmQ98h93wg7tpixysDe6wFkcmqn",
+        "sourceFile": "raw/neardata-inclusion-212520074.json",
+        "signerId": "004fc2a52cba1b42978c5e3e1afc8b0b9b23624a972356e40451feab78e41bf7",
+        "publicKeyHex": "004fc2a52cba1b42978c5e3e1afc8b0b9b23624a972356e40451feab78e41bf7",
+        "implicitAccountMatchesPublicKey": true,
+        "recipient": "intents.near",
+        "message": {
+          "deadline": "2026-09-22T05:19:38.797Z",
+          "intents": [
+            {
+              "intent": "native_withdraw",
+              "receiver_id": "fefundsadmin.sputnik-dao.near",
+              "amount": "629693676329851280323813233"
+            }
+          ],
+          "signer_id": "004fc2a52cba1b42978c5e3e1afc8b0b9b23624a972356e40451feab78e41bf7"
+        },
+        "nep413SignatureVerified": true,
+        "tamperedMessageRejected": true,
+        "prehashHex": "244e3f9a3075d4534cc5b74e9a54cf43a8a1f2bfe58b52cbabd3be40a2680d85",
+        "scope": "Verifies the signed public payload and implicit-account identifier. Does not independently verify consensus/finality, complete receipt chain, original fee provenance or acquisition cost."
+      }
+    ],
+    "indexerSignatureResults": [
+      {
+        "transactionHash": "23tVBWCXoN2RcQ48hw6dbh1RLUEEtkzgSi35XRA3aYCt",
+        "signerId": "edd6ea78faf76964881e6e5733d198d2a415490eb89166883168d70830d88492",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-23tVBWCXoN2RcQ48hw6dbh1RLUEEtkzgSi35XRA3aYCt.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "4cxmkhoprpwJYvbdJYmYdm1fHJmanrJDiYDpJPv6Bxui",
+        "signerId": "fa2121b4cade0f8fa46378825690471129abc36aea0fb598e1d898c35e0b49b7",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-4cxmkhoprpwJYvbdJYmYdm1fHJmanrJDiYDpJPv6Bxui.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "6WcQR9FgyGrXVsjqVyAcGnAj1g4UceJqsFFuTumRqwCj",
+        "signerId": "034f342eea5fb42386a07e30b536d4cec73e44839174d3e17fe86d29b7f3f7bd",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-6WcQR9FgyGrXVsjqVyAcGnAj1g4UceJqsFFuTumRqwCj.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "7bYRp2tfCkVnJWFK2omxpm8tvMZRypZcmRd8ntLUbFuX",
+        "signerId": "2cc18e3fb2d51a2831c50e7e2b3600775ef5c6eb7b16094245831da64c20f293",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-7bYRp2tfCkVnJWFK2omxpm8tvMZRypZcmRd8ntLUbFuX.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "9q76JWvUn11uV6spe4PSuD3fV2cPjz4gabbgLGFsLuj6",
+        "signerId": "a9a595d9b588d36aafe02acfa6d9a9e7d4d66d1221a80cf31ead1becb246ef40",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-9q76JWvUn11uV6spe4PSuD3fV2cPjz4gabbgLGFsLuj6.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "ACF3u7ZZLW1eyd5zMFvRxtx4tFaGM7STRGRXzVY9g1ov",
+        "signerId": "d4725883fa65053cf55d0e5f3287d2e5b608a9bbed8504ed90056bb329fa17b3",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-ACF3u7ZZLW1eyd5zMFvRxtx4tFaGM7STRGRXzVY9g1ov.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "BJ7DHhR6LhFunt9FPFC7StaPSV5fV3YNfCVJQfs4xC2V",
+        "signerId": "b63fe08372b2fb91b404febc3c893aa7bd99c94e79777c21bbdd722f68405078",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-BJ7DHhR6LhFunt9FPFC7StaPSV5fV3YNfCVJQfs4xC2V.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "CfxcFYRXHw3prnqwyMApfhkauQo99AvMQMnLTKX3hVVB",
+        "signerId": "004fc2a52cba1b42978c5e3e1afc8b0b9b23624a972356e40451feab78e41bf7",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-CfxcFYRXHw3prnqwyMApfhkauQo99AvMQMnLTKX3hVVB.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "EZewg5VBUZSoKbrPYVFWFAEHshp6ErpJK9FYuhqrWMKS",
+        "signerId": "a640f94db8f30ec5abc5210c6368e13c1eab4a0d0f5375a5173527298af5cb19",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-EZewg5VBUZSoKbrPYVFWFAEHshp6ErpJK9FYuhqrWMKS.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "HwdmscMZYhEQXY1BFi9uRMBFNoDtEoqx5tqzrk6YfiqU",
+        "signerId": "d887fcb2902ae73be5e9642a4da4facbda035d6bff28b5a3714379b655eb2af4",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-HwdmscMZYhEQXY1BFi9uRMBFNoDtEoqx5tqzrk6YfiqU.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "4yZtaeaPh4CoETK8kJSdG9xfJUjngWxp1ADWGbxbYPGq",
+        "signerId": "9c587c20d053eb794ea352995b6bf61981d3c5095cc10a66dd3895a6a0e32a1b",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-retry-4yZtaeaPh4CoETK8kJSdG9xfJUjngWxp1ADWGbxbYPGq.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "7tMDiLcRJycHWAsBAEqbfhb4XREMeoM328baaeifeXja",
+        "signerId": "12eedb78e60fb30a61297ee9f82866451c032143f7da3d95c1d88e5412310b1c",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-retry-7tMDiLcRJycHWAsBAEqbfhb4XREMeoM328baaeifeXja.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "BTKCy2tRfKPLwMvqRxB17VZ5Ux3StjZqDgVi8Xp2mWG4",
+        "signerId": "11045a5e1bdafc0257c6d6cc3ef09b01de8ede5fa314dd7691c03680cffbd786",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-retry-BTKCy2tRfKPLwMvqRxB17VZ5Ux3StjZqDgVi8Xp2mWG4.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "Dmgah4Nd1bbvuEwH5eDsiM52qichLX4gWGYBsUUxQvvs",
+        "signerId": "d7be7b7ed2e495b3c8367c176473f2c34cb61ce0faaf8f564cb05e7d40245091",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-retry-Dmgah4Nd1bbvuEwH5eDsiM52qichLX4gWGYBsUUxQvvs.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "J3tpPjvcDtyhd7fKD58cT1yHXcG4vhpXEwxxChddFqbD",
+        "signerId": "0bc39dd4082e871df81eaa28250bf403fe900320a9d9929dc1304f17df462bac",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-retry-J3tpPjvcDtyhd7fKD58cT1yHXcG4vhpXEwxxChddFqbD.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "QbPuCYGL36P5kPtwopMMpYifqWZrYzM2QT6W5BW9qMh",
+        "signerId": "7d595577d9d0bc75ed40c014f38455524fbefdc2b534e4517ff36ed2b9772b6f",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-retry-QbPuCYGL36P5kPtwopMMpYifqWZrYzM2QT6W5BW9qMh.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      },
+      {
+        "transactionHash": "euwbJ8YVd48jmcKCXdB66utLgf9LHSGw5cVQ7AjL1VD",
+        "signerId": "6c66b1db452cda87a99aeec8e7af1bd4e364ed2589a3d8f0d0c01619e323e91a",
+        "sourceFile": "research/institutional-2026-10-28/revenue/raw/historical-tx-retry-euwbJ8YVd48jmcKCXdB66utLgf9LHSGw5cVQ7AjL1VD.json",
+        "nep413SignatureVerified": true,
+        "implicitAccountMatchesPublicKey": true,
+        "normalizationAuthenticatedBySignature": true,
+        "scope": "Authenticates the normalized signed payload to its public key. Original fee provenance, historical consensus finality and complete receipt DAG remain outside this check."
+      }
+    ]
+  },
+  "historicalNativeReceiptChecks": [
+    {
+      "transactionHash": "23tVBWCXoN2RcQ48hw6dbh1RLUEEtkzgSi35XRA3aYCt",
+      "nativeReceiptHeight": 212516341,
+      "nativeReceiptBlockHash": "6ayskLnu1vrUT1kKWiWWeuYz5NJdp6Rms4qYzQ5uyZ2p",
+      "nativeTransferMatches": [
+        {
+          "receiptId": "GPGmYbvdmdEQvrDmTy7BW4be9nALJ1EfAxopPKWsEXhH",
+          "receiverId": "buybacks.multisignature.near",
+          "predecessorId": "intents.near",
+          "rawNativeAmount": "604927860402524649327632871",
+          "successful": true
+        }
+      ],
+      "scope": "Cross-checks signed request against successful native receipt in a second public block data source. Transaction-to-receipt association is provider supplied; full intervening receipt DAG and consensus proofs were not independently verified."
+    },
+    {
+      "transactionHash": "CfxcFYRXHw3prnqwyMApfhkauQo99AvMQMnLTKX3hVVB",
+      "nativeReceiptHeight": 212520078,
+      "nativeReceiptBlockHash": "2Z8zE1Ey3mgjPTbNHQko8wUFixB7Sn6fMu2kJygXhAjb",
+      "nativeTransferMatches": [
+        {
+          "receiptId": "5pkHNqAumwoxp1SYiUswLHPVKYTZ5BjmEotAxkg5DsbP",
+          "receiverId": "fefundsadmin.sputnik-dao.near",
+          "predecessorId": "intents.near",
+          "rawNativeAmount": "629693676329851280323813233",
+          "successful": true
+        }
+      ],
+      "scope": "Cross-checks signed request against successful native receipt in a second public block data source. Transaction-to-receipt association is provider supplied; full intervening receipt DAG and consensus proofs were not independently verified."
+    }
+  ],
+  "governancePolicies": [
+    {
+      "accountId": "fefundsadmin.sputnik-dao.near",
+      "roleData": [
+        {
+          "role": "Requestor",
+          "accounts": [
+            "aurorafinance1.near",
+            "aurorafinance2.near",
+            "paperclip-maximizer.near",
+            "aurorafinance3.near",
+            "auroracfo.near"
+          ],
+          "permissions": [
+            "call:AddProposal",
+            "transfer:VoteRemove",
+            "transfer:AddProposal",
+            "call:VoteRemove"
+          ],
+          "votePolicies": {
+            "call": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "transfer": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            }
+          }
+        },
+        {
+          "role": "Admin",
+          "accounts": [
+            "paperclip-maximizer.near",
+            "aurorafinance2.near",
+            "aurorafinance3.near",
+            "auroracfo.near",
+            "aurorafinance1.near"
+          ],
+          "permissions": [
+            "config:*",
+            "policy_update_parameters:*",
+            "add_bounty:*",
+            "remove_member_from_role:*",
+            "upgrade_self:*",
+            "policy_remove_role:*",
+            "set_vote_token:*",
+            "upgrade_remote:*",
+            "bounty_done:*",
+            "add_member_to_role:*",
+            "factory_info_update:*",
+            "policy:*",
+            "policy_add_or_update_role:*",
+            "policy_update_default_vote_policy:*"
+          ],
+          "votePolicies": {
+            "policy_remove_role": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "policy_update_parameters": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "remove_member_from_role": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "upgrade_remote": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "bounty_done": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "policy": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "config": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "add_member_to_role": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "set_vote_token": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "factory_info_update": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "policy_add_or_update_role": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "upgrade_self": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "add_bounty": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "policy_update_default_vote_policy": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            }
+          }
+        },
+        {
+          "role": "Approver",
+          "accounts": [
+            "auroracfo.near",
+            "aurorafinance1.near",
+            "paperclip-maximizer.near",
+            "aurorafinance3.near",
+            "aurorafinance2.near"
+          ],
+          "permissions": [
+            "transfer:VoteApprove",
+            "call:VoteApprove",
+            "transfer:RemoveProposal",
+            "call:VoteReject",
+            "transfer:VoteReject",
+            "transfer:Finalize",
+            "call:Finalize",
+            "call:RemoveProposal"
+          ],
+          "votePolicies": {
+            "transfer": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "config": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "add_bounty": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "set_vote_token": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "upgrade_remote": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "add_member_to_role": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "upgrade_self": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "call": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "policy": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "remove_member_from_role": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "bounty_done": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "vote": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            }
+          }
+        }
+      ],
+      "scope": "Reported on-chain configuration. Controller independence, beneficial ownership, legal entitlements and deployed bytecode equivalence to any source release remain unverified."
+    },
+    {
+      "accountId": "1csfundsadmin.sputnik-dao.near",
+      "roleData": [
+        {
+          "role": "Requestor",
+          "accounts": [
+            "f7e23b5d988c35bd9a598671dcdb231e9763b47ac5105eb5d0c9e1427040d6c6",
+            "745def2beee571628e35743e564687bb11ae1cf312efd3c1e079d679e46e011b",
+            "96c39c068d823af7d8aea81237eae07bc6f5f05fc19a0b34f170d700a6601850",
+            "c7b5000cd52a65f02e3e5d5c071f7cf96492b31fc19e60163fe225f66c92a483"
+          ],
+          "permissions": [
+            "call:AddProposal",
+            "transfer:VoteRemove",
+            "transfer:AddProposal",
+            "call:VoteRemove"
+          ],
+          "votePolicies": {
+            "call": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            },
+            "transfer": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "1"
+            }
+          }
+        },
+        {
+          "role": "Admin",
+          "accounts": [
+            "745def2beee571628e35743e564687bb11ae1cf312efd3c1e079d679e46e011b",
+            "f7e23b5d988c35bd9a598671dcdb231e9763b47ac5105eb5d0c9e1427040d6c6",
+            "c7b5000cd52a65f02e3e5d5c071f7cf96492b31fc19e60163fe225f66c92a483",
+            "96c39c068d823af7d8aea81237eae07bc6f5f05fc19a0b34f170d700a6601850"
+          ],
+          "permissions": [
+            "config:*",
+            "policy_update_parameters:*",
+            "add_bounty:*",
+            "remove_member_from_role:*",
+            "upgrade_self:*",
+            "policy_remove_role:*",
+            "set_vote_token:*",
+            "upgrade_remote:*",
+            "bounty_done:*",
+            "add_member_to_role:*",
+            "factory_info_update:*",
+            "policy:*",
+            "policy_add_or_update_role:*",
+            "policy_update_default_vote_policy:*"
+          ],
+          "votePolicies": {
+            "upgrade_remote": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "upgrade_self": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "call": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "bounty_done": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "policy": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "config": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "add_member_to_role": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "set_vote_token": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "vote": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "transfer": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "add_bounty": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "remove_member_from_role": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            }
+          }
+        },
+        {
+          "role": "Approver",
+          "accounts": [
+            "745def2beee571628e35743e564687bb11ae1cf312efd3c1e079d679e46e011b",
+            "96c39c068d823af7d8aea81237eae07bc6f5f05fc19a0b34f170d700a6601850",
+            "c7b5000cd52a65f02e3e5d5c071f7cf96492b31fc19e60163fe225f66c92a483",
+            "f7e23b5d988c35bd9a598671dcdb231e9763b47ac5105eb5d0c9e1427040d6c6"
+          ],
+          "permissions": [
+            "transfer:VoteApprove",
+            "call:VoteApprove",
+            "transfer:RemoveProposal",
+            "call:VoteReject",
+            "transfer:VoteReject",
+            "transfer:Finalize",
+            "call:Finalize",
+            "call:RemoveProposal"
+          ],
+          "votePolicies": {
+            "transfer": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "config": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "add_bounty": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "set_vote_token": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "upgrade_remote": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "add_member_to_role": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "upgrade_self": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "call": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "policy": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "remove_member_from_role": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "bounty_done": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            },
+            "vote": {
+              "weight_kind": "RoleWeight",
+              "quorum": "0",
+              "threshold": "2"
+            }
+          }
+        }
+      ],
+      "scope": "Reported on-chain configuration. Controller independence, beneficial ownership, legal entitlements and deployed bytecode equivalence to any source release remain unverified."
+    }
+  ],
+  "sources": [
+    {
+      "id": "R1",
+      "title": "Official fee configuration",
+      "url": "https://docs.near-intents.org/integration/distribution-channels/1click-api/fee-config",
+      "raw": "raw/document-fee-config.json"
+    },
+    {
+      "id": "R2",
+      "title": "Official withdrawal API",
+      "url": "https://docs.near-intents.org/api-reference/oneclick/get-any_input-withdrawals",
+      "raw": "raw/document-withdrawal-api.json"
+    },
+    {
+      "id": "R3",
+      "title": "1Click terms, 7 October 2026",
+      "url": "https://docs.near-intents.org/security-compliance/terms-of-service",
+      "raw": "raw/document-oneclick-terms.json"
+    },
+    {
+      "id": "R4",
+      "title": "near.com terms, 7 October 2026",
+      "url": "https://near.com/terms",
+      "raw": "raw/document-near-com-terms.json"
+    },
+    {
+      "id": "R5",
+      "title": "Official tokenomics, 24 February 2026",
+      "url": "https://near.org/blog/evolving-near-tokenomics",
+      "raw": "raw/document-tokenomics.json"
+    },
+    {
+      "id": "R6",
+      "title": "Historical Explorer API scope and authentication",
+      "url": "https://docs.near-intents.org/integration/distribution-channels/1click-api/explorer/introduction",
+      "raw": "raw/document-explorer-scope.json"
+    },
+    {
+      "id": "R7",
+      "title": "Pinned verifier enumeration implementation",
+      "url": "https://github.com/near/intents/blob/d340060afe1debb8c8f2f2fc6b6c999d48c886b0/contracts/defuse/src/contract/tokens/nep245/enumeration.rs",
+      "raw": "raw/document-verifier-enumeration.json"
+    },
+    {
+      "id": "R8",
+      "title": "NearData documentation",
+      "url": "https://github.com/fastnear/neardata-server",
+      "raw": "raw/document-neardata-readme.json"
+    },
+    {
+      "id": "R9",
+      "title": "Public token list and service mark prices",
+      "url": "https://1click.chaindefuser.com/v0/tokens",
+      "raw": "raw/oneclick-supported-tokens.json"
+    },
+    {
+      "id": "R10",
+      "title": "Pinned NEP-413 verifier implementation",
+      "url": "https://github.com/near/intents/blob/d340060afe1debb8c8f2f2fc6b6c999d48c886b0/crates/signatures/nep413/src/lib.rs",
+      "raw": "raw/document-nep413-code.json"
+    }
+  ],
+  "sourceArchive": "data/provenance/source-data.zip"
+}

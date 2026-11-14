@@ -1,0 +1,231 @@
+{
+  "rpc": "https://archival-rpc.mainnet.fastnear.com",
+  "states": [
+    {
+      "height": 213761241,
+      "hash": "21k95fSz7WmajTmy43BjaBcHZLwWZ4KUc31tg7DMnfi5",
+      "timestampNs": "1788220799923365214",
+      "wallets": {
+        "buybacks.multisignature.near": {
+          "nativeYocto": "940841335266600981665846508370",
+          "lockedYocto": "0",
+          "codeHash": "2v9kZJHN4sogHuKtKHaqYAqQBazkqH2cjY1rrjQYvNQa",
+          "wrappedNearYocto": "0"
+        },
+        "fefundsadmin.sputnik-dao.near": {
+          "nativeYocto": "1649784400787470460115418280898",
+          "lockedYocto": "0",
+          "codeHash": "4zSoHkLjJWZm34Psd4Eq2WUXHELt6LxtKmUXpsZWAECp",
+          "wrappedNearYocto": "0",
+          "usdcMicrounits": "71283790077"
+        },
+        "1csfundsadmin.sputnik-dao.near": {
+          "nativeYocto": "502799250587267826548485595843",
+          "lockedYocto": "0",
+          "codeHash": "4zSoHkLjJWZm34Psd4Eq2WUXHELt6LxtKmUXpsZWAECp",
+          "wrappedNearYocto": "0"
+        }
+      }
+    },
+    {
+      "height": 217984973,
+      "hash": "BpiXH3cCzvw16ZLkyZ9p4gWBHkWtLoYsRrE4hyYFmrHW",
+      "timestampNs": "1790812799562730410",
+      "wallets": {
+        "buybacks.multisignature.near": {
+          "nativeYocto": "1847719669647922717807307668926",
+          "lockedYocto": "0",
+          "codeHash": "2v9kZJHN4sogHuKtKHaqYAqQBazkqH2cjY1rrjQYvNQa",
+          "wrappedNearYocto": "0"
+        },
+        "fefundsadmin.sputnik-dao.near": {
+          "nativeYocto": "1809615333445561675995693046192",
+          "lockedYocto": "0",
+          "codeHash": "4zSoHkLjJWZm34Psd4Eq2WUXHELt6LxtKmUXpsZWAECp",
+          "wrappedNearYocto": "0",
+          "usdcMicrounits": "71283790077"
+        },
+        "1csfundsadmin.sputnik-dao.near": {
+          "nativeYocto": "270875891412420848813311023",
+          "lockedYocto": "0",
+          "codeHash": "4zSoHkLjJWZm34Psd4Eq2WUXHELt6LxtKmUXpsZWAECp",
+          "wrappedNearYocto": "0"
+        }
+      }
+    },
+    {
+      "height": 222343158,
+      "hash": "2N27GUxyHYefcGwDdwGRcn5urw3qacug8XYsPDL5uSZP",
+      "timestampNs": "1793404799931099947",
+      "wallets": {
+        "buybacks.multisignature.near": {
+          "nativeYocto": "2137099537156296693450067891964",
+          "lockedYocto": "0",
+          "codeHash": "2v9kZJHN4sogHuKtKHaqYAqQBazkqH2cjY1rrjQYvNQa",
+          "wrappedNearYocto": "0"
+        },
+        "fefundsadmin.sputnik-dao.near": {
+          "nativeYocto": "1961221332139154602502426209831",
+          "lockedYocto": "0",
+          "codeHash": "4zSoHkLjJWZm34Psd4Eq2WUXHELt6LxtKmUXpsZWAECp",
+          "wrappedNearYocto": "0",
+          "usdcMicrounits": "71283790077"
+        },
+        "1csfundsadmin.sputnik-dao.near": {
+          "nativeYocto": "270875891412420848813311023",
+          "lockedYocto": "0",
+          "codeHash": "4zSoHkLjJWZm34Psd4Eq2WUXHELt6LxtKmUXpsZWAECp",
+          "wrappedNearYocto": "0"
+        }
+      }
+    }
+  ],
+  "windows": [
+    {
+      "windowStartUTC": "2026-09-01T00:00:00Z",
+      "windowEndExclusiveUTC": "2026-10-01T00:00:00Z",
+      "wallet": "buybacks.multisignature.near",
+      "openingBlock": 213761241,
+      "closingBlock": 217984973,
+      "openingBlockHash": "21k95fSz7WmajTmy43BjaBcHZLwWZ4KUc31tg7DMnfi5",
+      "closingBlockHash": "BpiXH3cCzvw16ZLkyZ9p4gWBHkWtLoYsRrE4hyYFmrHW",
+      "openingNativeNEAR": "940841.33526660098166584650837",
+      "closingNativeNEAR": "1847719.669647922717807307668926",
+      "nativeBalanceChangeNEAR": "906878.334381321736141461160556",
+      "indexedExternalNativeInflowNEAR": "404085.334381321736141461160556",
+      "indexedInternalNativeInflowNEAR": "502793",
+      "inflowsLessNativeBalanceChangeNEAR": "0",
+      "openingWrappedNEAR": "0",
+      "closingWrappedNEAR": "0",
+      "openingLockedNEAR": "0",
+      "closingLockedNEAR": "0",
+      "incomingReceiptCount": 900
+    },
+    {
+      "windowStartUTC": "2026-09-01T00:00:00Z",
+      "windowEndExclusiveUTC": "2026-10-01T00:00:00Z",
+      "wallet": "fefundsadmin.sputnik-dao.near",
+      "openingBlock": 213761241,
+      "closingBlock": 217984973,
+      "openingBlockHash": "21k95fSz7WmajTmy43BjaBcHZLwWZ4KUc31tg7DMnfi5",
+      "closingBlockHash": "BpiXH3cCzvw16ZLkyZ9p4gWBHkWtLoYsRrE4hyYFmrHW",
+      "openingNativeNEAR": "1649784.400787470460115418280898",
+      "closingNativeNEAR": "1809615.333445561675995693046192",
+      "nativeBalanceChangeNEAR": "159830.932658091215880274765294",
+      "indexedExternalNativeInflowNEAR": "159830.932658091215880274765294",
+      "indexedInternalNativeInflowNEAR": "0",
+      "inflowsLessNativeBalanceChangeNEAR": "0",
+      "openingWrappedNEAR": "0",
+      "closingWrappedNEAR": "0",
+      "openingLockedNEAR": "0",
+      "closingLockedNEAR": "0",
+      "incomingReceiptCount": 393
+    },
+    {
+      "windowStartUTC": "2026-09-01T00:00:00Z",
+      "windowEndExclusiveUTC": "2026-10-01T00:00:00Z",
+      "wallet": "1csfundsadmin.sputnik-dao.near",
+      "openingBlock": 213761241,
+      "closingBlock": 217984973,
+      "openingBlockHash": "21k95fSz7WmajTmy43BjaBcHZLwWZ4KUc31tg7DMnfi5",
+      "closingBlockHash": "BpiXH3cCzvw16ZLkyZ9p4gWBHkWtLoYsRrE4hyYFmrHW",
+      "openingNativeNEAR": "502799.250587267826548485595843",
+      "closingNativeNEAR": "270.875891412420848813311023",
+      "nativeBalanceChangeNEAR": "-502528.37469585540569967228482",
+      "indexedExternalNativeInflowNEAR": "264.324680481103725627715181",
+      "indexedInternalNativeInflowNEAR": "0",
+      "inflowsLessNativeBalanceChangeNEAR": "502792.699376336509425300000001",
+      "openingWrappedNEAR": "0",
+      "closingWrappedNEAR": "0",
+      "openingLockedNEAR": "0",
+      "closingLockedNEAR": "0",
+      "incomingReceiptCount": 8
+    },
+    {
+      "windowStartUTC": "2026-10-01T00:00:00Z",
+      "windowEndExclusiveUTC": "2026-10-31T00:00:00Z",
+      "wallet": "buybacks.multisignature.near",
+      "openingBlock": 217984973,
+      "closingBlock": 222343158,
+      "openingBlockHash": "BpiXH3cCzvw16ZLkyZ9p4gWBHkWtLoYsRrE4hyYFmrHW",
+      "closingBlockHash": "2N27GUxyHYefcGwDdwGRcn5urw3qacug8XYsPDL5uSZP",
+      "openingNativeNEAR": "1847719.669647922717807307668926",
+      "closingNativeNEAR": "2137099.537156296693450067891964",
+      "nativeBalanceChangeNEAR": "289379.867508373975642760223038",
+      "indexedExternalNativeInflowNEAR": "289379.867508373975642760223038",
+      "indexedInternalNativeInflowNEAR": "0",
+      "inflowsLessNativeBalanceChangeNEAR": "0",
+      "openingWrappedNEAR": "0",
+      "closingWrappedNEAR": "0",
+      "openingLockedNEAR": "0",
+      "closingLockedNEAR": "0",
+      "incomingReceiptCount": 870
+    },
+    {
+      "windowStartUTC": "2026-10-01T00:00:00Z",
+      "windowEndExclusiveUTC": "2026-10-31T00:00:00Z",
+      "wallet": "fefundsadmin.sputnik-dao.near",
+      "openingBlock": 217984973,
+      "closingBlock": 222343158,
+      "openingBlockHash": "BpiXH3cCzvw16ZLkyZ9p4gWBHkWtLoYsRrE4hyYFmrHW",
+      "closingBlockHash": "2N27GUxyHYefcGwDdwGRcn5urw3qacug8XYsPDL5uSZP",
+      "openingNativeNEAR": "1809615.333445561675995693046192",
+      "closingNativeNEAR": "1961221.332139154602502426209831",
+      "nativeBalanceChangeNEAR": "151605.998693592926506733163639",
+      "indexedExternalNativeInflowNEAR": "151605.998693592926506733163639",
+      "indexedInternalNativeInflowNEAR": "0",
+      "inflowsLessNativeBalanceChangeNEAR": "0",
+      "openingWrappedNEAR": "0",
+      "closingWrappedNEAR": "0",
+      "openingLockedNEAR": "0",
+      "closingLockedNEAR": "0",
+      "incomingReceiptCount": 407
+    },
+    {
+      "windowStartUTC": "2026-10-01T00:00:00Z",
+      "windowEndExclusiveUTC": "2026-10-31T00:00:00Z",
+      "wallet": "1csfundsadmin.sputnik-dao.near",
+      "openingBlock": 217984973,
+      "closingBlock": 222343158,
+      "openingBlockHash": "BpiXH3cCzvw16ZLkyZ9p4gWBHkWtLoYsRrE4hyYFmrHW",
+      "closingBlockHash": "2N27GUxyHYefcGwDdwGRcn5urw3qacug8XYsPDL5uSZP",
+      "openingNativeNEAR": "270.875891412420848813311023",
+      "closingNativeNEAR": "270.875891412420848813311023",
+      "nativeBalanceChangeNEAR": "0",
+      "indexedExternalNativeInflowNEAR": "0",
+      "indexedInternalNativeInflowNEAR": "0",
+      "inflowsLessNativeBalanceChangeNEAR": "0",
+      "openingWrappedNEAR": "0",
+      "closingWrappedNEAR": "0",
+      "openingLockedNEAR": "0",
+      "closingLockedNEAR": "0",
+      "incomingReceiptCount": 0
+    }
+  ],
+  "internalTransferTraces": [
+    {
+      "hash": "CMfn15uTJF5DX9wFzV5G2JdHpy3qmHa5NJNUH9uj5Jp6",
+      "receiptId": "6bnALp1E4P2rLBDKcp3UA6YGzwpssQ1Xus2suXzYvtvH",
+      "block": 214930817,
+      "predecessor": "1csfundsadmin.sputnik-dao.near",
+      "receiver": "buybacks.multisignature.near",
+      "nativeNEAR": "502793",
+      "transferReceiptSucceeded": true,
+      "transactionStatus": {
+        "SuccessValue": ""
+      }
+    }
+  ],
+  "governanceCounts": {
+    "fefundsadmin.sputnik-dao.near": {
+      "nextProposalId": 17,
+      "returnedProposals": 17
+    },
+    "1csfundsadmin.sputnik-dao.near": {
+      "nextProposalId": 11,
+      "returnedProposals": 11
+    }
+  },
+  "scope": "Archival RPC account and token states at pinned block hashes. Incoming native transfer ledger enumerated using NearBlocks, without pretending RPC enumerates account history. Inflows less native balance growth is a net accounting residual: it is not identified sales, burns, costs, or gross outflows. Internal receipts are included per wallet; eliminate intra-group flows for consolidated accounting. Wrapped token balances and native locked balances do not prove the absence of deposits in staking-pool contracts.",
+  "csv": "near-intents-treasury-balance-reconciliation-2026-09-01-to-2026-10-31.csv"
+}

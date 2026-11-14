@@ -1,0 +1,21 @@
+{
+  "blockHeight": 222728039,
+  "blockHash": "CPx6Jmn2THRCGYsqAGXU62YTkPEQnM9wgGmrdQ3vNs8G",
+  "timeUTC": "2026-11-02T13:58:23.911607825Z",
+  "feePips": 1,
+  "protocolCollector": "7066024d3f20f94de601c003163367873cca78507eeca4df66d9be645f197f05",
+  "positiveTokenCounts": {
+    "7066024d3f20f94de601c003163367873cca78507eeca4df66d9be645f197f05": 233,
+    "buybacks.multisignature.near": 1,
+    "fefundsadmin.sputnik-dao.near": 0,
+    "1csfundsadmin.sputnik-dao.near": 1,
+    "0bc39dd4082e871df81eaa28250bf403fe900320a9d9929dc1304f17df462bac": 11,
+    "143f2bb439575c286f4f585163f0e5fb4e464f8ce57ec06ae80741407d3cfb31": 159,
+    "5880ad2b362620fadf759cbceb1cd5737ce8c6ed7fb8e9942881e6731f9247dd": 168
+  },
+  "protocolCollectorWrappedNearAtomic": "58835879435631304488279514",
+  "wrappedNearDecimals": 24,
+  "sourceMetadataVersion": "0.4.5",
+  "sourceMetadataLink": "https://github.com/near/intents/tree/16d04f6ec4401263f8914638710260da50bb46b0",
+  "deployedCodeHash": "BtA1BEFNS619KkvXFsgcpQ21Tb5yMm32aaUkn7xNothk"
+}

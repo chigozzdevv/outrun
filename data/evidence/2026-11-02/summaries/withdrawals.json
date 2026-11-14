@@ -1,0 +1,49 @@
+{
+  "rpcEndpoint": "https://archival-rpc.mainnet.fastnear.com",
+  "method": "EXPERIMENTAL_tx_status, FINAL",
+  "indexedCandidates": 794,
+  "directlyVerified": 794,
+  "receiptAmountNEAR": "357765.304921663062847815955323",
+  "firstWithdrawalUTC": "2026-08-23T04:19:23.809Z",
+  "lastWithdrawalUTC": "2026-10-28T07:00:20.879Z",
+  "extensionFrom": "2026-10-22T00:00:00Z",
+  "extensionIndexedCandidates": 91,
+  "extensionDirectlyVerified": 91,
+  "extensionTotalNEAR": "31538.267575353952369106983795",
+  "scope": "Three known collector histories in the 60-day study plus two buyback collector responses retrieved 28 Oct at approximately 07:39 UTC. Service and independent indexed receipt timestamps recorded separately. Exact native-transfer receipt execution checks do not identify funding source, native burn, or downstream use.",
+  "missingRPCTransactions": [],
+  "rpcMismatches": [],
+  "differentIndexedAndRpcBlockHashes": 7,
+  "serviceReportedWithdrawalFeesNEAR": "0.0",
+  "transactionTreeTokensBurntNEAR": "1.2764069137011808",
+  "transactionSigners": {
+    "intents.near": 794
+  },
+  "executionAmountScope": "Sum of tokens_burnt reported across unique transaction and receipt outcomes in the matched trees, including any bundled operations. It does not establish attributable company operating costs or treasury destruction of acquired tokens.",
+  "collectors": [
+    {
+      "id": "0bc39dd4082e871df81eaa28250bf403fe900320a9d9929dc1304f17df462bac",
+      "recipient": "1csfundsadmin.sputnik-dao.near",
+      "verifiedWithdrawals": 1,
+      "nativeTransferredNEAR": "263.107004321113754467715181",
+      "serviceCoverageStartsUTC": "2026-09-19T01:57:20.654Z",
+      "lastVerifiedWithdrawalUTC": "2026-09-19T01:57:20.654Z"
+    },
+    {
+      "id": "143f2bb439575c286f4f585163f0e5fb4e464f8ce57ec06ae80741407d3cfb31",
+      "recipient": "buybacks.multisignature.near",
+      "verifiedWithdrawals": 263,
+      "nativeTransferredNEAR": "120050.585167527240473877211030",
+      "serviceCoverageStartsUTC": "2026-08-23T07:50:56.489Z",
+      "lastVerifiedWithdrawalUTC": "2026-10-28T00:02:52.782Z"
+    },
+    {
+      "id": "5880ad2b362620fadf759cbceb1cd5737ce8c6ed7fb8e9942881e6731f9247dd",
+      "recipient": "buybacks.multisignature.near",
+      "verifiedWithdrawals": 530,
+      "nativeTransferredNEAR": "237451.612749814708619471029112",
+      "serviceCoverageStartsUTC": "2026-08-23T04:19:23.809Z",
+      "lastVerifiedWithdrawalUTC": "2026-10-28T07:00:20.879Z"
+    }
+  ]
+}

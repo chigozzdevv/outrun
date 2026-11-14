@@ -1,0 +1,2694 @@
+{
+  "version": "2026-10-28.1",
+  "retrievedAt": "2026-10-25",
+  "cleanCutoff": "2026-10-21",
+  "nativeCoverage": {
+    "start": "2026-08-23",
+    "end": "2026-10-21",
+    "internalTransfersExcludedNear": 502794,
+    "externalReceiptCount": 2375
+  },
+  "limitations": [
+    "Collections are wallet inflows valued in USD, not audited operating profit or proof of a new market purchase.",
+    "Native TRANSFER receipts are rounded to indexer precision; the preserved CSV retains the reported decimal strings.",
+    "The historical chart retains its 25 October source vintage and excludes potentially partial 22 October data.",
+    "External means outside the three-wallet cluster, not necessarily an independent customer or outside the operating entity.",
+    "The 90-day native comparison is price-normalized estimation, separate from the two 30-day receipt reconstructions."
+  ],
+  "daily": [
+    {
+      "date": "2026-01-01",
+      "volumeUsd": 30121538,
+      "grossFeesUsd": 58839,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5122585924169791
+    },
+    {
+      "date": "2026-01-02",
+      "volumeUsd": 61485870,
+      "grossFeesUsd": 118866,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6263980488160288
+    },
+    {
+      "date": "2026-01-03",
+      "volumeUsd": 44693491,
+      "grossFeesUsd": 96420,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6904862468407833
+    },
+    {
+      "date": "2026-01-04",
+      "volumeUsd": 51885774,
+      "grossFeesUsd": 107779,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.710695572998312
+    },
+    {
+      "date": "2026-01-05",
+      "volumeUsd": 100494048,
+      "grossFeesUsd": 201200,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.725483584271264
+    },
+    {
+      "date": "2026-01-06",
+      "volumeUsd": 98351827,
+      "grossFeesUsd": 165739,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7793092623670064
+    },
+    {
+      "date": "2026-01-07",
+      "volumeUsd": 111576381,
+      "grossFeesUsd": 161099,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8078252066624367
+    },
+    {
+      "date": "2026-01-08",
+      "volumeUsd": 108708560,
+      "grossFeesUsd": 177370,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7196423625296495
+    },
+    {
+      "date": "2026-01-09",
+      "volumeUsd": 101013813,
+      "grossFeesUsd": 152673,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6869918624043232
+    },
+    {
+      "date": "2026-01-10",
+      "volumeUsd": 55958836,
+      "grossFeesUsd": 98073,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7016360322047321
+    },
+    {
+      "date": "2026-01-11",
+      "volumeUsd": 33159141,
+      "grossFeesUsd": 77356,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6869513675618963
+    },
+    {
+      "date": "2026-01-12",
+      "volumeUsd": 85492757,
+      "grossFeesUsd": 137195,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6989900377362708
+    },
+    {
+      "date": "2026-01-13",
+      "volumeUsd": 120186156,
+      "grossFeesUsd": 188522,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6728598439132476
+    },
+    {
+      "date": "2026-01-14",
+      "volumeUsd": 108375180,
+      "grossFeesUsd": 225804,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8551062945715349
+    },
+    {
+      "date": "2026-01-15",
+      "volumeUsd": 99672346,
+      "grossFeesUsd": 128585,
+      "collectionsUsd": 355826,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8005259902140254
+    },
+    {
+      "date": "2026-01-16",
+      "volumeUsd": 113634243,
+      "grossFeesUsd": 140681,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7205312527780217
+    },
+    {
+      "date": "2026-01-17",
+      "volumeUsd": 43213461,
+      "grossFeesUsd": 81025,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7318800288291487
+    },
+    {
+      "date": "2026-01-18",
+      "volumeUsd": 41398615,
+      "grossFeesUsd": 89816,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7493473443320653
+    },
+    {
+      "date": "2026-01-19",
+      "volumeUsd": 127810129,
+      "grossFeesUsd": 173881,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6355631067567864
+    },
+    {
+      "date": "2026-01-20",
+      "volumeUsd": 126155886,
+      "grossFeesUsd": 223367,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5958435320164044
+    },
+    {
+      "date": "2026-01-21",
+      "volumeUsd": 119836980,
+      "grossFeesUsd": 190157,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5040719808081033
+    },
+    {
+      "date": "2026-01-22",
+      "volumeUsd": 95780163,
+      "grossFeesUsd": 121853,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5273229862690034
+    },
+    {
+      "date": "2026-01-23",
+      "volumeUsd": 90537514,
+      "grossFeesUsd": 115621,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5112130263813022
+    },
+    {
+      "date": "2026-01-24",
+      "volumeUsd": 47256531,
+      "grossFeesUsd": 81665,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.507134932057561
+    },
+    {
+      "date": "2026-01-25",
+      "volumeUsd": 81304100,
+      "grossFeesUsd": 193715,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5037201387563603
+    },
+    {
+      "date": "2026-01-26",
+      "volumeUsd": 103887339,
+      "grossFeesUsd": 178695,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.43384505447957
+    },
+    {
+      "date": "2026-01-27",
+      "volumeUsd": 121824973,
+      "grossFeesUsd": 143871,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4635852494643196
+    },
+    {
+      "date": "2026-01-28",
+      "volumeUsd": 118980772,
+      "grossFeesUsd": 108492,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4885957836055261
+    },
+    {
+      "date": "2026-01-29",
+      "volumeUsd": 93136207,
+      "grossFeesUsd": 111221,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4867640883808404
+    },
+    {
+      "date": "2026-01-30",
+      "volumeUsd": 88079786,
+      "grossFeesUsd": 154979,
+      "collectionsUsd": 0,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3729833486136749
+    },
+    {
+      "date": "2026-01-31",
+      "volumeUsd": 100456300,
+      "grossFeesUsd": 205658,
+      "collectionsUsd": 3414,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3176031897234495
+    },
+    {
+      "date": "2026-02-01",
+      "volumeUsd": 73458858,
+      "grossFeesUsd": 139835,
+      "collectionsUsd": 3109,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2039626267870913
+    },
+    {
+      "date": "2026-02-02",
+      "volumeUsd": 134061336,
+      "grossFeesUsd": 231800,
+      "collectionsUsd": 274415,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1723056709730368
+    },
+    {
+      "date": "2026-02-03",
+      "volumeUsd": 126822991,
+      "grossFeesUsd": 159597,
+      "collectionsUsd": 7492,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1983106956564304
+    },
+    {
+      "date": "2026-02-04",
+      "volumeUsd": 141480398,
+      "grossFeesUsd": 232699,
+      "collectionsUsd": 13624,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1722683718063576
+    },
+    {
+      "date": "2026-02-05",
+      "volumeUsd": 200736408,
+      "grossFeesUsd": 347423,
+      "collectionsUsd": 8059,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1595196483391843
+    },
+    {
+      "date": "2026-02-06",
+      "volumeUsd": 162717964,
+      "grossFeesUsd": 253758,
+      "collectionsUsd": 77249,
+      "nativeReceiptsNear": null,
+      "priceUsd": 0.9768146861725656
+    },
+    {
+      "date": "2026-02-07",
+      "volumeUsd": 90603212,
+      "grossFeesUsd": 129336,
+      "collectionsUsd": 3865,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0864731003268169
+    },
+    {
+      "date": "2026-02-08",
+      "volumeUsd": 61862422,
+      "grossFeesUsd": 87139,
+      "collectionsUsd": 2490,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0744191981467333
+    },
+    {
+      "date": "2026-02-09",
+      "volumeUsd": 92099235,
+      "grossFeesUsd": 135715,
+      "collectionsUsd": 9593,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0398409013801646
+    },
+    {
+      "date": "2026-02-10",
+      "volumeUsd": 84435864,
+      "grossFeesUsd": 110126,
+      "collectionsUsd": 8296,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0294543588582825
+    },
+    {
+      "date": "2026-02-11",
+      "volumeUsd": 100990725,
+      "grossFeesUsd": 160738,
+      "collectionsUsd": 10629,
+      "nativeReceiptsNear": null,
+      "priceUsd": 0.9915665816830266
+    },
+    {
+      "date": "2026-02-12",
+      "volumeUsd": 85245338,
+      "grossFeesUsd": 130223,
+      "collectionsUsd": 11312,
+      "nativeReceiptsNear": null,
+      "priceUsd": 0.9607693046641296
+    },
+    {
+      "date": "2026-02-13",
+      "volumeUsd": 80690814,
+      "grossFeesUsd": 124041,
+      "collectionsUsd": 8122,
+      "nativeReceiptsNear": null,
+      "priceUsd": 0.9621014434668393
+    },
+    {
+      "date": "2026-02-14",
+      "volumeUsd": 63710625,
+      "grossFeesUsd": 109616,
+      "collectionsUsd": 7063,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0228899191345726
+    },
+    {
+      "date": "2026-02-15",
+      "volumeUsd": 78596477,
+      "grossFeesUsd": 147789,
+      "collectionsUsd": 11845,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0848408543439159
+    },
+    {
+      "date": "2026-02-16",
+      "volumeUsd": 47136230,
+      "grossFeesUsd": 73070,
+      "collectionsUsd": 1199,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0556333113911334
+    },
+    {
+      "date": "2026-02-17",
+      "volumeUsd": 49021772,
+      "grossFeesUsd": 69342,
+      "collectionsUsd": 1026,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0575041270617114
+    },
+    {
+      "date": "2026-02-18",
+      "volumeUsd": 71786993,
+      "grossFeesUsd": 114649,
+      "collectionsUsd": 1976,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0439217005653105
+    },
+    {
+      "date": "2026-02-19",
+      "volumeUsd": 62698286,
+      "grossFeesUsd": 108187,
+      "collectionsUsd": 1169,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0150182616157097
+    },
+    {
+      "date": "2026-02-20",
+      "volumeUsd": 46188790,
+      "grossFeesUsd": 115124,
+      "collectionsUsd": 1031,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0059249204859406
+    },
+    {
+      "date": "2026-02-21",
+      "volumeUsd": 36824531,
+      "grossFeesUsd": 72181,
+      "collectionsUsd": 1309,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0522944047870273
+    },
+    {
+      "date": "2026-02-22",
+      "volumeUsd": 33488041,
+      "grossFeesUsd": 70651,
+      "collectionsUsd": 1406,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.059060229378097
+    },
+    {
+      "date": "2026-02-23",
+      "volumeUsd": 69649052,
+      "grossFeesUsd": 152523,
+      "collectionsUsd": 6275,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0205099039613519
+    },
+    {
+      "date": "2026-02-24",
+      "volumeUsd": 79433303,
+      "grossFeesUsd": 190712,
+      "collectionsUsd": 8053,
+      "nativeReceiptsNear": null,
+      "priceUsd": 0.9792663046371564
+    },
+    {
+      "date": "2026-02-25",
+      "volumeUsd": 87966256,
+      "grossFeesUsd": 274728,
+      "collectionsUsd": 14022,
+      "nativeReceiptsNear": null,
+      "priceUsd": 0.9672891774639546
+    },
+    {
+      "date": "2026-02-26",
+      "volumeUsd": 86945832,
+      "grossFeesUsd": 152138,
+      "collectionsUsd": 151977,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1717238950415156
+    },
+    {
+      "date": "2026-02-27",
+      "volumeUsd": 61832328,
+      "grossFeesUsd": 111931,
+      "collectionsUsd": 15284,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1265373986396172
+    },
+    {
+      "date": "2026-02-28",
+      "volumeUsd": 67777014,
+      "grossFeesUsd": 129430,
+      "collectionsUsd": 1237,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.0934773809950318
+    },
+    {
+      "date": "2026-03-01",
+      "volumeUsd": 49164506,
+      "grossFeesUsd": 109551,
+      "collectionsUsd": 3700,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1680379922031965
+    },
+    {
+      "date": "2026-03-02",
+      "volumeUsd": 78531294,
+      "grossFeesUsd": 157276,
+      "collectionsUsd": 20717,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.151609471995175
+    },
+    {
+      "date": "2026-03-03",
+      "volumeUsd": 67282693,
+      "grossFeesUsd": 133442,
+      "collectionsUsd": 14843,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3641606872029102
+    },
+    {
+      "date": "2026-03-04",
+      "volumeUsd": 101480715,
+      "grossFeesUsd": 260076,
+      "collectionsUsd": 8995,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3571539080050319
+    },
+    {
+      "date": "2026-03-05",
+      "volumeUsd": 71222512,
+      "grossFeesUsd": 136912,
+      "collectionsUsd": 2001,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3120363674676874
+    },
+    {
+      "date": "2026-03-06",
+      "volumeUsd": 65662586,
+      "grossFeesUsd": 114667,
+      "collectionsUsd": 3548,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.275124841066663
+    },
+    {
+      "date": "2026-03-07",
+      "volumeUsd": 46166294,
+      "grossFeesUsd": 90527,
+      "collectionsUsd": 7631,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2258423527236262
+    },
+    {
+      "date": "2026-03-08",
+      "volumeUsd": 39054915,
+      "grossFeesUsd": 57872,
+      "collectionsUsd": 4212,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2138227228160654
+    },
+    {
+      "date": "2026-03-09",
+      "volumeUsd": 62367202,
+      "grossFeesUsd": 103535,
+      "collectionsUsd": 4269,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2113767778752902
+    },
+    {
+      "date": "2026-03-10",
+      "volumeUsd": 67064905,
+      "grossFeesUsd": 112707,
+      "collectionsUsd": 10070,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2328048586362812
+    },
+    {
+      "date": "2026-03-11",
+      "volumeUsd": 61375244,
+      "grossFeesUsd": 93240,
+      "collectionsUsd": 11192,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2836556802920853
+    },
+    {
+      "date": "2026-03-12",
+      "volumeUsd": 56106512,
+      "grossFeesUsd": 73884,
+      "collectionsUsd": 44350,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2980691851511037
+    },
+    {
+      "date": "2026-03-13",
+      "volumeUsd": 70677007,
+      "grossFeesUsd": 140331,
+      "collectionsUsd": 20759,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3675133222731386
+    },
+    {
+      "date": "2026-03-14",
+      "volumeUsd": 37234825,
+      "grossFeesUsd": 62395,
+      "collectionsUsd": 6600,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3378410343259821
+    },
+    {
+      "date": "2026-03-15",
+      "volumeUsd": 46224504,
+      "grossFeesUsd": 86831,
+      "collectionsUsd": 8896,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3257688146355597
+    },
+    {
+      "date": "2026-03-16",
+      "volumeUsd": 112845053,
+      "grossFeesUsd": 229728,
+      "collectionsUsd": 14441,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3477143572211612
+    },
+    {
+      "date": "2026-03-17",
+      "volumeUsd": 55160185,
+      "grossFeesUsd": 15726,
+      "collectionsUsd": 12050,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.491116160901989
+    },
+    {
+      "date": "2026-03-18",
+      "volumeUsd": 85325864,
+      "grossFeesUsd": 103198,
+      "collectionsUsd": 11787,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.452995750391837
+    },
+    {
+      "date": "2026-03-19",
+      "volumeUsd": 77576567,
+      "grossFeesUsd": 116595,
+      "collectionsUsd": 11703,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3852286985623175
+    },
+    {
+      "date": "2026-03-20",
+      "volumeUsd": 59572759,
+      "grossFeesUsd": 83118,
+      "collectionsUsd": 7843,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3349573323237505
+    },
+    {
+      "date": "2026-03-21",
+      "volumeUsd": 46338932,
+      "grossFeesUsd": 77082,
+      "collectionsUsd": 6740,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3160232943414867
+    },
+    {
+      "date": "2026-03-22",
+      "volumeUsd": 58843157,
+      "grossFeesUsd": 128695,
+      "collectionsUsd": 6876,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2842306177778022
+    },
+    {
+      "date": "2026-03-23",
+      "volumeUsd": 88338963,
+      "grossFeesUsd": 146222,
+      "collectionsUsd": 15697,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2736181387740784
+    },
+    {
+      "date": "2026-03-24",
+      "volumeUsd": 79953938,
+      "grossFeesUsd": 127953,
+      "collectionsUsd": 6477,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3121877109021143
+    },
+    {
+      "date": "2026-03-25",
+      "volumeUsd": 89719042,
+      "grossFeesUsd": 150733,
+      "collectionsUsd": 7405,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.291335292118622
+    },
+    {
+      "date": "2026-03-26",
+      "volumeUsd": 63833833,
+      "grossFeesUsd": 103640,
+      "collectionsUsd": 6731,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2781222052497072
+    },
+    {
+      "date": "2026-03-27",
+      "volumeUsd": 69311936,
+      "grossFeesUsd": 146040,
+      "collectionsUsd": 249361,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2223875249736917
+    },
+    {
+      "date": "2026-03-28",
+      "volumeUsd": 56142325,
+      "grossFeesUsd": 109754,
+      "collectionsUsd": 8349,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.179215463164965
+    },
+    {
+      "date": "2026-03-29",
+      "volumeUsd": 37921409,
+      "grossFeesUsd": 60827,
+      "collectionsUsd": 4217,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1734629760300415
+    },
+    {
+      "date": "2026-03-30",
+      "volumeUsd": 78687969,
+      "grossFeesUsd": 112703,
+      "collectionsUsd": 8269,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1608381813622952
+    },
+    {
+      "date": "2026-03-31",
+      "volumeUsd": 100507387,
+      "grossFeesUsd": 144853,
+      "collectionsUsd": 13731,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.160512439608324
+    },
+    {
+      "date": "2026-04-01",
+      "volumeUsd": 116831600,
+      "grossFeesUsd": 191806,
+      "collectionsUsd": 10280,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.186447028952716
+    },
+    {
+      "date": "2026-04-02",
+      "volumeUsd": 84983397,
+      "grossFeesUsd": 107689,
+      "collectionsUsd": 11188,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1900263578825738
+    },
+    {
+      "date": "2026-04-03",
+      "volumeUsd": 47756793,
+      "grossFeesUsd": 91490,
+      "collectionsUsd": 7575,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.1621213994090238
+    },
+    {
+      "date": "2026-04-04",
+      "volumeUsd": 27413811,
+      "grossFeesUsd": 46418,
+      "collectionsUsd": 3432,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2090136435083625
+    },
+    {
+      "date": "2026-04-05",
+      "volumeUsd": 70920878,
+      "grossFeesUsd": 91181,
+      "collectionsUsd": 4210,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2557856164371337
+    },
+    {
+      "date": "2026-04-06",
+      "volumeUsd": 71153272,
+      "grossFeesUsd": 120143,
+      "collectionsUsd": 5689,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2466677684813896
+    },
+    {
+      "date": "2026-04-07",
+      "volumeUsd": 95893369,
+      "grossFeesUsd": 142229,
+      "collectionsUsd": 10767,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2492756169045225
+    },
+    {
+      "date": "2026-04-08",
+      "volumeUsd": 95555436,
+      "grossFeesUsd": 148571,
+      "collectionsUsd": 12073,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3123570870352508
+    },
+    {
+      "date": "2026-04-09",
+      "volumeUsd": 84375908,
+      "grossFeesUsd": 134950,
+      "collectionsUsd": 11028,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.330955089693287
+    },
+    {
+      "date": "2026-04-10",
+      "volumeUsd": 78543590,
+      "grossFeesUsd": 155641,
+      "collectionsUsd": 11886,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.367038509011606
+    },
+    {
+      "date": "2026-04-11",
+      "volumeUsd": 43580575,
+      "grossFeesUsd": 69433,
+      "collectionsUsd": 2146,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3614509107716786
+    },
+    {
+      "date": "2026-04-12",
+      "volumeUsd": 51087301,
+      "grossFeesUsd": 118035,
+      "collectionsUsd": 6796,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.402621077879653
+    },
+    {
+      "date": "2026-04-13",
+      "volumeUsd": 80113582,
+      "grossFeesUsd": 115373,
+      "collectionsUsd": 16610,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3470807072469697
+    },
+    {
+      "date": "2026-04-14",
+      "volumeUsd": 85932065,
+      "grossFeesUsd": 151329,
+      "collectionsUsd": 10353,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4171218358366993
+    },
+    {
+      "date": "2026-04-15",
+      "volumeUsd": 62004714,
+      "grossFeesUsd": 95114,
+      "collectionsUsd": 9655,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3593028398963403
+    },
+    {
+      "date": "2026-04-16",
+      "volumeUsd": 36639484,
+      "grossFeesUsd": 38829,
+      "collectionsUsd": 4007,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4093477970194994
+    },
+    {
+      "date": "2026-04-17",
+      "volumeUsd": 50216445,
+      "grossFeesUsd": 108018,
+      "collectionsUsd": 9178,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4337654336259162
+    },
+    {
+      "date": "2026-04-18",
+      "volumeUsd": 55196390,
+      "grossFeesUsd": 94225,
+      "collectionsUsd": 4653,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.410127915954746
+    },
+    {
+      "date": "2026-04-19",
+      "volumeUsd": 52229905,
+      "grossFeesUsd": 89727,
+      "collectionsUsd": 11211,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3443455301789051
+    },
+    {
+      "date": "2026-04-20",
+      "volumeUsd": 67188722,
+      "grossFeesUsd": 124958,
+      "collectionsUsd": 8199,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3274086464780284
+    },
+    {
+      "date": "2026-04-21",
+      "volumeUsd": 60230053,
+      "grossFeesUsd": 108701,
+      "collectionsUsd": 4552,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3630792096907536
+    },
+    {
+      "date": "2026-04-22",
+      "volumeUsd": 65533836,
+      "grossFeesUsd": 135792,
+      "collectionsUsd": 0.05,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3860232231903202
+    },
+    {
+      "date": "2026-04-23",
+      "volumeUsd": 66816421,
+      "grossFeesUsd": 122768,
+      "collectionsUsd": 28301,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4017188954496016
+    },
+    {
+      "date": "2026-04-24",
+      "volumeUsd": 50305898,
+      "grossFeesUsd": 87899,
+      "collectionsUsd": 5251,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4063650834284427
+    },
+    {
+      "date": "2026-04-25",
+      "volumeUsd": 27044567,
+      "grossFeesUsd": 37667,
+      "collectionsUsd": 4481,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4083664780964398
+    },
+    {
+      "date": "2026-04-26",
+      "volumeUsd": 33672791,
+      "grossFeesUsd": 66729,
+      "collectionsUsd": 6046,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4019839271019945
+    },
+    {
+      "date": "2026-04-27",
+      "volumeUsd": 57911209,
+      "grossFeesUsd": 106647,
+      "collectionsUsd": 10607,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3951042194488004
+    },
+    {
+      "date": "2026-04-28",
+      "volumeUsd": 48866836,
+      "grossFeesUsd": 94806,
+      "collectionsUsd": 6321,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3634652579489976
+    },
+    {
+      "date": "2026-04-29",
+      "volumeUsd": 56814212,
+      "grossFeesUsd": 85393,
+      "collectionsUsd": 11075,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3468802494638064
+    },
+    {
+      "date": "2026-04-30",
+      "volumeUsd": 70727442,
+      "grossFeesUsd": 125695,
+      "collectionsUsd": 11170,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.3264848069490658
+    },
+    {
+      "date": "2026-05-01",
+      "volumeUsd": 55205519,
+      "grossFeesUsd": 101264,
+      "collectionsUsd": 13243,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.29564255452133
+    },
+    {
+      "date": "2026-05-02",
+      "volumeUsd": 31398886,
+      "grossFeesUsd": 49570,
+      "collectionsUsd": 5635,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2875321522023961
+    },
+    {
+      "date": "2026-05-03",
+      "volumeUsd": 36852466,
+      "grossFeesUsd": 58577,
+      "collectionsUsd": 8367,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2962764893204028
+    },
+    {
+      "date": "2026-05-04",
+      "volumeUsd": 64064915,
+      "grossFeesUsd": 129004,
+      "collectionsUsd": 9387,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2749765956949504
+    },
+    {
+      "date": "2026-05-05",
+      "volumeUsd": 70373098,
+      "grossFeesUsd": 163191,
+      "collectionsUsd": 22234,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.26177674627737
+    },
+    {
+      "date": "2026-05-06",
+      "volumeUsd": 80624180,
+      "grossFeesUsd": 155380,
+      "collectionsUsd": 22443,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.2971217181977854
+    },
+    {
+      "date": "2026-05-07",
+      "volumeUsd": 58048406,
+      "grossFeesUsd": 99811,
+      "collectionsUsd": 12037,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4900890921040486
+    },
+    {
+      "date": "2026-05-08",
+      "volumeUsd": 52032752,
+      "grossFeesUsd": 84999,
+      "collectionsUsd": 13748,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4682929102369793
+    },
+    {
+      "date": "2026-05-09",
+      "volumeUsd": 45417297,
+      "grossFeesUsd": 86767,
+      "collectionsUsd": 6734,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5944925332589903
+    },
+    {
+      "date": "2026-05-10",
+      "volumeUsd": 41988410,
+      "grossFeesUsd": 83820,
+      "collectionsUsd": 7514,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5657935061846748
+    },
+    {
+      "date": "2026-05-11",
+      "volumeUsd": 56699577,
+      "grossFeesUsd": 112714,
+      "collectionsUsd": 14360,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5650236362399528
+    },
+    {
+      "date": "2026-05-12",
+      "volumeUsd": 55419913,
+      "grossFeesUsd": 108042,
+      "collectionsUsd": 14074,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.547690456400173
+    },
+    {
+      "date": "2026-05-13",
+      "volumeUsd": 55924660,
+      "grossFeesUsd": 92786,
+      "collectionsUsd": 6693,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.605748020538074
+    },
+    {
+      "date": "2026-05-14",
+      "volumeUsd": 57248279,
+      "grossFeesUsd": 107564,
+      "collectionsUsd": 13953,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5757276762278607
+    },
+    {
+      "date": "2026-05-15",
+      "volumeUsd": 59956250,
+      "grossFeesUsd": 104127,
+      "collectionsUsd": 17798,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5717092457593567
+    },
+    {
+      "date": "2026-05-16",
+      "volumeUsd": 41757201,
+      "grossFeesUsd": 64768,
+      "collectionsUsd": 13616,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5437846693349948
+    },
+    {
+      "date": "2026-05-17",
+      "volumeUsd": 42753891,
+      "grossFeesUsd": 62254,
+      "collectionsUsd": 10759,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.4975208861290927
+    },
+    {
+      "date": "2026-05-18",
+      "volumeUsd": 65473363,
+      "grossFeesUsd": 120086,
+      "collectionsUsd": 15825,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5060280604472314
+    },
+    {
+      "date": "2026-05-19",
+      "volumeUsd": 59217953,
+      "grossFeesUsd": 82030,
+      "collectionsUsd": 13886,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6215416270841878
+    },
+    {
+      "date": "2026-05-20",
+      "volumeUsd": 68124769,
+      "grossFeesUsd": 120381,
+      "collectionsUsd": 13757,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5990054254188213
+    },
+    {
+      "date": "2026-05-21",
+      "volumeUsd": 61460429,
+      "grossFeesUsd": 92646,
+      "collectionsUsd": 19047,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.698601504225455
+    },
+    {
+      "date": "2026-05-22",
+      "volumeUsd": 79437397,
+      "grossFeesUsd": 111161,
+      "collectionsUsd": 28131,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9234790791691732
+    },
+    {
+      "date": "2026-05-23",
+      "volumeUsd": 83844421,
+      "grossFeesUsd": 107128,
+      "collectionsUsd": 58520,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.1014820393037414
+    },
+    {
+      "date": "2026-05-24",
+      "volumeUsd": 51845556,
+      "grossFeesUsd": 60552,
+      "collectionsUsd": 21810,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.45389596088122
+    },
+    {
+      "date": "2026-05-25",
+      "volumeUsd": 92300212,
+      "grossFeesUsd": 111570,
+      "collectionsUsd": 41873,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.3926673010475668
+    },
+    {
+      "date": "2026-05-26",
+      "volumeUsd": 107988235,
+      "grossFeesUsd": 112324,
+      "collectionsUsd": 68154,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.7753298911351787
+    },
+    {
+      "date": "2026-05-27",
+      "volumeUsd": 92369923,
+      "grossFeesUsd": 119100,
+      "collectionsUsd": 31306,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.5409987831167844
+    },
+    {
+      "date": "2026-05-28",
+      "volumeUsd": 82392417,
+      "grossFeesUsd": 103537,
+      "collectionsUsd": 15804,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.493351854559427
+    },
+    {
+      "date": "2026-05-29",
+      "volumeUsd": 53559240,
+      "grossFeesUsd": 72602,
+      "collectionsUsd": 13852,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.417811609035771
+    },
+    {
+      "date": "2026-05-30",
+      "volumeUsd": 58342762,
+      "grossFeesUsd": 53291,
+      "collectionsUsd": 30963,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.3760942108784233
+    },
+    {
+      "date": "2026-05-31",
+      "volumeUsd": 133565622,
+      "grossFeesUsd": 71263,
+      "collectionsUsd": 34091,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.2403037027531107
+    },
+    {
+      "date": "2026-06-01",
+      "volumeUsd": 105296219,
+      "grossFeesUsd": 142360,
+      "collectionsUsd": 32456,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.3194107759499416
+    },
+    {
+      "date": "2026-06-02",
+      "volumeUsd": 85660378,
+      "grossFeesUsd": 152934,
+      "collectionsUsd": 29401,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.6318656449208273
+    },
+    {
+      "date": "2026-06-03",
+      "volumeUsd": 87963176,
+      "grossFeesUsd": 127117,
+      "collectionsUsd": 25729,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.619746476181933
+    },
+    {
+      "date": "2026-06-04",
+      "volumeUsd": 122937976,
+      "grossFeesUsd": 142240,
+      "collectionsUsd": 44465,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.8193716234937822
+    },
+    {
+      "date": "2026-06-05",
+      "volumeUsd": 223909280,
+      "grossFeesUsd": 242971,
+      "collectionsUsd": 142586,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.2043365271987616
+    },
+    {
+      "date": "2026-06-06",
+      "volumeUsd": 62698470,
+      "grossFeesUsd": 91088,
+      "collectionsUsd": 15855,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9607223698932454
+    },
+    {
+      "date": "2026-06-07",
+      "volumeUsd": 65031667,
+      "grossFeesUsd": 79246,
+      "collectionsUsd": 21674,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8618570226806794
+    },
+    {
+      "date": "2026-06-08",
+      "volumeUsd": 91498944,
+      "grossFeesUsd": 111211,
+      "collectionsUsd": 21467,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.052980644905737
+    },
+    {
+      "date": "2026-06-09",
+      "volumeUsd": 81206299,
+      "grossFeesUsd": 88545,
+      "collectionsUsd": 19579,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.1279141416320018
+    },
+    {
+      "date": "2026-06-10",
+      "volumeUsd": 71683003,
+      "grossFeesUsd": 74633,
+      "collectionsUsd": 18332,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.1556052732221387
+    },
+    {
+      "date": "2026-06-11",
+      "volumeUsd": 90049310,
+      "grossFeesUsd": 87111,
+      "collectionsUsd": 9681,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9698511110711405
+    },
+    {
+      "date": "2026-06-12",
+      "volumeUsd": 102382801,
+      "grossFeesUsd": 118249,
+      "collectionsUsd": 17720,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.0631522677419274
+    },
+    {
+      "date": "2026-06-13",
+      "volumeUsd": 33423012,
+      "grossFeesUsd": 39391,
+      "collectionsUsd": 7110,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.007467502490516
+    },
+    {
+      "date": "2026-06-14",
+      "volumeUsd": 41292854,
+      "grossFeesUsd": 62314,
+      "collectionsUsd": 13143,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.1279387825945646
+    },
+    {
+      "date": "2026-06-15",
+      "volumeUsd": 111228757,
+      "grossFeesUsd": 143373,
+      "collectionsUsd": 31151,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.215904207521864
+    },
+    {
+      "date": "2026-06-16",
+      "volumeUsd": 88881372,
+      "grossFeesUsd": 98108,
+      "collectionsUsd": 16965,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.3882726399417686
+    },
+    {
+      "date": "2026-06-17",
+      "volumeUsd": 69556636,
+      "grossFeesUsd": 75139,
+      "collectionsUsd": 14968,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.307989972199999
+    },
+    {
+      "date": "2026-06-18",
+      "volumeUsd": 70217258,
+      "grossFeesUsd": 104860,
+      "collectionsUsd": 11592,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.177708638889883
+    },
+    {
+      "date": "2026-06-19",
+      "volumeUsd": 45401105,
+      "grossFeesUsd": 61160,
+      "collectionsUsd": 6931,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.234752493446988
+    },
+    {
+      "date": "2026-06-20",
+      "volumeUsd": 37714999,
+      "grossFeesUsd": 45085,
+      "collectionsUsd": 16708,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.1789491523820614
+    },
+    {
+      "date": "2026-06-21",
+      "volumeUsd": 44454207,
+      "grossFeesUsd": 64018,
+      "collectionsUsd": 7279,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.1927477704199316
+    },
+    {
+      "date": "2026-06-22",
+      "volumeUsd": 82174875,
+      "grossFeesUsd": 85276,
+      "collectionsUsd": 12905,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.0978649613659233
+    },
+    {
+      "date": "2026-06-23",
+      "volumeUsd": 74246647,
+      "grossFeesUsd": 108797,
+      "collectionsUsd": 9400,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.0678722967507497
+    },
+    {
+      "date": "2026-06-24",
+      "volumeUsd": 93057819,
+      "grossFeesUsd": 155709,
+      "collectionsUsd": 15666,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9793452150450095
+    },
+    {
+      "date": "2026-06-25",
+      "volumeUsd": 66800391,
+      "grossFeesUsd": 109434,
+      "collectionsUsd": 10905,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9614994982321985
+    },
+    {
+      "date": "2026-06-26",
+      "volumeUsd": 61262195,
+      "grossFeesUsd": 98886,
+      "collectionsUsd": 9781,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8327269856446344
+    },
+    {
+      "date": "2026-06-27",
+      "volumeUsd": 39034729,
+      "grossFeesUsd": 67247,
+      "collectionsUsd": 4218,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7994110831444081
+    },
+    {
+      "date": "2026-06-28",
+      "volumeUsd": 46187719,
+      "grossFeesUsd": 69206,
+      "collectionsUsd": 9571,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.87021620623653
+    },
+    {
+      "date": "2026-06-29",
+      "volumeUsd": 65426787,
+      "grossFeesUsd": 119968,
+      "collectionsUsd": 12034,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.832983601224563
+    },
+    {
+      "date": "2026-06-30",
+      "volumeUsd": 94013129,
+      "grossFeesUsd": 146136,
+      "collectionsUsd": 10203,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8616245710076764
+    },
+    {
+      "date": "2026-07-01",
+      "volumeUsd": 99055378,
+      "grossFeesUsd": 141660,
+      "collectionsUsd": 14453,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7791126153361345
+    },
+    {
+      "date": "2026-07-02",
+      "volumeUsd": 96447091,
+      "grossFeesUsd": 188258,
+      "collectionsUsd": 16345,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8041142347997707
+    },
+    {
+      "date": "2026-07-03",
+      "volumeUsd": 72089170,
+      "grossFeesUsd": 127607,
+      "collectionsUsd": 16289,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9401598805748421
+    },
+    {
+      "date": "2026-07-04",
+      "volumeUsd": 55377933,
+      "grossFeesUsd": 109233,
+      "collectionsUsd": 7762,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.039775224873558
+    },
+    {
+      "date": "2026-07-05",
+      "volumeUsd": 47458867,
+      "grossFeesUsd": 76215,
+      "collectionsUsd": 10972,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9982393529337843
+    },
+    {
+      "date": "2026-07-06",
+      "volumeUsd": 93981347,
+      "grossFeesUsd": 164860,
+      "collectionsUsd": 18685,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.013477940755319
+    },
+    {
+      "date": "2026-07-07",
+      "volumeUsd": 86753468,
+      "grossFeesUsd": 109255,
+      "collectionsUsd": 16817,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.0527642728047613
+    },
+    {
+      "date": "2026-07-08",
+      "volumeUsd": 88771460,
+      "grossFeesUsd": 136883,
+      "collectionsUsd": 24175,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9744660891603167
+    },
+    {
+      "date": "2026-07-09",
+      "volumeUsd": 80049013,
+      "grossFeesUsd": 114158,
+      "collectionsUsd": 16791,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8905819591247763
+    },
+    {
+      "date": "2026-07-10",
+      "volumeUsd": 81720329,
+      "grossFeesUsd": 95463,
+      "collectionsUsd": 14060,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9192732947781543
+    },
+    {
+      "date": "2026-07-11",
+      "volumeUsd": 46163888,
+      "grossFeesUsd": 76378,
+      "collectionsUsd": 7323,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8916082647942551
+    },
+    {
+      "date": "2026-07-12",
+      "volumeUsd": 44784573,
+      "grossFeesUsd": 56156,
+      "collectionsUsd": 10580,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8689053350917229
+    },
+    {
+      "date": "2026-07-13",
+      "volumeUsd": 82437888,
+      "grossFeesUsd": 86826,
+      "collectionsUsd": 12904,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8893845151956215
+    },
+    {
+      "date": "2026-07-14",
+      "volumeUsd": 98760204,
+      "grossFeesUsd": 156329,
+      "collectionsUsd": 34286,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9169708981806526
+    },
+    {
+      "date": "2026-07-15",
+      "volumeUsd": 100877335,
+      "grossFeesUsd": 150733,
+      "collectionsUsd": 19489,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.0096781703897757
+    },
+    {
+      "date": "2026-07-16",
+      "volumeUsd": 85276587,
+      "grossFeesUsd": 101299,
+      "collectionsUsd": 21064,
+      "nativeReceiptsNear": null,
+      "priceUsd": 2.0654065478529233
+    },
+    {
+      "date": "2026-07-17",
+      "volumeUsd": 58202991,
+      "grossFeesUsd": 81325,
+      "collectionsUsd": 17612,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9665883874139125
+    },
+    {
+      "date": "2026-07-18",
+      "volumeUsd": 48448936,
+      "grossFeesUsd": 52035,
+      "collectionsUsd": 18400,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9272904383018126
+    },
+    {
+      "date": "2026-07-19",
+      "volumeUsd": 41160353,
+      "grossFeesUsd": 52746,
+      "collectionsUsd": 10812,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9323325669594247
+    },
+    {
+      "date": "2026-07-20",
+      "volumeUsd": 63888505,
+      "grossFeesUsd": 94331,
+      "collectionsUsd": 13349,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9135611907782664
+    },
+    {
+      "date": "2026-07-21",
+      "volumeUsd": 107026869,
+      "grossFeesUsd": 222709,
+      "collectionsUsd": 22589,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9769173888892801
+    },
+    {
+      "date": "2026-07-22",
+      "volumeUsd": 83753741,
+      "grossFeesUsd": 124716,
+      "collectionsUsd": 44044,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9352492442008635
+    },
+    {
+      "date": "2026-07-23",
+      "volumeUsd": 60188910,
+      "grossFeesUsd": 85942,
+      "collectionsUsd": 14289,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8673988662189536
+    },
+    {
+      "date": "2026-07-24",
+      "volumeUsd": 60299919,
+      "grossFeesUsd": 71139,
+      "collectionsUsd": 9704,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8828279034461317
+    },
+    {
+      "date": "2026-07-25",
+      "volumeUsd": 46055675,
+      "grossFeesUsd": 65860,
+      "collectionsUsd": 6833,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8056145920103188
+    },
+    {
+      "date": "2026-07-26",
+      "volumeUsd": 49191335,
+      "grossFeesUsd": 77274,
+      "collectionsUsd": 11776,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.791064919572411
+    },
+    {
+      "date": "2026-07-27",
+      "volumeUsd": 56904698,
+      "grossFeesUsd": 85755,
+      "collectionsUsd": 14181,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.8369786235946952
+    },
+    {
+      "date": "2026-07-28",
+      "volumeUsd": 71130809,
+      "grossFeesUsd": 95577,
+      "collectionsUsd": 11953,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6839135172166535
+    },
+    {
+      "date": "2026-07-29",
+      "volumeUsd": 54687246,
+      "grossFeesUsd": 75701,
+      "collectionsUsd": 14308,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6499673591104425
+    },
+    {
+      "date": "2026-07-30",
+      "volumeUsd": 76281951,
+      "grossFeesUsd": 101720,
+      "collectionsUsd": 17473,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6205565236480906
+    },
+    {
+      "date": "2026-07-31",
+      "volumeUsd": 68353242,
+      "grossFeesUsd": 93770,
+      "collectionsUsd": 15546,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6757124458276063
+    },
+    {
+      "date": "2026-08-01",
+      "volumeUsd": 55892983,
+      "grossFeesUsd": 68960,
+      "collectionsUsd": 13576,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6610286733832391
+    },
+    {
+      "date": "2026-08-02",
+      "volumeUsd": 36462403,
+      "grossFeesUsd": 49848,
+      "collectionsUsd": 5354,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6722692047355376
+    },
+    {
+      "date": "2026-08-03",
+      "volumeUsd": 72342481,
+      "grossFeesUsd": 95834,
+      "collectionsUsd": 11733,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7151853336331395
+    },
+    {
+      "date": "2026-08-04",
+      "volumeUsd": 57494072,
+      "grossFeesUsd": 73742,
+      "collectionsUsd": 11864,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7341221759531158
+    },
+    {
+      "date": "2026-08-05",
+      "volumeUsd": 72973214,
+      "grossFeesUsd": 84527,
+      "collectionsUsd": 15939,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7290822892344333
+    },
+    {
+      "date": "2026-08-06",
+      "volumeUsd": 83869324,
+      "grossFeesUsd": 71684,
+      "collectionsUsd": 10715,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6978914247582741
+    },
+    {
+      "date": "2026-08-07",
+      "volumeUsd": 72662913,
+      "grossFeesUsd": 94209,
+      "collectionsUsd": 21552,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.656305031618305
+    },
+    {
+      "date": "2026-08-08",
+      "volumeUsd": 58133070,
+      "grossFeesUsd": 85935,
+      "collectionsUsd": 13749,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5906756764196346
+    },
+    {
+      "date": "2026-08-09",
+      "volumeUsd": 40456223,
+      "grossFeesUsd": 45885,
+      "collectionsUsd": 16602,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.610897381778781
+    },
+    {
+      "date": "2026-08-10",
+      "volumeUsd": 75768932,
+      "grossFeesUsd": 101506,
+      "collectionsUsd": 13215,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5980256418968959
+    },
+    {
+      "date": "2026-08-11",
+      "volumeUsd": 78242806,
+      "grossFeesUsd": 89805,
+      "collectionsUsd": 18369,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5996778324833314
+    },
+    {
+      "date": "2026-08-12",
+      "volumeUsd": 73701129,
+      "grossFeesUsd": 89734,
+      "collectionsUsd": 18006,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.617847612633165
+    },
+    {
+      "date": "2026-08-13",
+      "volumeUsd": 69758339,
+      "grossFeesUsd": 66844,
+      "collectionsUsd": 8915,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6426774248679
+    },
+    {
+      "date": "2026-08-14",
+      "volumeUsd": 77921510,
+      "grossFeesUsd": 81532,
+      "collectionsUsd": 15902,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6390118166266001
+    },
+    {
+      "date": "2026-08-15",
+      "volumeUsd": 31744839,
+      "grossFeesUsd": 30598,
+      "collectionsUsd": 7223,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6395488858428195
+    },
+    {
+      "date": "2026-08-16",
+      "volumeUsd": 50139274,
+      "grossFeesUsd": 48854,
+      "collectionsUsd": 6492,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.616586459900459
+    },
+    {
+      "date": "2026-08-17",
+      "volumeUsd": 90147865,
+      "grossFeesUsd": 91373,
+      "collectionsUsd": 25889,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.6010932247695553
+    },
+    {
+      "date": "2026-08-18",
+      "volumeUsd": 80870447,
+      "grossFeesUsd": 78925,
+      "collectionsUsd": 15352,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.63646787047346
+    },
+    {
+      "date": "2026-08-19",
+      "volumeUsd": 134181536,
+      "grossFeesUsd": 179826,
+      "collectionsUsd": 60832,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.5879597131538001
+    },
+    {
+      "date": "2026-08-20",
+      "volumeUsd": 136215921,
+      "grossFeesUsd": 256874,
+      "collectionsUsd": 39966,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7303834026337377
+    },
+    {
+      "date": "2026-08-21",
+      "volumeUsd": 165407797,
+      "grossFeesUsd": 304079,
+      "collectionsUsd": 71250,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.7671618068180388
+    },
+    {
+      "date": "2026-08-22",
+      "volumeUsd": 142407166,
+      "grossFeesUsd": 275924,
+      "collectionsUsd": 37752,
+      "nativeReceiptsNear": null,
+      "priceUsd": 1.9661216191688484
+    },
+    {
+      "date": "2026-08-23",
+      "volumeUsd": 111313731,
+      "grossFeesUsd": 204259,
+      "collectionsUsd": 32726,
+      "nativeReceiptsNear": 16247.956284293807,
+      "priceUsd": 1.8784572567196742
+    },
+    {
+      "date": "2026-08-24",
+      "volumeUsd": 145642189,
+      "grossFeesUsd": 191573,
+      "collectionsUsd": 37127,
+      "nativeReceiptsNear": 19003.922327390068,
+      "priceUsd": 2.0141495518834596
+    },
+    {
+      "date": "2026-08-25",
+      "volumeUsd": 145152506,
+      "grossFeesUsd": 196928,
+      "collectionsUsd": 27170,
+      "nativeReceiptsNear": 14604.970630761569,
+      "priceUsd": 1.9536374917234849
+    },
+    {
+      "date": "2026-08-26",
+      "volumeUsd": 126010720,
+      "grossFeesUsd": 157295,
+      "collectionsUsd": 36945,
+      "nativeReceiptsNear": 19443.744432634034,
+      "priceUsd": 1.8603402087618055
+    },
+    {
+      "date": "2026-08-27",
+      "volumeUsd": 133221354,
+      "grossFeesUsd": 197928,
+      "collectionsUsd": 25295,
+      "nativeReceiptsNear": 13121.938076319737,
+      "priceUsd": 1.900101186151192
+    },
+    {
+      "date": "2026-08-28",
+      "volumeUsd": 110622273,
+      "grossFeesUsd": 177386,
+      "collectionsUsd": 26210,
+      "nativeReceiptsNear": 14370.026082941578,
+      "priceUsd": 1.9277208295241706
+    },
+    {
+      "date": "2026-08-29",
+      "volumeUsd": 56604956,
+      "grossFeesUsd": 101288,
+      "collectionsUsd": 26382,
+      "nativeReceiptsNear": 14122.117096084858,
+      "priceUsd": 1.8238265545687031
+    },
+    {
+      "date": "2026-08-30",
+      "volumeUsd": 68306432,
+      "grossFeesUsd": 110331,
+      "collectionsUsd": 27238,
+      "nativeReceiptsNear": 14981.181029751171,
+      "priceUsd": 1.8681154217385798
+    },
+    {
+      "date": "2026-08-31",
+      "volumeUsd": 123658848,
+      "grossFeesUsd": 133489,
+      "collectionsUsd": 23922,
+      "nativeReceiptsNear": 12461.10031580769,
+      "priceUsd": 1.818123276059755
+    },
+    {
+      "date": "2026-09-01",
+      "volumeUsd": 131320550,
+      "grossFeesUsd": 113515,
+      "collectionsUsd": 23011,
+      "nativeReceiptsNear": 12197.82397072094,
+      "priceUsd": 1.91972951071275
+    },
+    {
+      "date": "2026-09-02",
+      "volumeUsd": 143225567,
+      "grossFeesUsd": 182270,
+      "collectionsUsd": 29958,
+      "nativeReceiptsNear": 15883.845820229039,
+      "priceUsd": 1.8864857785414904
+    },
+    {
+      "date": "2026-09-03",
+      "volumeUsd": 169508996,
+      "grossFeesUsd": 189877,
+      "collectionsUsd": 64906,
+      "nativeReceiptsNear": 33212.26091352745,
+      "priceUsd": 1.8860409592252032
+    },
+    {
+      "date": "2026-09-04",
+      "volumeUsd": 209382036,
+      "grossFeesUsd": 166252,
+      "collectionsUsd": 109183,
+      "nativeReceiptsNear": 50270.713563039055,
+      "priceUsd": 1.9542831243197905
+    },
+    {
+      "date": "2026-09-05",
+      "volumeUsd": 101244339,
+      "grossFeesUsd": 127209,
+      "collectionsUsd": 28981,
+      "nativeReceiptsNear": 13223.32377806652,
+      "priceUsd": 2.1718932806854885
+    },
+    {
+      "date": "2026-09-06",
+      "volumeUsd": 141010447,
+      "grossFeesUsd": 179520,
+      "collectionsUsd": 68915,
+      "nativeReceiptsNear": 28280.22249493146,
+      "priceUsd": 2.19166557571438
+    },
+    {
+      "date": "2026-09-07",
+      "volumeUsd": 109239532,
+      "grossFeesUsd": 141528,
+      "collectionsUsd": 21453,
+      "nativeReceiptsNear": 9305.241925960323,
+      "priceUsd": 2.436852334393612
+    },
+    {
+      "date": "2026-09-08",
+      "volumeUsd": 104742194,
+      "grossFeesUsd": 116689,
+      "collectionsUsd": 26021,
+      "nativeReceiptsNear": 11213.953416748822,
+      "priceUsd": 2.305430039336974
+    },
+    {
+      "date": "2026-09-09",
+      "volumeUsd": 198864845,
+      "grossFeesUsd": 310488,
+      "collectionsUsd": 39358,
+      "nativeReceiptsNear": 15839.548829620868,
+      "priceUsd": 2.320387177080241
+    },
+    {
+      "date": "2026-09-10",
+      "volumeUsd": 150771716,
+      "grossFeesUsd": 198245,
+      "collectionsUsd": 35167,
+      "nativeReceiptsNear": 14395.262667467592,
+      "priceUsd": 2.4848168147865453
+    },
+    {
+      "date": "2026-09-11",
+      "volumeUsd": 147252230,
+      "grossFeesUsd": 200758,
+      "collectionsUsd": 37305,
+      "nativeReceiptsNear": 15783.98760326884,
+      "priceUsd": 2.4429785888589204
+    },
+    {
+      "date": "2026-09-12",
+      "volumeUsd": 111677869,
+      "grossFeesUsd": 114257,
+      "collectionsUsd": 27755,
+      "nativeReceiptsNear": 11709.748639390935,
+      "priceUsd": 2.3634977407657054
+    },
+    {
+      "date": "2026-09-13",
+      "volumeUsd": 87330458,
+      "grossFeesUsd": 83603,
+      "collectionsUsd": 30849,
+      "nativeReceiptsNear": 13416.024993372794,
+      "priceUsd": 2.3702719349774926
+    },
+    {
+      "date": "2026-09-14",
+      "volumeUsd": 121309892,
+      "grossFeesUsd": 183447,
+      "collectionsUsd": 34816,
+      "nativeReceiptsNear": 14106.252890435519,
+      "priceUsd": 2.2993835031069256
+    },
+    {
+      "date": "2026-09-15",
+      "volumeUsd": 131467577,
+      "grossFeesUsd": 198043,
+      "collectionsUsd": 32832,
+      "nativeReceiptsNear": 14059.209494150336,
+      "priceUsd": 2.468122510711336
+    },
+    {
+      "date": "2026-09-16",
+      "volumeUsd": 134119473,
+      "grossFeesUsd": 241336,
+      "collectionsUsd": 40751,
+      "nativeReceiptsNear": 15577.325028009725,
+      "priceUsd": 2.3352355734561585
+    },
+    {
+      "date": "2026-09-17",
+      "volumeUsd": 303419794,
+      "grossFeesUsd": 556429,
+      "collectionsUsd": 102442,
+      "nativeReceiptsNear": 32536.1371288197,
+      "priceUsd": 2.616014637728269
+    },
+    {
+      "date": "2026-09-18",
+      "volumeUsd": 227845909,
+      "grossFeesUsd": 414402,
+      "collectionsUsd": 127733,
+      "nativeReceiptsNear": 33948.96981610077,
+      "priceUsd": 3.148546480125832
+    },
+    {
+      "date": "2026-09-19",
+      "volumeUsd": 126492193,
+      "grossFeesUsd": 249210,
+      "collectionsUsd": 59836,
+      "nativeReceiptsNear": 16683.445987794148,
+      "priceUsd": 3.7625126088515235
+    },
+    {
+      "date": "2026-09-20",
+      "volumeUsd": 118561598,
+      "grossFeesUsd": 180169,
+      "collectionsUsd": 47877,
+      "nativeReceiptsNear": 11499.700830898628,
+      "priceUsd": 3.5865306009892803
+    },
+    {
+      "date": "2026-09-21",
+      "volumeUsd": 270827432,
+      "grossFeesUsd": 576218,
+      "collectionsUsd": 120972,
+      "nativeReceiptsNear": 28351.595037269733,
+      "priceUsd": 4.163360981216509
+    },
+    {
+      "date": "2026-09-22",
+      "volumeUsd": 223237663,
+      "grossFeesUsd": 410219,
+      "collectionsUsd": 115821,
+      "nativeReceiptsNear": 26250.821302954297,
+      "priceUsd": 4.26685096763515
+    },
+    {
+      "date": "2026-09-23",
+      "volumeUsd": 215033741,
+      "grossFeesUsd": 355621,
+      "collectionsUsd": 107775,
+      "nativeReceiptsNear": 24872.669066331968,
+      "priceUsd": 4.4120721116529396
+    },
+    {
+      "date": "2026-09-24",
+      "volumeUsd": 175821655,
+      "grossFeesUsd": 272938,
+      "collectionsUsd": 79756,
+      "nativeReceiptsNear": 17378.979186283814,
+      "priceUsd": 4.333075476693107
+    },
+    {
+      "date": "2026-09-25",
+      "volumeUsd": 180522864,
+      "grossFeesUsd": 266210,
+      "collectionsUsd": 93621,
+      "nativeReceiptsNear": 18911.613695987067,
+      "priceUsd": 4.589213139670827
+    },
+    {
+      "date": "2026-09-26",
+      "volumeUsd": 93548366,
+      "grossFeesUsd": 150152,
+      "collectionsUsd": 41268,
+      "nativeReceiptsNear": 8194.910061900828,
+      "priceUsd": 4.950437795281758
+    },
+    {
+      "date": "2026-09-27",
+      "volumeUsd": 120587818,
+      "grossFeesUsd": 216809,
+      "collectionsUsd": 47489,
+      "nativeReceiptsNear": 8810.770923713786,
+      "priceUsd": 5.035805330593034
+    },
+    {
+      "date": "2026-09-28",
+      "volumeUsd": 167864177,
+      "grossFeesUsd": 290827,
+      "collectionsUsd": 65755,
+      "nativeReceiptsNear": 13645.871029931906,
+      "priceUsd": 5.38986038977869
+    },
+    {
+      "date": "2026-09-29",
+      "volumeUsd": 213684038,
+      "grossFeesUsd": 355494,
+      "collectionsUsd": 74042,
+      "nativeReceiptsNear": 15152.05199414112,
+      "priceUsd": 4.818652319284116
+    },
+    {
+      "date": "2026-09-30",
+      "volumeUsd": 173179408,
+      "grossFeesUsd": 284057,
+      "collectionsUsd": 103865,
+      "nativeReceiptsNear": 19468.309628826075,
+      "priceUsd": 4.886592635782179
+    },
+    {
+      "date": "2026-10-01",
+      "volumeUsd": 125036685,
+      "grossFeesUsd": 206596,
+      "collectionsUsd": 71388,
+      "nativeReceiptsNear": 14850.813187716765,
+      "priceUsd": 5.335091109736817
+    },
+    {
+      "date": "2026-10-02",
+      "volumeUsd": 124137317,
+      "grossFeesUsd": 225596,
+      "collectionsUsd": 54327,
+      "nativeReceiptsNear": 11581.493773596676,
+      "priceUsd": 4.807012283395656
+    },
+    {
+      "date": "2026-10-03",
+      "volumeUsd": 76633486,
+      "grossFeesUsd": 117971,
+      "collectionsUsd": 25842,
+      "nativeReceiptsNear": 5350.502790669828,
+      "priceUsd": 4.690818392891492
+    },
+    {
+      "date": "2026-10-04",
+      "volumeUsd": 64354236,
+      "grossFeesUsd": 240708,
+      "collectionsUsd": 146154,
+      "nativeReceiptsNear": 29746.4811282065,
+      "priceUsd": 4.829822220269547
+    },
+    {
+      "date": "2026-10-05",
+      "volumeUsd": 117176998,
+      "grossFeesUsd": 207150,
+      "collectionsUsd": 53207,
+      "nativeReceiptsNear": 10059.818607715759,
+      "priceUsd": 4.913315252654953
+    },
+    {
+      "date": "2026-10-06",
+      "volumeUsd": 126234797,
+      "grossFeesUsd": 225250,
+      "collectionsUsd": 61629,
+      "nativeReceiptsNear": 12163.324934210006,
+      "priceUsd": 5.289065104865807
+    },
+    {
+      "date": "2026-10-07",
+      "volumeUsd": 119708258,
+      "grossFeesUsd": 238952,
+      "collectionsUsd": 63423,
+      "nativeReceiptsNear": 11888.839066079427,
+      "priceUsd": 5.0667957396624255
+    },
+    {
+      "date": "2026-10-08",
+      "volumeUsd": 256069392,
+      "grossFeesUsd": 401457,
+      "collectionsUsd": 118720,
+      "nativeReceiptsNear": 26610.203434807543,
+      "priceUsd": 5.334629329884487
+    },
+    {
+      "date": "2026-10-09",
+      "volumeUsd": 255697796,
+      "grossFeesUsd": 339710,
+      "collectionsUsd": 113449,
+      "nativeReceiptsNear": 23236.130551088576,
+      "priceUsd": 4.461436407898754
+    },
+    {
+      "date": "2026-10-10",
+      "volumeUsd": 153185460,
+      "grossFeesUsd": 219737,
+      "collectionsUsd": 78515,
+      "nativeReceiptsNear": 14837.499412025125,
+      "priceUsd": 4.882424121398192
+    },
+    {
+      "date": "2026-10-11",
+      "volumeUsd": 122774330,
+      "grossFeesUsd": 162447,
+      "collectionsUsd": 81286,
+      "nativeReceiptsNear": 13828.181430030443,
+      "priceUsd": 5.2910018341071225
+    },
+    {
+      "date": "2026-10-12",
+      "volumeUsd": 139501825,
+      "grossFeesUsd": 202627,
+      "collectionsUsd": 62759,
+      "nativeReceiptsNear": 12339.092265833295,
+      "priceUsd": 5.887577099447574
+    },
+    {
+      "date": "2026-10-13",
+      "volumeUsd": 133642221,
+      "grossFeesUsd": 200723,
+      "collectionsUsd": 56520,
+      "nativeReceiptsNear": 11222.102689540525,
+      "priceUsd": 5.0861700228658355
+    },
+    {
+      "date": "2026-10-14",
+      "volumeUsd": 145432171,
+      "grossFeesUsd": 229844,
+      "collectionsUsd": 82736,
+      "nativeReceiptsNear": 16950.364916982027,
+      "priceUsd": 5.036515898953102
+    },
+    {
+      "date": "2026-10-15",
+      "volumeUsd": 99643158,
+      "grossFeesUsd": 170811,
+      "collectionsUsd": 162768,
+      "nativeReceiptsNear": 30963.11844766143,
+      "priceUsd": 4.881085155891693
+    },
+    {
+      "date": "2026-10-16",
+      "volumeUsd": 88174962,
+      "grossFeesUsd": 143463,
+      "collectionsUsd": 46209,
+      "nativeReceiptsNear": 9130.73437310287,
+      "priceUsd": 5.256841821770708
+    },
+    {
+      "date": "2026-10-17",
+      "volumeUsd": 130727860,
+      "grossFeesUsd": 213822,
+      "collectionsUsd": 32347,
+      "nativeReceiptsNear": 6660.545117778433,
+      "priceUsd": 5.060826870899352
+    },
+    {
+      "date": "2026-10-18",
+      "volumeUsd": 138807317,
+      "grossFeesUsd": 252096,
+      "collectionsUsd": 46284,
+      "nativeReceiptsNear": 9235.668739477795,
+      "priceUsd": 4.856513264288132
+    },
+    {
+      "date": "2026-10-19",
+      "volumeUsd": 97672919,
+      "grossFeesUsd": 150645,
+      "collectionsUsd": 53083,
+      "nativeReceiptsNear": 10833.412761432883,
+      "priceUsd": 5.007467606309968
+    },
+    {
+      "date": "2026-10-20",
+      "volumeUsd": 121452063,
+      "grossFeesUsd": 218646,
+      "collectionsUsd": 78180,
+      "nativeReceiptsNear": 15877.586349949554,
+      "priceUsd": 4.899896640657338
+    },
+    {
+      "date": "2026-10-21",
+      "volumeUsd": 151452049,
+      "grossFeesUsd": 209714,
+      "collectionsUsd": 63787,
+      "nativeReceiptsNear": 12124.288854901128,
+      "priceUsd": 4.923929210042525
+    }
+  ],
+  "periods": [
+    {
+      "start": "2026-08-23",
+      "endExclusive": "2026-09-22",
+      "days": 30,
+      "volumeUsd": 4260147656,
+      "grossFeesUsd": 6193942,
+      "collectionsUsd": 1373136,
+      "nativeReceiptsNear": 549851.5511058077,
+      "wallets": [
+        {
+          "account": "1csfundsadmin.sputnik-dao.near",
+          "amountNear": 265.2372243211138,
+          "receiptCount": 11
+        },
+        {
+          "account": "buybacks.multisignature.near",
+          "amountNear": 393215.88219255605,
+          "receiptCount": 682
+        },
+        {
+          "account": "fefundsadmin.sputnik-dao.near",
+          "amountNear": 156370.43168893058,
+          "receiptCount": 292
+        }
+      ]
+    },
+    {
+      "start": "2026-09-22",
+      "endExclusive": "2026-10-22",
+      "days": 30,
+      "volumeUsd": 4350995030,
+      "grossFeesUsd": 7180292,
+      "collectionsUsd": 2282005,
+      "nativeReceiptsNear": 462176.19972287747,
+      "wallets": [
+        {
+          "account": "1csfundsadmin.sputnik-dao.near",
+          "amountNear": 0.09905615998997115,
+          "receiptCount": 1
+        },
+        {
+          "account": "buybacks.multisignature.near",
+          "amountNear": 298722.9507431085,
+          "receiptCount": 933
+        },
+        {
+          "account": "fefundsadmin.sputnik-dao.near",
+          "amountNear": 163453.14992360893,
+          "receiptCount": 456
+        }
+      ]
+    }
+  ],
+  "context": {
+    "ninetyDayVolumeChange": 0.7039,
+    "ninetyDayCollectionsChange": 1.4926,
+    "ninetyDayEstimatedNativeChangeLow": 0.55,
+    "ninetyDayEstimatedNativeChangeHigh": 0.6
+  },
+  "valuationModelAudit": [
+    {
+      "year": 2026,
+      "published_base_case_daily_volume_usd": 250000000.0,
+      "reconstructed_net_fee_bps": 6.101,
+      "reconstructed_annual_net_fees_usd": 55671625.0,
+      "published_annual_issued_near": 32200000,
+      "published_base_price_low": 6,
+      "published_base_price_high": 10,
+      "max_near_price_for_100pct_purchase_coverage_no_gas": 1.728932453416149,
+      "purchase_coverage_pct_at_low_price": 28.81554089026915,
+      "purchase_coverage_pct_at_high_price": 17.28932453416149,
+      "assumptions": "100% model net fees executed as purchases; zero resale; gas burn omitted; static publisher32.2m issuance; not total supply deflation"
+    },
+    {
+      "year": 2027,
+      "published_base_case_daily_volume_usd": 875000000.0,
+      "reconstructed_net_fee_bps": 6.7007,
+      "reconstructed_annual_net_fees_usd": 214003606.25,
+      "published_annual_issued_near": 32200000,
+      "published_base_price_low": 15,
+      "published_base_price_high": 25,
+      "max_near_price_for_100pct_purchase_coverage_no_gas": 6.64607472826087,
+      "purchase_coverage_pct_at_low_price": 44.307164855072465,
+      "purchase_coverage_pct_at_high_price": 26.58429891304348,
+      "assumptions": "100% model net fees executed as purchases; zero resale; gas burn omitted; static publisher32.2m issuance; not total supply deflation"
+    },
+    {
+      "year": 2028,
+      "published_base_case_daily_volume_usd": 3062500000.0,
+      "reconstructed_net_fee_bps": 7.4256,
+      "reconstructed_annual_net_fees_usd": 830042850.0,
+      "published_annual_issued_near": 32200000,
+      "published_base_price_low": 35,
+      "published_base_price_high": 55,
+      "max_near_price_for_100pct_purchase_coverage_no_gas": 25.777728260869566,
+      "purchase_coverage_pct_at_low_price": 73.65065217391304,
+      "purchase_coverage_pct_at_high_price": 46.868596837944665,
+      "assumptions": "100% model net fees executed as purchases; zero resale; gas burn omitted; static publisher32.2m issuance; not total supply deflation"
+    },
+    {
+      "year": 2029,
+      "published_base_case_daily_volume_usd": 10718750000.0,
+      "reconstructed_net_fee_bps": 8.1754,
+      "reconstructed_annual_net_fees_usd": 3198497509.375,
+      "published_annual_issued_near": 32200000,
+      "published_base_price_low": 65,
+      "published_base_price_high": 100,
+      "max_near_price_for_100pct_purchase_coverage_no_gas": 99.33222078804347,
+      "purchase_coverage_pct_at_low_price": 152.81880121237458,
+      "purchase_coverage_pct_at_high_price": 99.33222078804347,
+      "assumptions": "100% model net fees executed as purchases; zero resale; gas burn omitted; static publisher32.2m issuance; not total supply deflation"
+    },
+    {
+      "year": 2030,
+      "published_base_case_daily_volume_usd": 37515625000.0,
+      "reconstructed_net_fee_bps": 8.9003,
+      "reconstructed_annual_net_fees_usd": 12187361577.34375,
+      "published_annual_issued_near": 32200000,
+      "published_base_price_low": 100,
+      "published_base_price_high": 150,
+      "max_near_price_for_100pct_purchase_coverage_no_gas": 378.4894899796196,
+      "purchase_coverage_pct_at_low_price": 378.4894899796196,
+      "purchase_coverage_pct_at_high_price": 252.32632665307972,
+      "assumptions": "100% model net fees executed as purchases; zero resale; gas burn omitted; static publisher32.2m issuance; not total supply deflation"
+    }
+  ],
+  "seed": {
+    "dailyVolumeUsd": 145033167.66666666,
+    "openingSupplyNear": 1309924364.915439,
+    "initialPriceUsd": 4.534303591584394,
+    "supplyBlock": 221562163,
+    "supplyDate": "2026-10-25",
+    "quoteTimestamp": "2026-10-25T16:15:00Z"
+  },
+  "sources": [
+    {
+      "id": "volume",
+      "title": "Intents settled volume",
+      "publisher": "DefiLlama",
+      "url": "https://api.llama.fi/summary/dexs/near-intents",
+      "kind": "Public data"
+    },
+    {
+      "id": "fees",
+      "title": "Intents gross fees",
+      "publisher": "DefiLlama",
+      "url": "https://api.llama.fi/summary/fees/near-intents?dataType=dailyFees",
+      "kind": "Public data"
+    },
+    {
+      "id": "collections",
+      "title": "Captured collections",
+      "publisher": "DefiLlama",
+      "url": "https://api.llama.fi/summary/fees/near-intents?dataType=dailyRevenue",
+      "kind": "Public data"
+    },
+    {
+      "id": "adapter",
+      "title": "Collection adapter and definitions",
+      "publisher": "DefiLlama",
+      "url": "https://github.com/DefiLlama/dimension-adapters/blob/acd40121e87b1ca65bf94f04a37a7f1910867f8e/fees/near-intents/index.ts",
+      "kind": "Methodology"
+    },
+    {
+      "id": "rpc",
+      "title": "Blocks and supply",
+      "publisher": "NEAR Docs",
+      "url": "https://docs.near.org/api/rpc/block-chunk",
+      "kind": "Official documentation"
+    },
+    {
+      "id": "validators",
+      "title": "Validator reward RPC",
+      "publisher": "NEAR Docs",
+      "url": "https://docs.near.org/api-reference/post-validators",
+      "kind": "Official documentation"
+    },
+    {
+      "id": "tokenomics",
+      "title": "Evolving NEAR tokenomics",
+      "publisher": "NEAR",
+      "url": "https://near.org/blog/evolving-near-tokenomics",
+      "kind": "Official economic case"
+    },
+    {
+      "id": "svrn",
+      "title": "A bottom-up investment case for NEAR",
+      "publisher": "SVRN",
+      "url": "https://svrn.net/research/near-protocol",
+      "kind": "Published model"
+    },
+    {
+      "id": "fees-policy",
+      "title": "Intents fee policy",
+      "publisher": "NEAR Intents",
+      "url": "https://docs.near-intents.org/resources/fees",
+      "kind": "Official documentation"
+    }
+  ],
+  "sampleReceipts": [
+    {
+      "date": "2026-10-15T00:36:49.375261+00:00",
+      "amountNear": 8641.924799631253,
+      "from": "intents.near",
+      "to": "buybacks.multisignature.near",
+      "receiptId": "CwLo1V6oYB2JhegqZhHEVN2wRKdnmzrTE2vF52sWrn8g",
+      "tx": "BJ7DHhR6LhFunt9FPFC7StaPSV5fV3YNfCVJQfs4xC2V",
+      "url": "https://nearblocks.io/txns/BJ7DHhR6LhFunt9FPFC7StaPSV5fV3YNfCVJQfs4xC2V",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-10-15T00:53:45.507337+00:00",
+      "amountNear": 7747.10027723637,
+      "from": "intents.near",
+      "to": "fefundsadmin.sputnik-dao.near",
+      "receiptId": "6Fe5EMfnvVbNYCGqHndQzZ56PsUo8gkH9H2YQd19oLGB",
+      "tx": "euwbJ8YVd48jmcKCXdB66utLgf9LHSGw5cVQ7AjL1VD",
+      "url": "https://nearblocks.io/txns/euwbJ8YVd48jmcKCXdB66utLgf9LHSGw5cVQ7AjL1VD",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-09-18T08:50:50.534281+00:00",
+      "amountNear": 4877.514771580429,
+      "from": "intents.near",
+      "to": "buybacks.multisignature.near",
+      "receiptId": "6qbffmi9Q29DnoGfZSAg3y1E56XkbW88uHQYp191SZct",
+      "tx": "3HXo7hRHZUa9GVDg97V5L2LX5j57LpgRvaumgEJfKBFT",
+      "url": "https://nearblocks.io/txns/3HXo7hRHZUa9GVDg97V5L2LX5j57LpgRvaumgEJfKBFT",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-10-15T00:13:27.419742+00:00",
+      "amountNear": 4839.976080890163,
+      "from": "intents.near",
+      "to": "buybacks.multisignature.near",
+      "receiptId": "Hzpm8ZGcuqzkyc7CectNQYW4DJPvfTwZzWD8KhvY6GLT",
+      "tx": "Bb5PWU6wTif8AjUS9oTibt6SdFQzH8mmQZrbqTFvH6vV",
+      "url": "https://nearblocks.io/txns/Bb5PWU6wTif8AjUS9oTibt6SdFQzH8mmQZrbqTFvH6vV",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-10-04T01:21:00.193951+00:00",
+      "amountNear": 4182.929309731587,
+      "from": "intents.near",
+      "to": "fefundsadmin.sputnik-dao.near",
+      "receiptId": "BsuvcgwSHyNePShLuGbfoxQX2kyjLdq9sbTbBQ3NBwa1",
+      "tx": "92JeZb3sLWtp6nDmcTt89r3Ff5vZTJNW7CocrV7ndV8R",
+      "url": "https://nearblocks.io/txns/92JeZb3sLWtp6nDmcTt89r3Ff5vZTJNW7CocrV7ndV8R",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-10-04T07:20:17.376732+00:00",
+      "amountNear": 4040.929576884064,
+      "from": "intents.near",
+      "to": "fefundsadmin.sputnik-dao.near",
+      "receiptId": "Hhn5CUutyeqjVAtjXdSawyMGU8WBZW1TWHGJ94rDSv8m",
+      "tx": "BvBoUfnCTzkMRATdhHy9X8NDLziUVrmLVkZ1RzbNJj6Z",
+      "url": "https://nearblocks.io/txns/BvBoUfnCTzkMRATdhHy9X8NDLziUVrmLVkZ1RzbNJj6Z",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-09-13T17:31:05.757254+00:00",
+      "amountNear": 3595.0,
+      "from": "clingy.near",
+      "to": "buybacks.multisignature.near",
+      "receiptId": "kJMb1RdRbEys2G9G9a1kDAVzH25pgrRi5RTC4JEGppD",
+      "tx": "9AnzYwb1GF5EBpEab646NzjiNFgmXeLGkGKVbCQAoijc",
+      "url": "https://nearblocks.io/txns/9AnzYwb1GF5EBpEab646NzjiNFgmXeLGkGKVbCQAoijc",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-08-26T16:44:41.335704+00:00",
+      "amountNear": 3428.8756721634227,
+      "from": "intents.near",
+      "to": "fefundsadmin.sputnik-dao.near",
+      "receiptId": "AqwcfxL9WconeyNigYpU4gJLmGuKWGythWTaLzrsXFqF",
+      "tx": "BTKCy2tRfKPLwMvqRxB17VZ5Ux3StjZqDgVi8Xp2mWG4",
+      "url": "https://nearblocks.io/txns/BTKCy2tRfKPLwMvqRxB17VZ5Ux3StjZqDgVi8Xp2mWG4",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-10-04T06:54:23.296185+00:00",
+      "amountNear": 3042.3399226802344,
+      "from": "intents.near",
+      "to": "fefundsadmin.sputnik-dao.near",
+      "receiptId": "Fgk8LaWfYfn9qcA6Ang1xtLffK8GoBZtEBo8GQWCcnw3",
+      "tx": "8P4WtSFcwdPRoTzt7V3w9GYCB1v2KueCNxA2uXXcJDoY",
+      "url": "https://nearblocks.io/txns/8P4WtSFcwdPRoTzt7V3w9GYCB1v2KueCNxA2uXXcJDoY",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-10-04T06:25:14.177814+00:00",
+      "amountNear": 3032.451364460441,
+      "from": "intents.near",
+      "to": "fefundsadmin.sputnik-dao.near",
+      "receiptId": "2QAauq7xY6hp8z26vwCE1SFMpCieAnXpZtaqb3zUvQi9",
+      "tx": "3PnqT1GH28wj8Yrv4P4gjqehxc28voBZUiACyu7otDAx",
+      "url": "https://nearblocks.io/txns/3PnqT1GH28wj8Yrv4P4gjqehxc28voBZUiACyu7otDAx",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-10-04T07:00:08.184063+00:00",
+      "amountNear": 3031.23884273015,
+      "from": "intents.near",
+      "to": "fefundsadmin.sputnik-dao.near",
+      "receiptId": "CkHKWwg71GcnHgfsWtJL3zAYwynK2sF2VGr9k3DtaXdv",
+      "tx": "5JUiBZfnVP3Ryv5FzMCRRUZXgrB69xpAiWMgfaevkNo8",
+      "url": "https://nearblocks.io/txns/5JUiBZfnVP3Ryv5FzMCRRUZXgrB69xpAiWMgfaevkNo8",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    },
+    {
+      "date": "2026-10-05T22:38:45.046848+00:00",
+      "amountNear": 2525.9267951621546,
+      "from": "intents.near",
+      "to": "buybacks.multisignature.near",
+      "receiptId": "HDdLph8oqChj57CrNx2mdYoQXoTAk7zjB3iCnPsBaorY",
+      "tx": "HtnfGrBvqjoENfoVCFHDxxjUY5FT9PW3qTs2YFFRNqTF",
+      "url": "https://nearblocks.io/txns/HtnfGrBvqjoENfoVCFHDxxjUY5FT9PW3qTs2YFFRNqTF",
+      "classification": "External native receipt; market acquisition not established by this receipt alone"
+    }
+  ]
+}

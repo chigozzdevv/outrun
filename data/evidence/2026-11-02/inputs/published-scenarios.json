@@ -1,0 +1,67 @@
+[
+  {
+    "year": 2026,
+    "published_base_case_daily_volume_usd": 250000000.0,
+    "reconstructed_net_fee_bps": 6.101,
+    "reconstructed_annual_net_fees_usd": 55671625.0,
+    "published_annual_issued_near": 32200000,
+    "published_base_price_low": 6,
+    "published_base_price_high": 10,
+    "max_near_price_for_100pct_purchase_coverage_no_gas": 1.728932453416149,
+    "purchase_coverage_pct_at_low_price": 28.81554089026915,
+    "purchase_coverage_pct_at_high_price": 17.28932453416149,
+    "assumptions": "100% model net fees executed as purchases; zero resale; gas burn omitted; static publisher32.2m issuance; not total supply deflation"
+  },
+  {
+    "year": 2027,
+    "published_base_case_daily_volume_usd": 875000000.0,
+    "reconstructed_net_fee_bps": 6.7007,
+    "reconstructed_annual_net_fees_usd": 214003606.25,
+    "published_annual_issued_near": 32200000,
+    "published_base_price_low": 15,
+    "published_base_price_high": 25,
+    "max_near_price_for_100pct_purchase_coverage_no_gas": 6.64607472826087,
+    "purchase_coverage_pct_at_low_price": 44.307164855072465,
+    "purchase_coverage_pct_at_high_price": 26.58429891304348,
+    "assumptions": "100% model net fees executed as purchases; zero resale; gas burn omitted; static publisher32.2m issuance; not total supply deflation"
+  },
+  {
+    "year": 2028,
+    "published_base_case_daily_volume_usd": 3062500000.0,
+    "reconstructed_net_fee_bps": 7.4256,
+    "reconstructed_annual_net_fees_usd": 830042850.0,
+    "published_annual_issued_near": 32200000,
+    "published_base_price_low": 35,
+    "published_base_price_high": 55,
+    "max_near_price_for_100pct_purchase_coverage_no_gas": 25.777728260869566,
+    "purchase_coverage_pct_at_low_price": 73.65065217391304,
+    "purchase_coverage_pct_at_high_price": 46.868596837944665,
+    "assumptions": "100% model net fees executed as purchases; zero resale; gas burn omitted; static publisher32.2m issuance; not total supply deflation"
+  },
+  {
+    "year": 2029,
+    "published_base_case_daily_volume_usd": 10718750000.0,
+    "reconstructed_net_fee_bps": 8.1754,
+    "reconstructed_annual_net_fees_usd": 3198497509.375,
+    "published_annual_issued_near": 32200000,
+    "published_base_price_low": 65,
+    "published_base_price_high": 100,
+    "max_near_price_for_100pct_purchase_coverage_no_gas": 99.33222078804347,
+    "purchase_coverage_pct_at_low_price": 152.81880121237458,
+    "purchase_coverage_pct_at_high_price": 99.33222078804347,
+    "assumptions": "100% model net fees executed as purchases; zero resale; gas burn omitted; static publisher32.2m issuance; not total supply deflation"
+  },
+  {
+    "year": 2030,
+    "published_base_case_daily_volume_usd": 37515625000.0,
+    "reconstructed_net_fee_bps": 8.9003,
+    "reconstructed_annual_net_fees_usd": 12187361577.34375,
+    "published_annual_issued_near": 32200000,
+    "published_base_price_low": 100,
+    "published_base_price_high": 150,
+    "max_near_price_for_100pct_purchase_coverage_no_gas": 378.4894899796196,
+    "purchase_coverage_pct_at_low_price": 378.4894899796196,
+    "purchase_coverage_pct_at_high_price": 252.32632665307972,
+    "assumptions": "100% model net fees executed as purchases; zero resale; gas burn omitted; static publisher32.2m issuance; not total supply deflation"
+  }
+]

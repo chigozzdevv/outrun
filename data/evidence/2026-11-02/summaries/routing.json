@@ -1,0 +1,62 @@
+{
+  "window": {
+    "startUtc": "2026-10-04T00:00:00.000Z",
+    "splitUtc": "2026-10-27T00:00:00.000Z",
+    "endUtc": "2026-11-02T13:35:40.539Z",
+    "finalDayPartial": true
+  },
+  "volumes": {
+    "allUsd": 800011888.9925486,
+    "thirdPartyUsd": 611539378.1804765,
+    "firstPartyUsd": 28152911.95380991,
+    "untaggedUsd": 160319598.858262,
+    "topFiveUsd": 331795706.1952381,
+    "topFiveShareOfThirdParty": 0.5425582031731717,
+    "topFiveShareOfAll": 0.414738469215835,
+    "untaggedShareOfAll": 0.20039652043190478,
+    "totalSwaps": 421410,
+    "thirdPartyLabels": 441,
+    "topFive": [
+      {
+        "name": "Ledger Live",
+        "usd": 93148554.84154977
+      },
+      {
+        "name": "LI.FI",
+        "usd": 73459584.38962795
+      },
+      {
+        "name": "THORSwap",
+        "usd": 59374972.07640408
+      },
+      {
+        "name": "Trust Wallet",
+        "usd": 56601162.41821359
+      },
+      {
+        "name": "Rango Exchange",
+        "usd": 49211432.46944274
+      }
+    ]
+  },
+  "cohort": {
+    "earlyLabels": 389,
+    "lateLabels": 273,
+    "returningLabels": 221,
+    "returningShareOfEarly": 0.5681233933161953,
+    "lateVolumeUsd": 149079805.72830656,
+    "returningLateVolumeUsd": 148994965.75906938,
+    "returningShareOfLateVolume": 0.9994309090434972
+  },
+  "source": {
+    "url": "https://nearstats.org/api/integrators.json",
+    "methodology": "https://nearstats.org/integrators",
+    "attribution": "NearStats.org",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "capturedAt": "2026-11-02T13:36:24.856Z",
+    "rawSha256": "d2b3d82e6545d577c3f45841139d70b5e60098cc28665c5a21a7d2ccf2452de8",
+    "scope": "NearStats allocates successful 1Click Explorer swaps to one interface from fee recipients, referral codes and its registry. It values swaps at the larger USD leg. These figures describe the mix of this dataset; they do not cover all Intents settlement or establish earned fees or unique paying customers.",
+    "construction": "Early counts and volumes subtract the seven-day observations from the thirty-day observations for each interface under the identical cutoff; a repeat label has at least one successful swap in both disjoint periods. The first period is longer and the final day is partial. Unlabeled but attributable tags remain in the third-party denominator. Untagged and first-party swaps are explicitly separated."
+  }
+}

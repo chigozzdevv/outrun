@@ -1,0 +1,2143 @@
+{
+  "schemaVersion": 1,
+  "edition": "2026-11-02",
+  "dateMeaning": "The edition date identifies the evidence release. Dataset coverage describes observation periods or modeled years; it is not inferred from the directory date.",
+  "editions": {
+    "observations": "2026-10-28.1",
+    "publisher": "2026-10-28.1"
+  },
+  "datasets": [
+    {
+      "id": "treasury-summary",
+      "source": "data/verified/treasury-rpc-2026-11-02/summary.json",
+      "path": "data/evidence/2026-11-02/summaries/treasury.json",
+      "sha256": "4d6a5097a92e0292ab04db3bb53df434b7b820fe73b2557c8bc567f596b98927",
+      "kind": "derived-summary",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Pinned September/October treasury states and reconciliations."
+      },
+      "units": "Native/wrapped/locked NEAR, exact monetary strings and receipt counts.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.balances",
+        "mode": "derive"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "verifier-summary",
+      "source": "data/verified/internal-balances-2026-11-02/page-summary.json",
+      "path": "data/evidence/2026-11-02/summaries/verifier.json",
+      "sha256": "18bb948c844bf70ddfa5f7ef19f66a8deea31186647555b3c391271982e002dd",
+      "kind": "derived-summary",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Verifier state at the block and UTC time recorded in this summary.",
+        "sourceState": {
+          "blockHeight": 222728039,
+          "blockHash": "CPx6Jmn2THRCGYsqAGXU62YTkPEQnM9wgGmrdQ3vNs8G",
+          "timeUTC": "2026-11-02T13:58:23.911607825Z"
+        }
+      },
+      "units": "Atomic token balances, decimal counts and protocol fee pips.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.verifier.balances",
+        "mode": "derive"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "withdrawal-summary",
+      "source": "data/verified/withdrawal-rpc-2026-11-02/summary.json",
+      "path": "data/evidence/2026-11-02/summaries/withdrawals.json",
+      "sha256": "a34bec78d7b8c6c2f8e9967e24ca34b35c95923b9a0695200cd5784522c6bd25",
+      "kind": "derived-summary",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "794 withdrawals in the stated 23 August–28 October 2026 interval."
+      },
+      "units": "Native NEAR, receipt/transaction counts and per-asset fees.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.withdrawals.reconcile verify",
+        "mode": "derive"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "conversion-summary",
+      "source": "data/verified/withdrawal-rpc-2026-11-02/conversion-summary.json",
+      "path": "data/evidence/2026-11-02/summaries/conversions.json",
+      "sha256": "12bb620ece39bca58169d92d35d17d6ce397ad24933fe63d4b2ca32a73a9152a",
+      "kind": "derived-summary",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Signed conversion attribution for the preserved withdrawal population."
+      },
+      "units": "wNEAR, native NEAR and asset-specific conversion inputs/fees.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.exchanges",
+        "mode": "derive"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "onchain-summary",
+      "source": "data/verified/onchain-results-2026-11-02.json",
+      "path": "data/evidence/2026-11-02/summaries/onchain.json",
+      "sha256": "6870282b27e211f2a54aa58f02fdba072b0fb5de55c75a5f981669b9fb94bc6a",
+      "kind": "derived-summary",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Article facts with source digests; components retain their separate observation periods."
+      },
+      "units": "Per-field quantities: token amounts, USD values, counts, proportions and raw atomic strings.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.build.results",
+        "mode": "derive"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "routing-summary",
+      "source": "data/verified/interface-routing-2026-11-02.json",
+      "path": "data/evidence/2026-11-02/summaries/routing.json",
+      "sha256": "75df67de0ac8afd404bc3f14529bcca04c7279c60884094fc9da1879acd7b3a7",
+      "kind": "derived-summary",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "4 October–2 November 2026, 13:35:40.539 UTC; final day partial."
+      },
+      "units": "USD-valued volume, swap/interface counts and proportions.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.routing.interfaces",
+        "mode": "derive"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "issuance-ledger",
+      "source": "data/verified/supply-ledger.json",
+      "path": "data/evidence/2026-11-02/seeds/supply-ledger.json",
+      "sha256": "5d5b7c13e6333d0c7b6a44a233a2896807cb2b14b329d930b9b2ee6657d669fb",
+      "kind": "preserved-input",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Preserved linked epoch payout boundaries; scopeStartUTC and each row's timestamp define coverage.",
+        "sourceState": {
+          "scopeStartUTC": "2026-08-23T00:00:00+00:00"
+        }
+      },
+      "units": "Gross issuance in exact yoctoNEAR and epoch/block identifiers.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.verify.evidence",
+        "mode": "verify"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "supply-endpoints",
+      "source": "data/verified/supply-endpoints.json",
+      "path": "data/evidence/2026-11-02/seeds/supply-endpoints.json",
+      "sha256": "6ad74f06285fcb577f1794b6abff6451ac00f52b01bf717d5c1c4fe3ce765eba",
+      "kind": "preserved-input",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Pinned endpoints around 23 August, 22 September and 22 October 2026 UTC."
+      },
+      "units": "Exact yoctoNEAR supply, nanosecond timestamps and adjacent block identifiers.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.verify.evidence",
+        "mode": "verify"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "native-seed",
+      "source": "data/original/native-receipts.csv",
+      "path": "data/evidence/2026-11-02/seeds/native-receipts.csv",
+      "sha256": "557d77d9c1684407fa63227ede3b897490d56448fbf527c85e3d9e3c1c175ddb",
+      "kind": "preserved-input",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Runtime seed for the two historical 30-day windows ending 21 October 2026.",
+        "sourceBoundaries": {
+          "window_start": [
+            "2026-08-23",
+            "2026-09-22"
+          ],
+          "window_end_exclusive": [
+            "2026-09-22",
+            "2026-10-22"
+          ]
+        }
+      },
+      "units": "Native NEAR as source decimal strings.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.verify.evidence",
+        "mode": "verify"
+      },
+      "download": null,
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "window_start",
+          "window_end_exclusive",
+          "utc",
+          "block",
+          "receipt_id",
+          "transaction_hash",
+          "predecessor",
+          "receiver",
+          "amount_near",
+          "classification"
+        ],
+        "rows": 2377,
+        "primaryKey": [
+          "receipt_id"
+        ]
+      }
+    },
+    {
+      "id": "observations-baseline",
+      "source": "data/baselines/observations.json",
+      "path": "data/evidence/2026-11-02/baselines/observations.json",
+      "sha256": "9a835d23a84b6b2eaf00319d4169a5ead1a8bb7b72b0c382a192ceb83b500e66",
+      "kind": "preserved-baseline",
+      "coverage": {
+        "kind": "dated-baseline",
+        "description": "Preserved 28 October 2026 baseline; each nested observation or scenario retains its own period.",
+        "sourceState": {
+          "cleanCutoff": "2026-10-21",
+          "retrievedAt": "2026-10-25"
+        }
+      },
+      "units": "Named quantities retain USD, NEAR, proportions, basis points, dates and source decimal strings.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.build.observations",
+        "mode": "derive"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "supply-baseline",
+      "source": "data/baselines/supply.json",
+      "path": "data/evidence/2026-11-02/baselines/supply.json",
+      "sha256": "92e4f25005b583f86eea686c0c2641e3190a684bda0319f7697b1cee64632f1a",
+      "kind": "preserved-baseline",
+      "coverage": {
+        "kind": "dated-baseline",
+        "description": "Preserved 28 October 2026 baseline; each nested observation or scenario retains its own period."
+      },
+      "units": "Named quantities retain USD, NEAR, proportions, basis points, dates and source decimal strings.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.build.observations",
+        "mode": "derive"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "publisher-cases",
+      "source": "data/baselines/publisher.json",
+      "path": "data/evidence/2026-11-02/baselines/publisher.json",
+      "sha256": "0fb9c29bbc7c66cbc8ed5b8b33212f18566ea4d2de99bae8e65a1ce0a74abcc0",
+      "kind": "model-scenario",
+      "coverage": {
+        "kind": "dated-baseline",
+        "description": "Preserved 28 October 2026 baseline; each nested observation or scenario retains its own period."
+      },
+      "units": "Named quantities retain USD, NEAR, proportions, basis points, dates and source decimal strings.",
+      "reproduction": {
+        "command": "node --import tsx compute/src/build/publisher.ts",
+        "mode": "derive"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "treasury/20260901-20261030/recurring-owner",
+      "source": "public/data/near-intents-recurring-owner-top-200-credit-transactions-2026-09-01-to-2026-10-30.csv",
+      "path": "web/public/data/treasury/20260901-20261030/recurring-owner.csv",
+      "sha256": "2a0e79d739d5b41fae9afeebc22d1197cfcf97831257789a7616d2aa508866de",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "window",
+        "description": "Incoming top-200 transaction cohort and all withdrawals, 1 September–30 October 2026."
+      },
+      "units": "NEAR and wNEAR; Raw columns are atomic units (10^24 per NEAR/wNEAR). Other exchange inputs retain their asset identifiers and raw units.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.recurring --limit 200 --verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/treasury/20260901-20261030/recurring-owner.csv",
+        "title": "Recurring account: acquisition receipts and treasury delivery, 1 Sept–30 Oct 2026",
+        "filename": "recurring-owner.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "tx",
+          "receipt",
+          "height",
+          "utc",
+          "receiptBlockHash",
+          "evidenceSource",
+          "creditRaw",
+          "debitRaw",
+          "signedWNEARAcquisitionRaw",
+          "acquisitionInputsRaw",
+          "bundledExchangeOutputs",
+          "explicitSwapLinkedIncomingWNEARRaw",
+          "explicitOtherIncomingWNEARRaw",
+          "explicitTransferSources",
+          "mintMinusBurnWNEARRaw",
+          "otherSignedWNEARChangeRaw",
+          "unattributedNetRaw",
+          "transactionURL",
+          "creditUnits",
+          "debitUnits",
+          "signedWNEARAcquisitionUnits",
+          "explicitSwapLinkedIncomingWNEARUnits",
+          "explicitOtherIncomingWNEARUnits"
+        ],
+        "rows": 212,
+        "primaryKey": [
+          "tx",
+          "receipt"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "treasury/20260901-20261030/inflow-origins",
+      "source": "public/data/near-intents-native-treasury-inflow-origins-2026-09-01-to-2026-10-30.csv",
+      "path": "web/public/data/treasury/20260901-20261030/inflow-origins.csv",
+      "sha256": "2b125cf3f4e7edf7db49dfa4eaa1e1f9e12bd8a644940b1ec6412ab24db14711",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "window",
+        "description": "Native treasury receipts, 1 September–30 October 2026."
+      },
+      "units": "Native NEAR; amountYocto and wNEAR raw fields use 10^24 atomic units. Exchange inputs retain per-asset units.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.inflows --verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/treasury/20260901-20261030/inflow-origins.csv",
+        "title": "Native treasury receipts by source and recipient, 1 Sept–30 Oct 2026",
+        "filename": "inflow-origins.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "receipt_utc",
+          "native_receipt_id",
+          "native_block_height",
+          "native_block_hash",
+          "transaction_hash",
+          "predecessor",
+          "treasury_recipient",
+          "native_near",
+          "flow_class",
+          "withdrawal_owner",
+          "owner_in_original_three",
+          "intent_hash",
+          "verifier_receipt_id",
+          "verifier_block_hash",
+          "authority",
+          "signed_intent_actions",
+          "same_intent_signed_wnear_exchange_raw",
+          "same_intent_exchange_inputs_raw",
+          "unwrap_receipt_id",
+          "trace_source",
+          "transaction_signer",
+          "transaction_receiver",
+          "root_actions",
+          "native_transfer_trigger",
+          "source_transaction_url",
+          "amountYocto",
+          "verified_upstream_wnear_account",
+          "native_near_traced_to_that_upstream_account",
+          "upstream_funding_transaction",
+          "upstream_basis",
+          "also_in_original_794"
+        ],
+        "rows": 2578,
+        "primaryKey": [
+          "native_receipt_id"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "treasury/20260901-20261030/source-matches",
+      "source": "public/data/near-intents-common-source-transfer-matches-2026-09-01-to-2026-10-30.csv",
+      "path": "web/public/data/treasury/20260901-20261030/source-matches.csv",
+      "sha256": "bc86d21845dae8faf56d88e345dd4e8a3196720db9ed03d98c7915d7e8d7c4b1",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "window",
+        "description": "Equal-quantity funding matches for withdrawals, 1 September–30 October 2026."
+      },
+      "units": "Native NEAR, yoctoNEAR and nanoseconds.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.funding --verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/treasury/20260901-20261030/source-matches.csv",
+        "title": "Prior equal-quantity transfers matched to treasury withdrawals, 1 Sept–30 Oct 2026",
+        "filename": "source-matches.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "withdrawingOwner",
+          "sharedSource",
+          "fundingTransaction",
+          "fundingReceipt",
+          "withdrawalTransaction",
+          "nativeReceipt",
+          "nativeReceiptUTC",
+          "payoutNEAR",
+          "amountYocto",
+          "treasury",
+          "ownerInOriginalThree",
+          "gapToVerifierDebitNs",
+          "gapToNativeReceiptNs",
+          "completeIntermediateHistoryAndSignedFunding",
+          "fundingTransactionURL",
+          "withdrawalTransactionURL"
+        ],
+        "rows": 1807,
+        "primaryKey": [
+          "nativeReceipt"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "treasury/20260901-20261030/largest-withdrawals",
+      "source": "public/data/near-intents-six-largest-additional-treasury-withdrawals-2026-09-01-to-2026-10-30.csv",
+      "path": "web/public/data/treasury/20260901-20261030/largest-withdrawals.csv",
+      "sha256": "36fd3c0c0a56c315b302ba3d3d9b180ac6a7f0eebfd13acacf4fd374e604218b",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "selected-events",
+        "description": "Six selected withdrawals and their funding histories, 1 September–30 October 2026.",
+        "sourceBoundaries": {
+          "closing_block": [
+            "218428972",
+            "218463093",
+            "218465732",
+            "220002650",
+            "220005021",
+            "220006743"
+          ]
+        }
+      },
+      "units": "Native NEAR and wNEAR.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.largest --verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/treasury/20260901-20261030/largest-withdrawals.csv",
+        "title": "Funding and custody of the six largest withdrawals outside the collector accounts, 1 Sept–30 Oct 2026",
+        "filename": "largest-withdrawals.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "source_authorizing_account",
+          "withdrawing_account",
+          "treasury",
+          "native_near",
+          "funding_intent_hash",
+          "opening_block",
+          "opening_wnear",
+          "closing_block",
+          "closing_wnear",
+          "indexed_wnear_movements",
+          "source_wnear_before_transfer_block",
+          "source_wnear_at_transfer_block",
+          "source_transaction_counterasset",
+          "funding_transaction",
+          "funding_receipt",
+          "withdrawal_transaction",
+          "native_receipt",
+          "source_funding_url",
+          "native_withdrawal_url"
+        ],
+        "rows": 6,
+        "primaryKey": [
+          "native_receipt"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/20260823-20261028/asset-inventory",
+      "source": "public/data/near-intents-collector-asset-inventory-2026-08-23-to-2026-10-28.csv",
+      "path": "web/public/data/collectors/20260823-20261028/asset-inventory.csv",
+      "sha256": "fc492fb4b8e3daeec90439e96e32d9eacb6940819a22a2744dc289191ca33a8f",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "pinned-balances",
+        "description": "Opening/closing balances and full-period quantities for collector–asset positions, 23 August–28 October 2026.",
+        "sourceBoundaries": {
+          "openingBlock": [
+            "212494411"
+          ],
+          "closingBlock": [
+            "221944496"
+          ]
+        }
+      },
+      "units": "Each row has its own token, symbol and decimals. Raw columns are atomic amounts; Units columns apply that row's decimals. Amounts across different assets are not additive.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.inventory --verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/collectors/20260823-20261028/asset-inventory.csv",
+        "title": "All-asset collector balances and quantity flows, 23 Aug–28 Oct 2026",
+        "filename": "asset-inventory.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "openingBlock",
+          "openingBlockHash",
+          "closingBlock",
+          "closingBlockHash",
+          "owner",
+          "token",
+          "symbol",
+          "decimals",
+          "unitMetadataSource",
+          "openingRaw",
+          "derivedCreditsRaw",
+          "indexedDebitsRaw",
+          "closingRaw",
+          "outgoingEvents",
+          "openingUnits",
+          "derivedCreditUnits",
+          "indexedDebitUnits",
+          "closingUnits"
+        ],
+        "rows": 358,
+        "primaryKey": [
+          "owner",
+          "token"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/20260823-20261028/credit-census",
+      "source": "public/data/near-intents-collector-wnear-credit-census-2026-08-23-to-2026-10-28.csv",
+      "path": "web/public/data/collectors/20260823-20261028/credit-census.csv",
+      "sha256": "dcbf892299031dfa5db2eca5e2a7ff66c3ef131c64f140aeb96ca5e4f9704e8d",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "window",
+        "description": "Collector credit-size census across the pinned 23 August–28 October 2026 interval.",
+        "sourceBoundaries": {
+          "startUTC": [
+            "2026-08-22T23:59:59.885903781Z"
+          ],
+          "endUTC": [
+            "2026-10-28T07:26:47.281150058Z"
+          ]
+        }
+      },
+      "units": "wNEAR quantities and event counts.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.census --verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/collectors/20260823-20261028/credit-census.csv",
+        "title": "Collector wNEAR credit counts and quantity coverage, 23 Aug–28 Oct 2026",
+        "filename": "credit-census.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "startUTC",
+          "endUTC",
+          "collector",
+          "allGrossCreditsWNEAR",
+          "atLeastOneCreditEvents",
+          "atLeastOneCreditWNEAR",
+          "subOneCreditWNEAR",
+          "allIndexedTransferEvents",
+          "countedPositiveWNEARDebits",
+          "impliedIncomingIndexEvents",
+          "impliedSubOneIndexEvents"
+        ],
+        "rows": 3,
+        "primaryKey": [
+          "collector"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "treasury/2026-11-02/controls",
+      "source": "public/data/near-intents-treasury-controls-2026-11-02.csv",
+      "path": "web/public/data/treasury/2026-11-02/controls.csv",
+      "sha256": "c75d4ce9fc3b558d644b56a6ecfc429d27ed348f5dcae8e19d0918957602d3b3",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "pinned-state",
+        "description": "Wallet control policies at finalized block 222728039 on 2 November 2026.",
+        "sourceBoundaries": {
+          "block_height": [
+            "222728039"
+          ]
+        }
+      },
+      "units": "Approval counts, account/key identifiers and block heights; no monetary quantities.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.controls",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/treasury/2026-11-02/controls.csv",
+        "title": "Treasury membership and approval rules, 2 Nov 2026",
+        "filename": "controls.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "wallet",
+          "control_type",
+          "member",
+          "permission",
+          "receiver_id",
+          "method_names",
+          "threshold",
+          "block_height",
+          "block_hash"
+        ],
+        "rows": 32,
+        "primaryKey": [],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/20260823-20261028/acquisitions",
+      "source": "public/data/near-intents-collector-acquisition-priority-checkpoint-2026-11-02.csv",
+      "path": "web/public/data/collectors/20260823-20261028/acquisitions.csv",
+      "sha256": "efb9fb09eaed353ae1257cf8b099f95533d6e405cd83793c3dfe50f7540c684e",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "receipt-cohort",
+        "description": "6,125 receiving receipts in the pinned 23 August–28 October 2026 interval. This is a classified cohort, not complete acquisition history."
+      },
+      "units": "wNEAR in decimal token units. Nested input/fee fields identify their assets and raw amounts.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.checkpoint verify --priority-2000",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/collectors/20260823-20261028/acquisitions.csv",
+        "title": "Collector NEAR acquisitions and transfers, 23 Aug–28 Oct 2026",
+        "filename": "acquisitions.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "collector_account",
+          "transaction_hash",
+          "receipt_id",
+          "receipt_block_hash",
+          "indexed_receipt_utc",
+          "withdrawal_service_utc_if_applicable",
+          "gross_wnear_credit",
+          "signed_exchange_wnear",
+          "other_directed_transfer_wnear",
+          "unclassified_credit_wnear",
+          "observed_type",
+          "signed_exchange_intents",
+          "inputs",
+          "verifier_fees_included",
+          "payer_transfer_details",
+          "record_source",
+          "direct_archival_rpc_evidence",
+          "independent_finalized_block_evidence",
+          "original_794_transaction",
+          "transaction_url"
+        ],
+        "rows": 6125,
+        "primaryKey": [
+          "collector_account",
+          "receipt_id"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      },
+      "population": {
+        "unit": "collector-receipt",
+        "key": [
+          "collector_account",
+          "receipt_id"
+        ],
+        "additivity": "Do not sum these related exhibit populations; shared receipt keys overlap."
+      }
+    },
+    {
+      "id": "treasury/2026-09-09/inventory-return",
+      "source": "public/data/near-intents-treasury-inventory-rerouting-2026-09-09.csv",
+      "path": "web/public/data/treasury/2026-09-09/inventory-return.csv",
+      "sha256": "1e4eccb32f36f896e66fd3a7f3ab274466b9377e9b67e2578b183a9af442a8e6",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "selected-events",
+        "description": "Treasury inventory routed through an intermediary on 9 September 2026."
+      },
+      "units": "wNEAR and native NEAR in separate columns.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.intermediary --verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/treasury/2026-09-09/inventory-return.csv",
+        "title": "Treasury inventory routed through an intermediary, 9 Sept 2026",
+        "filename": "inventory-return.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "record",
+          "block_height",
+          "utc",
+          "from_account",
+          "to_account",
+          "amount_wnear",
+          "amount_native_near",
+          "receipt_id",
+          "transaction_hash",
+          "source_url"
+        ],
+        "rows": 6,
+        "primaryKey": [],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/20260823-20261028/balances",
+      "source": "public/data/near-intents-collector-wnear-reconciliation-2026-08-23-to-2026-10-28.csv",
+      "path": "web/public/data/collectors/20260823-20261028/balances.csv",
+      "sha256": "120fd5bf99218e24b25e1f154e5dac349e9c8cdccc071c67ccce76ffe59c52dd",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "window",
+        "description": "Collector inventory reconciliation between the pinned opening and closing states, 23 August–28 October 2026.",
+        "sourceBoundaries": {
+          "startUTC": [
+            "2026-08-22T23:59:59.885903781Z"
+          ],
+          "endUTC": [
+            "2026-10-28T07:26:47.281150058Z"
+          ],
+          "openingBlock": [
+            "212494411"
+          ],
+          "closingBlock": [
+            "221944496"
+          ]
+        }
+      },
+      "units": "wNEAR inventory quantities, native NEAR deliveries, block heights and event counts.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.bridge",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/collectors/20260823-20261028/balances.csv",
+        "title": "Collector wNEAR opening balances, movements and closing balances, 23 Aug–28 Oct 2026",
+        "filename": "balances.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "startUTC",
+          "endUTC",
+          "openingBlock",
+          "closingBlock",
+          "collector",
+          "openingWNEAR",
+          "completeDayCreditsWNEAR",
+          "completeDayDebitsWNEAR",
+          "partialDayCreditsWNEAR",
+          "partialDayDebitsWNEAR",
+          "allGrossCreditsWNEAR",
+          "allGrossDebitsWNEAR",
+          "closingWNEAR",
+          "unexplainedNetWNEAR",
+          "indexedAccountTransferEvents",
+          "matchedNativeDeliveryReceipts",
+          "matchedNativeDeliveriesNEAR",
+          "grossWNEARDebitsOutside794",
+          "fullDayIndexRows",
+          "partialDaySourcePages"
+        ],
+        "rows": 3,
+        "primaryKey": [
+          "collector"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/20260823-20261028/direct-acquisitions",
+      "source": "public/data/near-intents-collector-acquisition-receipts-2026-08-23-to-2026-10-28.csv",
+      "path": "web/public/data/collectors/20260823-20261028/direct-acquisitions.csv",
+      "sha256": "f14a55f9009ead8cea11f5605a1b595cd89dc4ed6b08a4a42e91b51d199b0f23",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "receipt-cohort",
+        "description": "First-day credits plus individually selected credits of at least 250 wNEAR, 23 August–28 October 2026."
+      },
+      "units": "wNEAR decimal quantities. Raw counterparty/asset amounts retain their source units.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.report verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/collectors/20260823-20261028/direct-acquisitions.csv",
+        "title": "Collector acquisition receipts: 23 August and credits of at least 250 wNEAR, 23 Aug–28 Oct 2026",
+        "filename": "direct-acquisitions.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "time_utc",
+          "collector",
+          "transaction_hash",
+          "receipt_id",
+          "block_height",
+          "block_hash",
+          "source",
+          "population",
+          "in_withdrawal_794",
+          "ledger_wnear_credited",
+          "ledger_wnear_net",
+          "signed_exchange_wnear",
+          "explicit_net_transfers_wnear",
+          "other_signed_wnear_change",
+          "mint_minus_burn_wnear",
+          "unattributed_net_wnear",
+          "exchange_inputs",
+          "exchange_event_fees",
+          "exchange_intents",
+          "additional_bundle_outputs",
+          "explicit_incoming_transfers",
+          "settlement_counterparties_wnear_raw",
+          "transaction_url"
+        ],
+        "rows": 742,
+        "primaryKey": [
+          "collector",
+          "receipt_id"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      },
+      "population": {
+        "unit": "collector-receipt",
+        "key": [
+          "collector",
+          "receipt_id"
+        ],
+        "additivity": "Do not sum these related exhibit populations; shared receipt keys overlap."
+      },
+      "relationships": [
+        {
+          "type": "receipt-key-subset",
+          "dataset": "collectors/20260823-20261028/acquisitions",
+          "sharedKeys": 742,
+          "note": "Same receipt identities; classification fields may differ between editions."
+        },
+        {
+          "type": "receipt-key-overlap",
+          "dataset": "collectors/20260823-20261028/indexed-acquisitions",
+          "sharedKeys": 185,
+          "note": "Different size/first-day selection rules; populations are not additive."
+        }
+      ]
+    },
+    {
+      "id": "collectors/20260823-20261028/indexed-acquisitions",
+      "source": "public/data/near-intents-collector-indexed-acquisition-receipts-2026-08-23-to-2026-10-28.csv",
+      "path": "web/public/data/collectors/20260823-20261028/indexed-acquisitions.csv",
+      "sha256": "25e08d5780e69511eb536f9ebcad6454f1523366ab5ac96db27ef5c727b192dd",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "receipt-cohort",
+        "description": "Selected credits of at least 100 wNEAR, 23 August–28 October 2026."
+      },
+      "units": "wNEAR decimal quantities; nested exchange inputs and fees retain per-asset raw units.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.indexed verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/collectors/20260823-20261028/indexed-acquisitions.csv",
+        "title": "Collector credits of at least 100 wNEAR: acquisitions and transfers, 23 Aug–28 Oct 2026",
+        "filename": "indexed-acquisitions.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "time_utc",
+          "collector_account",
+          "transaction_hash",
+          "receipt_id",
+          "block_height",
+          "outcome_block_hash",
+          "indexed_credit_wnear",
+          "signed_collector_exchange_wnear",
+          "explicit_net_transfer_wnear",
+          "collector_exchange_inputs",
+          "included_exchange_event_fees",
+          "collector_exchange_intents",
+          "directed_transfers_and_signature_bindings",
+          "in_794_withdrawal_transactions",
+          "raw_record_source",
+          "matched_to_independent_archival_rpc",
+          "matched_to_independent_finalized_block_receipt",
+          "transaction_url"
+        ],
+        "rows": 609,
+        "primaryKey": [
+          "collector_account",
+          "receipt_id"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      },
+      "population": {
+        "unit": "collector-receipt",
+        "key": [
+          "collector_account",
+          "receipt_id"
+        ],
+        "additivity": "Do not sum these related exhibit populations; shared receipt keys overlap."
+      },
+      "relationships": [
+        {
+          "type": "receipt-key-subset",
+          "dataset": "collectors/20260823-20261028/acquisitions",
+          "sharedKeys": 609,
+          "note": "Same receipt identities; classification fields may differ between editions."
+        }
+      ]
+    },
+    {
+      "id": "treasury/2026-08-23/fee-funded",
+      "source": "public/data/near-intents-swap-funded-treasury-delivery-2026-08-23.csv",
+      "path": "web/public/data/treasury/2026-08-23/fee-funded.csv",
+      "sha256": "cf8eda925e2b2e4e077438f36f940d5f4fe158b3f27a4f3c90b59d271ef40a3d",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "selected-events",
+        "description": "One collector's payment-to-purchase-to-delivery trace on 23 August 2026. Rows represent different stages and are not additive."
+      },
+      "units": "USDT (6 decimal places), wNEAR and native NEAR (24 decimal places), expressed in decimal token units in named amount columns.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.funding derive",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/treasury/2026-08-23/fee-funded.csv",
+        "title": "Swap payments, USDT purchases and native treasury deliveries, 23 Aug 2026",
+        "filename": "fee-funded.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "stage",
+          "time_utc",
+          "transaction_hash",
+          "receipt_id",
+          "authorizing_account",
+          "recipient",
+          "native_transfer_from",
+          "usdt_received",
+          "usdt_spent",
+          "usdt_verifier_exchange_fee_included",
+          "wnear_acquired",
+          "native_near_delivered",
+          "usdt_exchange_funding",
+          "identified_swap_funded_native_delivered",
+          "signed_referrals",
+          "payer_gross_usdt_exchange_output",
+          "payer_instructed_usdt_withdrawal",
+          "signature_or_execution",
+          "transaction_url"
+        ],
+        "rows": 269,
+        "primaryKey": [],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "treasury/2026-11-02/payments",
+      "source": "public/data/near-intents-verified-treasury-outflows-to-block-222728039.csv",
+      "path": "web/public/data/treasury/2026-11-02/payments.csv",
+      "sha256": "0965c0053e4bb083930b8ace20998c0c054acdac3f086f9bd5143aab2274d609",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "history-through-block",
+        "description": "Outgoing asset payments from wallet creation through finalized block 222728039 on 2 November 2026."
+      },
+      "units": "Each row identifies its asset and decimals; amount_atomic and amount_units are distinct representations of the same quantity.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.outflows.analyze",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/treasury/2026-11-02/payments.csv",
+        "title": "Successful treasury asset payments, wallet creation through 2 Nov 2026",
+        "filename": "payments.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "occurred_utc",
+          "block_height",
+          "transaction_hash",
+          "receipt_id",
+          "original_signer",
+          "wallet",
+          "counterparty",
+          "entry_type",
+          "asset",
+          "amount_atomic",
+          "asset_decimals",
+          "amount_units",
+          "proposal_id",
+          "receipt_status",
+          "method",
+          "explorer_url"
+        ],
+        "rows": 62,
+        "primaryKey": [],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "treasury/2026-11-02/transaction-costs",
+      "source": "public/data/near-intents-treasury-transaction-gas-and-refunds-to-block-222728039.csv",
+      "path": "web/public/data/treasury/2026-11-02/transaction-costs.csv",
+      "sha256": "d6d494b7d4cff6a5d63ae0f61f499cce50cd6d785658608926726904614e1552",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "history-through-block",
+        "description": "Treasury-related transactions through finalized block 222728039; transaction time is separate from receipt execution."
+      },
+      "units": "yoctoNEAR, native NEAR and protocol gas units in separately named columns.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.outflows.trace",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/treasury/2026-11-02/transaction-costs.csv",
+        "title": "Transaction charges, paying accounts and refunds, through 2 Nov 2026",
+        "filename": "transaction-costs.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "root_transaction_utc",
+          "transaction_hash",
+          "original_signer",
+          "delegated_senders",
+          "transactions_final_status",
+          "receipt_count",
+          "failed_receipt_count",
+          "root_execution_yocto",
+          "receipt_execution_yocto",
+          "trace_reported_tokens_burnt_near",
+          "gas_burnt",
+          "gas_refunds_near",
+          "gas_refunded_to",
+          "balance_refunds_near",
+          "balance_refunded_to",
+          "explorer_url"
+        ],
+        "rows": 93,
+        "primaryKey": [
+          "transaction_hash"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "treasury/20260901-20261030/balance-adjustments",
+      "source": "public/data/near-intents-treasury-balance-adjustments-2026-09-01-to-2026-10-30.csv",
+      "path": "web/public/data/treasury/20260901-20261030/balance-adjustments.csv",
+      "sha256": "f85f11de985ac814e314e048abd9dd4be068ea00d8aff51790ace150e21774a7",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "window",
+        "description": "Proposal deposits, rewards and other native balance adjustments, 1 September–30 October 2026."
+      },
+      "units": "Native NEAR and yoctoNEAR.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.outflows.rewards --bridge-only",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/treasury/20260901-20261030/balance-adjustments.csv",
+        "title": "Treasury proposal deposits and contract rewards, 1 Sept–30 Oct 2026",
+        "filename": "balance-adjustments.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "wallet",
+          "utc",
+          "type",
+          "nativeYocto",
+          "tx",
+          "receipt",
+          "blockHeight",
+          "nativeNEAR"
+        ],
+        "rows": 14,
+        "primaryKey": [],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "activity/2026-11-02/paid-cohort",
+      "source": "public/data/near-intents-paid-account-cohort-2026-11-02.csv",
+      "path": "web/public/data/activity/2026-11-02/paid-cohort.csv",
+      "sha256": "a184bddcf504ebd71385f6d60a8f18c0f9c5cb8249fac0672abc7a4d027243df",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "cohort-windows",
+        "description": "Baseline: 1 August 2026, 12:00–12:10 UTC. Follow-ups: 2–31 August and 1–30 October 2026. Folder date is the evidence edition, not the baseline date."
+      },
+      "units": "Account/event counts and atomic token fees. Token identifiers determine fee units; different assets are not summed.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.activity.accounts",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/activity/2026-11-02/paid-cohort.csv",
+        "title": "On-chain fee-paying accounts and two subsequent activity windows, Aug–Oct 2026",
+        "filename": "paid-cohort.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "rank",
+          "account",
+          "baselineStatus",
+          "baseline_accountRoleInWitness",
+          "baseline_proofSource",
+          "baseline_tx",
+          "baseline_receiptId",
+          "baseline_utc",
+          "baseline_rpcBlockHash",
+          "baseline_indexedBlockHash",
+          "baseline_indexedBlockRelation",
+          "baseline_token",
+          "baseline_feeAtomic",
+          "baseline_collectorCreditAtomic",
+          "baseline_intentHashes",
+          "baseline_referrals",
+          "baseline_aggregatorTransfers",
+          "baseline_relayer",
+          "days1to30",
+          "days1to30_allVerifierIndexedOutflows",
+          "days1to30_accountRoleInWitness",
+          "days1to30_proofSource",
+          "days1to30_tx",
+          "days1to30_receiptId",
+          "days1to30_utc",
+          "days1to30_rpcBlockHash",
+          "days1to30_indexedBlockHash",
+          "days1to30_indexedBlockRelation",
+          "days1to30_token",
+          "days1to30_feeAtomic",
+          "days1to30_collectorCreditAtomic",
+          "days1to30_intentHashes",
+          "days1to30_referrals",
+          "days1to30_aggregatorTransfers",
+          "days1to30_relayer",
+          "days61to90",
+          "days61to90_allVerifierIndexedOutflows",
+          "days61to90_accountRoleInWitness",
+          "days61to90_proofSource",
+          "days61to90_tx",
+          "days61to90_receiptId",
+          "days61to90_utc",
+          "days61to90_rpcBlockHash",
+          "days61to90_indexedBlockHash",
+          "days61to90_indexedBlockRelation",
+          "days61to90_token",
+          "days61to90_feeAtomic",
+          "days61to90_collectorCreditAtomic",
+          "days61to90_intentHashes",
+          "days61to90_referrals",
+          "days61to90_aggregatorTransfers",
+          "days61to90_relayer"
+        ],
+        "rows": 186,
+        "primaryKey": [
+          "account"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "activity/2026-08-01/destinations",
+      "source": "public/data/near-intents-paid-signer-destinations-2026-11-02.csv",
+      "path": "web/public/data/activity/2026-08-01/destinations.csv",
+      "sha256": "d9ab3a12be71283eea511eb7cfade1a9f3ee6f20fada7fda003e9ce14c2ff4f6",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "cohort-baseline",
+        "description": "Signed withdrawal destinations observed in the 1 August 2026 baseline cohort."
+      },
+      "units": "Asset-specific raw/decimal withdrawal amounts as declared in each row.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.activity.destinations",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/activity/2026-08-01/destinations.csv",
+        "title": "Withdrawal destinations for the fee-paying account cohort, 1 Aug 2026",
+        "filename": "destinations.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "account",
+          "utc",
+          "transaction_hash",
+          "receipt_id",
+          "intent_hash",
+          "referrals",
+          "destination_format",
+          "destination_scope",
+          "destination_sha256",
+          "withdrawal_token",
+          "withdrawal_atomic",
+          "distinct_baseline_signers_at_destination"
+        ],
+        "rows": 103,
+        "primaryKey": [],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "activity/2026-08-01/aggregation-transfers",
+      "source": "public/data/near-intents-same-signer-aggregation-transfers-2026-11-02.csv",
+      "path": "web/public/data/activity/2026-08-01/aggregation-transfers.csv",
+      "sha256": "496b86277308f55874e44ab935d263068f473024e784c527eb7ed48cb11cd26f",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "cohort-baseline",
+        "description": "Aggregation payments linked to the 1 August 2026 fee-paying baseline."
+      },
+      "units": "Atomic amounts in the identified input token and payment shares in basis points. Different assets remain separate.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.activity.transfers",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/activity/2026-08-01/aggregation-transfers.csv",
+        "title": "Aggregation payments and input-asset shares, 1 Aug 2026",
+        "filename": "aggregation-transfers.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "account",
+          "transaction_hash",
+          "receipt_id",
+          "intent_hash",
+          "receiver",
+          "token_id",
+          "transfer_atomic",
+          "memo",
+          "referrals",
+          "nep413_implicit_signature_verified",
+          "all_input_trade_debits_atomic",
+          "all_trade_credits_atomic",
+          "all_known_aggregator_transfers_atomic",
+          "all_other_transfers_atomic",
+          "all_withdrawal_and_storage_debits_atomic",
+          "same_asset_receipt_ledger_debits_atomic",
+          "same_asset_receipt_ledger_credits_atomic",
+          "ratio_basis",
+          "same_asset_denominator_atomic",
+          "observed_transfer_share_bps"
+        ],
+        "rows": 57,
+        "primaryKey": [],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/20260823-20261028/conversions",
+      "source": "public/data/near-intents-collector-conversions-2026-08-23-to-2026-10-28.csv",
+      "path": "web/public/data/collectors/20260823-20261028/conversions.csv",
+      "sha256": "77e81924d1fd72deeb1e4c591a07a9098258d7bf0d26c15798d5c8c1708a2808",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "selected-events",
+        "description": "Same-intent conversions linked to the selected collector withdrawals, 23 August–28 October 2026."
+      },
+      "units": "wNEAR and native NEAR; exchange inputs and fees retain asset-specific amounts.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.exchanges",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/collectors/20260823-20261028/conversions.csv",
+        "title": "Collector exchanges and treasury withdrawals, 23 Aug–28 Oct 2026",
+        "filename": "conversions.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "transaction_hash",
+          "withdrawal_utc",
+          "collector_account",
+          "intent_hash",
+          "input_raw_units",
+          "exchange_event_fees_collected_raw_units",
+          "wrapped_near_received",
+          "other_net_wrapped_near_transfers",
+          "native_near_withdrawn",
+          "transaction_url",
+          "input_asset_and_quantity"
+        ],
+        "rows": 205,
+        "primaryKey": [],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/2026-11-02/internal-balances",
+      "source": "public/data/near-intents-verifier-fee-and-treasury-balances-2026-11-02.csv",
+      "path": "web/public/data/collectors/2026-11-02/internal-balances.csv",
+      "sha256": "81eeb46a7acffa4f0513c63aae713ff921b0e4426c1f17793baa4c6859b120d9",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "pinned-state",
+        "description": "Verifier-held balances at the 2 November 2026 query block; holdings are separate from native treasury receipts.",
+        "sourceBoundaries": {
+          "block_height": [
+            "222728039"
+          ]
+        }
+      },
+      "units": "Raw atomic balances and decimal balances, with each token's decimals and metadata.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.verifier.balances",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/collectors/2026-11-02/internal-balances.csv",
+        "title": "Fee-collector and treasury balances held within Intents, 2 Nov 2026",
+        "filename": "internal-balances.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "block_height",
+          "block_hash",
+          "ledger_contract",
+          "account_id",
+          "role",
+          "token_id",
+          "balance_atomic"
+        ],
+        "rows": 574,
+        "primaryKey": [],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/20260823-20261021/withdrawal-matches",
+      "source": "public/data/withdrawal-matches-2026-10-28.csv",
+      "path": "web/public/data/collectors/20260823-20261021/withdrawal-matches.csv",
+      "sha256": "4d9a54f74ddd456757ff45f9b6f7cb66dee3526b28c6448e2f8f22ba7770d915",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "matched-windows",
+        "description": "Two UTC windows: [23 August, 22 September) and [22 September, 22 October) 2026. Both service and receipt timestamps must qualify.",
+        "sourceBoundaries": {
+          "window_start_utc": [
+            "2026-08-23",
+            "2026-09-22"
+          ]
+        }
+      },
+      "units": "Native NEAR in source decimal strings; amounts retain indexer precision.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.withdrawals.matches",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/collectors/20260823-20261021/withdrawal-matches.csv",
+        "title": "Matched collector withdrawals and treasury receipts, 23 Aug–21 Oct 2026",
+        "filename": "withdrawal-matches.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "window_start_utc",
+          "window_end_exclusive_utc",
+          "withdrawal_utc",
+          "receipt_utc",
+          "transaction_hash",
+          "receipt_id",
+          "receipt_block",
+          "collector_account",
+          "treasury_recipient",
+          "service_output_asset",
+          "service_output_near",
+          "receipt_asset",
+          "indexed_receipt_near",
+          "absolute_difference_near",
+          "transaction_url",
+          "withdrawal_archive_path",
+          "receipt_archive_path"
+        ],
+        "rows": 703,
+        "primaryKey": [
+          "receipt_id"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/20260823-20261028/withdrawals",
+      "source": "public/data/near-intents-collector-withdrawals-2026-08-23-to-2026-10-28.csv",
+      "path": "web/public/data/collectors/20260823-20261028/withdrawals.csv",
+      "sha256": "aaa022a7d4dde501d513361415ef96dd705ae7e3d7a2f4644c942f1d9e610569",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "window",
+        "description": "794 successful collector withdrawals, 23 August–28 October 2026."
+      },
+      "units": "Native NEAR, wrapped withdrawal principal and transaction-tree burn quantities in distinct columns.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.withdrawals.reconcile verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/collectors/20260823-20261028/withdrawals.csv",
+        "title": "Collector withdrawals delivered in native NEAR, 23 Aug–28 Oct 2026",
+        "filename": "withdrawals.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "withdrawal_utc",
+          "receipt_utc",
+          "transaction_hash",
+          "receipt_id",
+          "receipt_block",
+          "collector_account",
+          "treasury_recipient",
+          "service_output_near",
+          "indexed_receipt_near",
+          "withdrawal_archive_path",
+          "receipt_archive_path",
+          "indexed_block_hash",
+          "service_reported_withdrawal_fee_near",
+          "rpc_transfer_near",
+          "rpc_receipt_status",
+          "rpc_receipt_block_hash",
+          "indexed_block_equals_rpc_outcome_block",
+          "wrap_near_withdraw_receipt_id",
+          "transaction_tree_tokens_burnt_near",
+          "transaction_signer",
+          "transaction_url",
+          "rpc_check"
+        ],
+        "rows": 794,
+        "primaryKey": [
+          "receipt_id"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "treasury/20260901-20261030/balances",
+      "source": "public/data/near-intents-treasury-balance-reconciliation-2026-09-01-to-2026-10-31.csv",
+      "path": "web/public/data/treasury/20260901-20261030/balances.csv",
+      "sha256": "417acb940ea71de67cf26ccab5caaca4afbce94ca8bfa27e401e0edc6f036457",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "matched-windows",
+        "description": "September and October 2026 windows bounded by the pinned Sep01, Oct01 and Oct31 states.",
+        "sourceBoundaries": {
+          "windowStartUTC": [
+            "2026-09-01T00:00:00Z",
+            "2026-10-01T00:00:00Z"
+          ],
+          "windowEndExclusiveUTC": [
+            "2026-10-01T00:00:00Z",
+            "2026-10-31T00:00:00Z"
+          ],
+          "openingBlock": [
+            "213761241",
+            "217984973"
+          ],
+          "closingBlock": [
+            "217984973",
+            "222343158"
+          ]
+        }
+      },
+      "units": "Native NEAR, wrapped NEAR and locked NEAR in distinct balance columns.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.balances",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/treasury/20260901-20261030/balances.csv",
+        "title": "Treasury balance and inflow reconciliation, 1 Sept–30 Oct 2026",
+        "filename": "balances.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "windowStartUTC",
+          "windowEndExclusiveUTC",
+          "wallet",
+          "openingBlock",
+          "closingBlock",
+          "openingBlockHash",
+          "closingBlockHash",
+          "openingNativeNEAR",
+          "closingNativeNEAR",
+          "nativeBalanceChangeNEAR",
+          "indexedExternalNativeInflowNEAR",
+          "indexedInternalNativeInflowNEAR",
+          "inflowsLessNativeBalanceChangeNEAR",
+          "openingWrappedNEAR",
+          "closingWrappedNEAR",
+          "openingLockedNEAR",
+          "closingLockedNEAR",
+          "incomingReceiptCount"
+        ],
+        "rows": 6,
+        "primaryKey": [
+          "wallet",
+          "windowStartUTC"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "treasury/2026-10-31/governance",
+      "source": "public/data/near-intents-treasury-governance-to-2026-10-31.csv",
+      "path": "web/public/data/treasury/2026-10-31/governance.csv",
+      "sha256": "4fa4093d495fe3f22e7414995dace829a46ce66569e3d3b8f665601862d67529",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "pinned-state",
+        "description": "Treasury proposals with status at the pinned 31 October 2026 closing state.",
+        "sourceBoundaries": {
+          "closingBlock": [
+            "222343158"
+          ]
+        }
+      },
+      "units": "Token-specific raw/decimal transfer amounts, proposal identifiers and nanosecond timestamps.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.treasury.balances",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/treasury/2026-10-31/governance.csv",
+        "title": "Treasury governance proposals and status at the 31 Oct 2026 block",
+        "filename": "governance.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "wallet",
+          "proposalId",
+          "statusAtClosingBlock",
+          "closingBlock",
+          "submissionTimeNs",
+          "kind",
+          "tokenContract",
+          "receiver",
+          "transferAmountRaw",
+          "transferAmountUnits",
+          "description",
+          "kindJSON"
+        ],
+        "rows": 28,
+        "primaryKey": [
+          "wallet",
+          "proposalId"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "routing/20261004-20261102/interfaces",
+      "source": "public/data/interface-routing-2026-11-02.csv",
+      "path": "web/public/data/routing/20261004-20261102/interfaces.csv",
+      "sha256": "77c9ea5d212a98561926940d413aa7b0efb23e80a816f37dbf6a6fcc43581c58",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "partial-window",
+        "description": "4 October–2 November 2026 at 13:35:40.539 UTC; split at 27 October. The final day is partial.",
+        "sourceBoundaries": {
+          "window_start_utc": [
+            "2026-10-04T00:00:00.000Z"
+          ],
+          "split_utc": [
+            "2026-10-27T00:00:00.000Z"
+          ],
+          "end_utc": [
+            "2026-11-02T13:35:40.539Z"
+          ]
+        }
+      },
+      "units": "USD-valued routing volume and swap counts; these are not fee revenue.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.routing.interfaces",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/routing/20261004-20261102/interfaces.csv",
+        "title": "Interface routing activity, 4 Oct–2 Nov 2026 (partial final day)",
+        "filename": "interfaces.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "interface_id",
+          "interface_name",
+          "allocation",
+          "provider_verified",
+          "early_swaps",
+          "late_swaps",
+          "early_usd",
+          "late_usd",
+          "full_swaps",
+          "full_usd",
+          "window_start_utc",
+          "split_utc",
+          "end_utc",
+          "attribution",
+          "license"
+        ],
+        "rows": 443,
+        "primaryKey": [
+          "interface_id"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "valuation/2026-10-28/published-model",
+      "source": "public/data/published-model-reconstruction.csv",
+      "path": "web/public/data/valuation/2026-10-28/published-model.csv",
+      "sha256": "6ccb45254e88befa913026e67a2b58494ccfd619b5a75c7edc06d7485616ccc6",
+      "kind": "model-scenario",
+      "coverage": {
+        "kind": "scenario-years",
+        "description": "Published-model scenario years 2026–2030, preserved in the 28 October 2026 reconstruction. These are modeled values."
+      },
+      "units": "USD/day, USD/year, NEAR/year, USD/NEAR, basis points and percentages as named in the columns.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.build.observations",
+        "mode": "copy"
+      },
+      "download": {
+        "url": "/data/valuation/2026-10-28/published-model.csv",
+        "title": "SVRN fee, price and purchase-coverage scenarios, 2026–2030",
+        "filename": "published-model.csv",
+        "listed": true
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "year",
+          "published_base_case_daily_volume_usd",
+          "reconstructed_net_fee_bps",
+          "reconstructed_annual_net_fees_usd",
+          "published_annual_issued_near",
+          "published_base_price_low",
+          "published_base_price_high",
+          "max_near_price_for_100pct_purchase_coverage_no_gas",
+          "purchase_coverage_pct_at_low_price",
+          "purchase_coverage_pct_at_high_price",
+          "assumptions"
+        ],
+        "rows": 5,
+        "primaryKey": [
+          "year"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "history/2026-10-28/daily-observations",
+      "source": "public/data/daily-observations.csv",
+      "path": "web/public/data/history/2026-10-28/daily-observations.csv",
+      "sha256": "28e18270537b35efaac5b7545a42c5d4b9da6993b73c0d494d8657c495a7b0e9",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "daily-observations",
+        "description": "294 daily observations through 21 October 2026, preserved on 28 October. Native-receipt coverage begins on 23 August."
+      },
+      "units": "USD/day for volume/fees/collections; native NEAR/day for receipts; USD/NEAR for reference prices. Blank cells preserve unavailable observations.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.build.observations",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/history/2026-10-28/daily-observations.csv",
+        "title": "Daily settlement volume, fees and treasury receipts, preserved 28 October 2026",
+        "filename": "daily-observations.csv",
+        "listed": false
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "date",
+          "volumeUsd",
+          "grossFeesUsd",
+          "collectionsUsd",
+          "nativeReceiptsNear",
+          "priceUsd"
+        ],
+        "rows": 294,
+        "primaryKey": [
+          "date"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "history/2026-10-28/native-receipts",
+      "source": "public/data/native-receipts.csv",
+      "path": "web/public/data/history/2026-10-28/native-receipts.csv",
+      "sha256": "557d77d9c1684407fa63227ede3b897490d56448fbf527c85e3d9e3c1c175ddb",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "matched-windows",
+        "description": "Treasury receipts in the two 30-day UTC windows ending 21 October 2026, including explicitly classified internal transfers.",
+        "sourceBoundaries": {
+          "window_start": [
+            "2026-08-23",
+            "2026-09-22"
+          ],
+          "window_end_exclusive": [
+            "2026-09-22",
+            "2026-10-22"
+          ]
+        }
+      },
+      "units": "Native NEAR as decimal strings; block heights and UTC timestamps are separate fields.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.build.observations",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/history/2026-10-28/native-receipts.csv",
+        "title": "Native NEAR transfers into treasury wallets, preserved 28 October 2026",
+        "filename": "native-receipts.csv",
+        "listed": false
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "window_start",
+          "window_end_exclusive",
+          "utc",
+          "block",
+          "receipt_id",
+          "transaction_hash",
+          "predecessor",
+          "receiver",
+          "amount_near",
+          "classification"
+        ],
+        "rows": 2377,
+        "primaryKey": [
+          "receipt_id"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/20260823-20261028/prior-acquisitions",
+      "source": "public/data/near-intents-collector-acquisition-checkpoint-2026-11-02.csv",
+      "path": "web/public/data/collectors/20260823-20261028/prior-acquisitions.csv",
+      "sha256": "4d2aa1dfa83bcc6c6ee598b4a69266cad61653253425f1821c8a6579ed4066a5",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "receipt-cohort",
+        "description": "Earlier 3,998-receipt edition for the pinned 23 August–28 October 2026 interval. It overlaps the later 6,125-receipt edition."
+      },
+      "units": "wNEAR decimal quantities; nested inputs/fees retain their source asset units.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.checkpoint verify",
+        "mode": "verify"
+      },
+      "download": {
+        "url": "/data/collectors/20260823-20261028/prior-acquisitions.csv",
+        "title": "Collector acquisition receipts, earlier frozen edition, 23 Aug–28 Oct 2026",
+        "filename": "prior-acquisitions.csv",
+        "listed": false
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "collector_account",
+          "transaction_hash",
+          "receipt_id",
+          "receipt_block_hash",
+          "indexed_receipt_utc",
+          "withdrawal_service_utc_if_applicable",
+          "gross_wnear_credit",
+          "signed_exchange_wnear",
+          "other_directed_transfer_wnear",
+          "unclassified_credit_wnear",
+          "observed_type",
+          "signed_exchange_intents",
+          "inputs",
+          "verifier_fees_included",
+          "payer_transfer_details",
+          "record_source",
+          "direct_archival_rpc_evidence",
+          "independent_finalized_block_evidence",
+          "original_794_transaction",
+          "transaction_url"
+        ],
+        "rows": 3998,
+        "primaryKey": [
+          "collector_account",
+          "receipt_id"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      },
+      "population": {
+        "unit": "collector-receipt",
+        "key": [
+          "collector_account",
+          "receipt_id"
+        ],
+        "additivity": "Do not sum these related exhibit populations; shared receipt keys overlap."
+      },
+      "relationships": [
+        {
+          "type": "receipt-key-subset",
+          "dataset": "collectors/20260823-20261028/acquisitions",
+          "sharedKeys": 3998,
+          "note": "Same receipt identities; classification fields may differ between editions."
+        },
+        {
+          "type": "earlier-edition",
+          "dataset": "collectors/20260823-20261028/acquisitions",
+          "note": "Earlier frozen classification edition; retained for reproduction."
+        }
+      ]
+    },
+    {
+      "id": "collectors/20260901-20261030/daily-flows",
+      "source": "public/data/near-intents-collector-daily-wnear-flows-2026-09-01-to-2026-10-30.csv",
+      "path": "web/public/data/collectors/20260901-20261030/daily-flows.csv",
+      "sha256": "16d66a860f2cfc576f55245091d5e558a2cf40e9421ec17f9e343f44f41f45f2",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "daily-observations",
+        "description": "Collector–day wNEAR movements, 1 September–30 October 2026."
+      },
+      "units": "Atomic wNEAR amounts (24 decimals), decimal wNEAR amounts and event counts.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.flows",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/collectors/20260901-20261030/daily-flows.csv",
+        "title": "Daily collector wNEAR inflows, outflows and balances, 1 Sept–30 Oct 2026",
+        "filename": "daily-flows.csv",
+        "listed": false
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "dateUTC",
+          "collector",
+          "assetId",
+          "incomingAtomic",
+          "outgoingAtomic",
+          "incomingWNEAR",
+          "outgoingWNEAR",
+          "indexedTransferEvents"
+        ],
+        "rows": 121,
+        "primaryKey": [
+          "dateUTC",
+          "collector"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "collectors/20260901-20261030/balances",
+      "source": "public/data/near-intents-collector-wnear-reconciliation-2026-09-01-to-2026-10-30.csv",
+      "path": "web/public/data/collectors/20260901-20261030/balances.csv",
+      "sha256": "37c6a24a896c268147287d67e96dbfa8cb23d92084cec81abe1ad188c7b33746",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "matched-windows",
+        "description": "Collector balance reconciliation for September and October 2026.",
+        "sourceBoundaries": {
+          "windowStartUTC": [
+            "2026-09-01",
+            "2026-10-01"
+          ],
+          "windowEndExclusiveUTC": [
+            "2026-10-01",
+            "2026-10-31"
+          ],
+          "openingBlock": [
+            "213761241",
+            "217984973"
+          ],
+          "closingBlock": [
+            "217984973",
+            "222343158"
+          ]
+        }
+      },
+      "units": "Atomic wNEAR amounts (24 decimals), decimal wNEAR amounts and event counts.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.collectors.flows",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/collectors/20260901-20261030/balances.csv",
+        "title": "Collector wNEAR opening balances, movements and closing balances, 1 Sept–30 Oct 2026",
+        "filename": "balances.csv",
+        "listed": false
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "collector",
+          "windowStartUTC",
+          "windowEndExclusiveUTC",
+          "openingBlock",
+          "closingBlock",
+          "openingAtomic",
+          "closingAtomic",
+          "indexedIncomingAtomic",
+          "indexedOutgoingAtomic",
+          "residualAtomic",
+          "openingWNEAR",
+          "closingWNEAR",
+          "indexedIncomingWNEAR",
+          "indexedOutgoingWNEAR",
+          "indexedTransferEvents"
+        ],
+        "rows": 6,
+        "primaryKey": [
+          "collector",
+          "windowStartUTC"
+        ],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "activity/2026-11-02/withdrawal-fees",
+      "source": "public/data/near-intents-withdrawal-linked-paid-events-2026-11-02.csv",
+      "path": "web/public/data/activity/2026-11-02/withdrawal-fees.csv",
+      "sha256": "d1d891f4f90c0d80d7eee2ff082c12066ef4ed2ad903ff6b81f61bda42d6bc3c",
+      "kind": "derived-exhibit",
+      "coverage": {
+        "kind": "selected-events",
+        "description": "Paid executions linked to the preserved 794-withdrawal population; the edition date is 2 November 2026."
+      },
+      "units": "Positive verifier fees by asset, in atomic token units. Assets remain separate.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.activity.withdrawals",
+        "mode": "derive"
+      },
+      "download": {
+        "url": "/data/activity/2026-11-02/withdrawal-fees.csv",
+        "title": "Fee payments linked to collector withdrawals, preserved 2 Nov 2026",
+        "filename": "withdrawal-fees.csv",
+        "listed": false
+      },
+      "schema": {
+        "format": "csv",
+        "columns": [
+          "withdrawal_receipt_utc",
+          "transaction_hash",
+          "verifier_receipt_id",
+          "verifier_receipt_block_hash",
+          "charged_account",
+          "intent_hash",
+          "role",
+          "referral",
+          "fee_by_asset_atomic",
+          "transaction_url"
+        ],
+        "rows": 446,
+        "primaryKey": [],
+        "numericEncoding": "Source decimal and atomic strings are preserved; no conversion to binary floating point is applied by publication."
+      }
+    },
+    {
+      "id": "supply-windows",
+      "source": "data/verified/matched-supply-windows.json",
+      "path": "data/evidence/2026-11-02/inputs/supply-windows.json",
+      "sha256": "e9c502a29cbcfa4fcb0bbd5c7eebadbaa5435f794bd68102f07a3308545bc22f",
+      "kind": "preserved-input",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Two windows: [23 August, 22 September) and [22 September, 22 October) 2026 UTC."
+      },
+      "units": "Exact yoctoNEAR, decimal NEAR quantities and receipt-to-minting percentages.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.verify.evidence",
+        "mode": "verify"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "conversion-review",
+      "source": "data/verified/conversion-review.json",
+      "path": "data/evidence/2026-11-02/inputs/conversion-review.json",
+      "sha256": "e71014c07c01665e641705eb80ece05c1db557f84c1351494506f8b450fd1487",
+      "kind": "preserved-input",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Dated research snapshot; the pinned chain state is 28 October 2026 at 07:26:47.281150 UTC. Source observations have their own dates."
+      },
+      "units": "Per-asset token quantities, native NEAR, counts and policy parameters.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.verify.evidence",
+        "mode": "verify"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "publisher-denominator",
+      "source": "data/original/published-denominator.json",
+      "path": "data/evidence/2026-11-02/inputs/published-denominator.json",
+      "sha256": "59975a14b3ef82f45b956f0222358e26ee5d7b2e9c5aed454af2cad0801c9b18",
+      "kind": "preserved-input",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Preserved SVRN inputs and denominator reconstruction; these are publisher-model assumptions."
+      },
+      "units": "USD capitalization/volume/revenue, basis points and revenue multiples.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.publish --check",
+        "mode": "verify"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    },
+    {
+      "id": "publisher-scenarios",
+      "source": "data/original/published-scenarios.json",
+      "path": "data/evidence/2026-11-02/inputs/published-scenarios.json",
+      "sha256": "57ed908be4749c3bde70d2e7644f4014d1eebfc57b70629dbc080336c5d1f226",
+      "kind": "preserved-input",
+      "coverage": {
+        "kind": "source-defined",
+        "description": "Published-model scenario years 2026–2030, not realized observations."
+      },
+      "units": "USD/day, USD/year, NEAR/year, USD/NEAR, basis points and percentages.",
+      "reproduction": {
+        "command": "python3 -B -m compute.src.publish --check",
+        "mode": "verify"
+      },
+      "download": null,
+      "schema": {
+        "format": "json"
+      }
+    }
+  ]
+}

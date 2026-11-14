@@ -1,0 +1,79 @@
+{
+  "method": "Exact last-produced-block-before-UTC-cutoff endpoint supply plus all explicitly reconstructed epoch mints whose payout timestamps lie inside each half-open UTC window.",
+  "windows": [
+    {
+      "startInclusiveUTC": "2026-08-23T00:00:00Z",
+      "endExclusiveUTC": "2026-09-22T00:00:00Z",
+      "openingBlock": 212494411,
+      "openingBlockHash": "BEkkUfn7w4xKS4WojxeztawpcHzMXBetgZJWRDHnqaR2",
+      "openingBlockTimestampNs": "1787443199885903781",
+      "openingSupplyYocto": "1304305849419027071973525540813788",
+      "closingBlock": 216696052,
+      "closingBlockHash": "3YPmHWnHG67ic8nG6ByMAjkV5u9Y8Bb1ixn6TxJhhShr",
+      "closingBlockTimestampNs": "1790035199524767548",
+      "closingSupplyYocto": "1306946432065270320577878381337035",
+      "payoutCount": 97,
+      "firstIncludedPayoutUTC": "2026-08-23T03:24:05+00:00",
+      "lastIncludedPayoutUTC": "2026-09-21T18:22:04+00:00",
+      "grossMintedYocto": "2662382917261424857697440523247",
+      "grossMintedNEAR": "2662382.917261424857697440523247",
+      "netSupplyChangeYocto": "2640582646243248604352840523247",
+      "netSupplyChangeNEAR": "2640582.646243248604352840523247",
+      "nativeBurnDerivedYocto": "21800271018176253344600000000",
+      "nativeBurnDerivedNEAR": "21800.2710181762533446",
+      "nativeBurnShareOfMintedPct": "0.81882552944714675952273932939607073056186399614439748011860247285166720305899564",
+      "externalNativeWalletReceiptsNEAR": "549851.55110580770092",
+      "externalNativeWalletReceiptsByWallet": {
+        "fefundsadmin.sputnik-dao.near": "156370.43168893056721",
+        "buybacks.multisignature.near": "393215.88219255601994",
+        "1csfundsadmin.sputnik-dao.near": "265.23722432111377"
+      },
+      "receiptQuantityToGrossMintingPct": "20.652609643070987506257117099151098227540650152211947709451261487433873664782571",
+      "supplyIdentityResidualYocto": "0",
+      "status": "matched-window-reconstructed",
+      "limitations": [
+        "Gross minting is reconstructed from trusted provider block data and pinned non-SPICE supply identity; this is not a cryptographic chain proof.",
+        "Native burns are derived as gross minting minus native supply change; no Intents attribution or transaction-level burn scan is implied.",
+        "Wallet receipts are indexer-rounded external native inflows, not verified market purchases, retained purchases, or issuance selling.",
+        "Receipt quantity / gross minting is a scale comparison. It does not establish supply deflation or investor return."
+      ]
+    },
+    {
+      "startInclusiveUTC": "2026-09-22T00:00:00Z",
+      "endExclusiveUTC": "2026-10-22T00:00:00Z",
+      "openingBlock": 216696052,
+      "openingBlockHash": "3YPmHWnHG67ic8nG6ByMAjkV5u9Y8Bb1ixn6TxJhhShr",
+      "openingBlockTimestampNs": "1790035199524767548",
+      "openingSupplyYocto": "1306946432065270320577878381337035",
+      "closingBlock": 221015565,
+      "closingBlockHash": "L5Exktixx6DSMhGo82xtM17ai4i5UZRZD2CetXXdRo2",
+      "closingBlockTimestampNs": "1792627199828097959",
+      "closingSupplyYocto": "1309588192368366294972172413664719",
+      "payoutCount": 100,
+      "firstIncludedPayoutUTC": "2026-09-22T01:30:27+00:00",
+      "lastIncludedPayoutUTC": "2026-10-21T18:29:46+00:00",
+      "grossMintedYocto": "2677051424114247869527638206494",
+      "grossMintedNEAR": "2677051.424114247869527638206494",
+      "netSupplyChangeYocto": "2641760303095974394294032327684",
+      "netSupplyChangeNEAR": "2641760.303095974394294032327684",
+      "nativeBurnDerivedYocto": "35291121018273475233605878810",
+      "nativeBurnDerivedNEAR": "35291.12101827347523360587881",
+      "nativeBurnShareOfMintedPct": "1.3182832686880565759647680088430660478077740835705988993154852399181761021614658",
+      "externalNativeWalletReceiptsNEAR": "462176.19972287745362115",
+      "externalNativeWalletReceiptsByWallet": {
+        "fefundsadmin.sputnik-dao.near": "163453.14992360893819",
+        "buybacks.multisignature.near": "298722.95074310852546",
+        "1csfundsadmin.sputnik-dao.near": "0.09905615998997115"
+      },
+      "receiptQuantityToGrossMintingPct": "17.264375109110839137609745155539974468836627314879510967238078557400175119946121",
+      "supplyIdentityResidualYocto": "0",
+      "status": "matched-window-reconstructed",
+      "limitations": [
+        "Gross minting is reconstructed from trusted provider block data and pinned non-SPICE supply identity; this is not a cryptographic chain proof.",
+        "Native burns are derived as gross minting minus native supply change; no Intents attribution or transaction-level burn scan is implied.",
+        "Wallet receipts are indexer-rounded external native inflows, not verified market purchases, retained purchases, or issuance selling.",
+        "Receipt quantity / gross minting is a scale comparison. It does not establish supply deflation or investor return."
+      ]
+    }
+  ]
+}

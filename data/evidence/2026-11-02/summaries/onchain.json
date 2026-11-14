@@ -1,0 +1,1469 @@
+{
+  "schemaVersion": 1,
+  "sourceDigests": {
+    "collector-history-2026-11-02/full-period-wnear-bridge.json": "76e83bda3c3a975a2e942285b7778df9a84321f72a6f1035fef6359d753aa438",
+    "collector-history-2026-11-02/wnear-credit-census.json": "926725a6cf0e827b24d2c6a071d8e3ce5b1f7735bc7fcf5228cd1ac0165eaf81",
+    "collector-history-2026-11-02/full-period-all-asset-summary.json": "714580143742fb5c0372ed46c4ef4784f5bd2b6e867d17c2ec080a33869306c6",
+    "treasury-inflow-origins-2026-11-02/page-summary.json": "a2d31d3b8e83092e523e6d03a45f3bc3e5bfdd4588264c73c68e2bdcfe681c9e",
+    "treasury-recurring-owner-2026-11-02/top-200-page-summary.json": "5adebd3183d0d48481b7d9fa3ceec82feb5e083bfbcb6bff740647df1f8b91b7",
+    "collector-history-2026-11-02/stable-funding-summary.json": "bb82a39089c3188f4cac084abb02cff115559f273ba7727245a1d7379ea8cdb1",
+    "collector-history-2026-11-02/acquisition-summary.json": "8f0dffc41a6b3aa6071130861755293e72387e07b979e5fc5923af4407526d95",
+    "collector-history-2026-11-02/indexed-acquisition-cohort-summary.json": "6d3ff66a42d1cfb6ace9067f950b4ab2a8535ab7685318f230346fbc82ad7c29",
+    "collector-history-2026-11-02/expanded-priority-checkpoint-2026-11-02/published-summary.json": "c9e4606829a2b36b7f1c5977599b4223067c461ed7fe1736f2f44704612f9f58",
+    "treasury-inflow-origins-2026-11-02/intermediary-summary.json": "bfcbb57bb8dbcc9ef91a8fca090a3f8482b89a1e4545a59a7b913f7d033e0635",
+    "treasury-outflows-2026-11-02/summary.json": "1681f507a62503c9f16ade9412c9796309cb2c9fb3b8d622c216d03cb13a0689",
+    "treasury-outflows-2026-11-02/account-history.json.gz": "d4d9e360df51ac68603457c29d22a2ba877955e4fcea35cb3c9b24d7b2ffbf5a",
+    "treasury-control-2026-11-02/summary.json": "35a52f095efa6f0682c5d0603c92a6389661250baaf3b5aa8ca4d7b1f2cfa1d8",
+    "treasury-outflows-2026-11-02/gas-rewards-bridge.json": "05fe5d004fe49b02e16194293b69c79b4181e39b3127265801bb3d210e5af209",
+    "treasury-outflows-2026-11-02/one-hop-12000.json": "08c117a3b6a19a56cc54b9d0f216829914a225bcf0662f38ffe8f248a7a2bc13",
+    "paid-activity-2026-11-02/summary.json": "3adc616a76c8daf93197fb90aaefa7f881b85378cabca615e3825a974f9e494b",
+    "paid-activity-2026-11-02/aggregation-transfer-summary.json": "24ca44c41043c767a7bff7cb855f661215a0aa5b46ba464aa336cdab1e3e294e",
+    "paid-activity-2026-11-02/destination-summary.json": "7d4e716f920a509796232d177242e08d7f7183bc4dd4ba5ffc82615157b8b993"
+  },
+  "flow": {
+    "startUTC": "2026-08-22T23:59:59.885903781Z",
+    "endUTC": "2026-10-28T07:26:47.281150058Z",
+    "openingBlock": 212494411,
+    "closingBlock": 221944496,
+    "perCollector": [
+      {
+        "collector": "0bc39dd4082e871df81eaa28250bf403fe900320a9d9929dc1304f17df462bac",
+        "openingWNEAR": "263.107004321113754467715181",
+        "completeDayCreditsWNEAR": "0.000000000000000000000000",
+        "completeDayDebitsWNEAR": "263.107004321113754467715181",
+        "partialDayCreditsWNEAR": "0.000000000000000000000000",
+        "partialDayDebitsWNEAR": "0.000000000000000000000000",
+        "allGrossCreditsWNEAR": "0.000000000000000000000000",
+        "allGrossDebitsWNEAR": "263.107004321113754467715181",
+        "closingWNEAR": "0.000000000000000000000000",
+        "unexplainedNetWNEAR": "0.000000000000000000000000",
+        "indexedAccountTransferEvents": 1,
+        "matchedNativeDeliveryReceipts": 1,
+        "matchedNativeDeliveriesNEAR": "263.107004321113754467715181",
+        "grossWNEARDebitsOutside794": "0.000000000000000000000000",
+        "fullDayIndexRows": 1,
+        "partialDaySourcePages": 1
+      },
+      {
+        "collector": "143f2bb439575c286f4f585163f0e5fb4e464f8ce57ec06ae80741407d3cfb31",
+        "openingWNEAR": "0.333653267489018644498189",
+        "completeDayCreditsWNEAR": "120017.803408678619030305550027",
+        "completeDayDebitsWNEAR": "119794.761094252487349961835952",
+        "partialDayCreditsWNEAR": "194.769745700236045131832439",
+        "partialDayDebitsWNEAR": "255.824073274753123915375078",
+        "allGrossCreditsWNEAR": "120212.573154378855075437382466",
+        "allGrossDebitsWNEAR": "120050.585167527240473877211030",
+        "closingWNEAR": "162.321640119103620204669625",
+        "unexplainedNetWNEAR": "0.000000000000000000000000",
+        "indexedAccountTransferEvents": 36432,
+        "matchedNativeDeliveryReceipts": 263,
+        "matchedNativeDeliveriesNEAR": "120050.585167527240473877211030",
+        "grossWNEARDebitsOutside794": "0.000000000000000000000000",
+        "fullDayIndexRows": 66,
+        "partialDaySourcePages": 1
+      },
+      {
+        "collector": "5880ad2b362620fadf759cbceb1cd5737ce8c6ed7fb8e9942881e6731f9247dd",
+        "openingWNEAR": "300.476621722790226933133400",
+        "completeDayCreditsWNEAR": "235899.209659112490082460831811",
+        "completeDayDebitsWNEAR": "236070.179299401928127129285411",
+        "partialDayCreditsWNEAR": "1495.595083132618166019299767",
+        "partialDayDebitsWNEAR": "1381.433450412780492341743701",
+        "allGrossCreditsWNEAR": "237394.804742245108248480131578",
+        "allGrossDebitsWNEAR": "237451.612749814708619471029112",
+        "closingWNEAR": "243.668614153189855942235866",
+        "unexplainedNetWNEAR": "0.000000000000000000000000",
+        "indexedAccountTransferEvents": 32491,
+        "matchedNativeDeliveryReceipts": 530,
+        "matchedNativeDeliveriesNEAR": "237451.612749814708619471029112",
+        "grossWNEARDebitsOutside794": "0.000000000000000000000000",
+        "fullDayIndexRows": 66,
+        "partialDaySourcePages": 2
+      }
+    ],
+    "grossReceiptsWNEAR": "357607.377896623963323917514044",
+    "grossDebitsWNEAR": "357765.304921663062847815955323",
+    "nativeDelivered794NEAR": "357765.304921663062847815955323"
+  },
+  "creditCensus": {
+    "startUTC": "2026-08-22T23:59:59.885903781Z",
+    "endUTC": "2026-10-28T07:26:47.281150058Z",
+    "openingBlock": 212494411,
+    "closingBlock": 221944496,
+    "allGrossCreditsWNEAR": "357607.377896623963323917514044",
+    "atLeastOneCreditEvents": 19248,
+    "atLeastOneCreditWNEAR": "354226.718282046400253948242504",
+    "subOneCreditWNEAR": "3380.659614577563069969271540",
+    "atLeastOneShareOfAllCreditQuantityPct": "99.05464489",
+    "allIndexedTransferEvents": 68924,
+    "byCollector": [
+      {
+        "collector": "0bc39dd4082e871df81eaa28250bf403fe900320a9d9929dc1304f17df462bac",
+        "allGrossCreditsWNEAR": "0.000000000000000000000000",
+        "atLeastOneCreditEvents": 0,
+        "atLeastOneCreditWNEAR": "0.000000000000000000000000",
+        "subOneCreditWNEAR": "0.000000000000000000000000",
+        "allIndexedTransferEvents": 1,
+        "countedPositiveWNEARDebits": 1,
+        "impliedIncomingIndexEvents": 0,
+        "impliedSubOneIndexEvents": 0
+      },
+      {
+        "collector": "143f2bb439575c286f4f585163f0e5fb4e464f8ce57ec06ae80741407d3cfb31",
+        "allGrossCreditsWNEAR": "120212.573154378855075437382466",
+        "atLeastOneCreditEvents": 7300,
+        "atLeastOneCreditWNEAR": "118520.236156233604397591423563",
+        "subOneCreditWNEAR": "1692.336998145250677845958903",
+        "allIndexedTransferEvents": 36432,
+        "countedPositiveWNEARDebits": 263,
+        "impliedIncomingIndexEvents": 36169,
+        "impliedSubOneIndexEvents": 28869
+      },
+      {
+        "collector": "5880ad2b362620fadf759cbceb1cd5737ce8c6ed7fb8e9942881e6731f9247dd",
+        "allGrossCreditsWNEAR": "237394.804742245108248480131578",
+        "atLeastOneCreditEvents": 11948,
+        "atLeastOneCreditWNEAR": "235706.482125812795856356818941",
+        "subOneCreditWNEAR": "1688.322616432312392123312637",
+        "allIndexedTransferEvents": 32491,
+        "countedPositiveWNEARDebits": 530,
+        "impliedIncomingIndexEvents": 31961,
+        "impliedSubOneIndexEvents": 20013
+      }
+    ],
+    "independentUncensoredAccountDayCountAndAmountCrosschecks": 21,
+    "scope": "Individual credits of at least one wNEAR have complete terminal cursor chains over the entire pinned study. The smaller-credit total equals independently reconciled all-credit gross less those individually enumerated credits. Where sender histories have closed, incoming event counts are calculated from published account transfer-event totals minus explicitly enumerated debit events. The smaller received entries have not been individually enumerated across the entire period.",
+    "impliedIncomingIndexEvents": 68130,
+    "impliedSubOneIndexEvents": 48882
+  },
+  "assetInventory": {
+    "collectorAssetRows": 358,
+    "distinctAssetIDs": 182,
+    "assetsWithReadableUnits": 182,
+    "publicCsv": "/data/near-intents-collector-asset-inventory-2026-08-23-to-2026-10-28.csv"
+  },
+  "inflowOrigins": {
+    "windowStartInclusiveUTC": "2026-09-01T00:00:00Z",
+    "windowEndExclusiveUTC": "2026-10-31T00:00:00Z",
+    "frozenReceipts": 2578,
+    "grossNEAR": "1507959.457921860957896857027708",
+    "externalImmediatePredecessor": {
+      "receipts": 2577,
+      "nativeNEAR": "1005166.457921860957896857027708"
+    },
+    "independentlyVerifiedEd25519Intents": 2563,
+    "archivalRPCRows": 730,
+    "indexedTreeRows": 1848,
+    "coverageByClass": {
+      "additional_verifier_owners": {
+        "receipts": 1822,
+        "nativeNEAR": "688395.354374596595283286279350"
+      },
+      "original_three_verifier_owners": {
+        "receipts": 741,
+        "nativeNEAR": "309470.165421104372642410748358"
+      },
+      "other_native_transfer": {
+        "receipts": 14,
+        "nativeNEAR": "7300.938126159989971160000000"
+      },
+      "within_tracked_group": {
+        "receipts": 1,
+        "nativeNEAR": "502793.000000000000000000000000"
+      }
+    },
+    "matchedMonths": [
+      {
+        "month": "2026-09",
+        "classification": "additional_verifier_owners",
+        "receipts": 902,
+        "nativeNEAR": "370110.291541409324682943493443"
+      },
+      {
+        "month": "2026-09",
+        "classification": "original_three_verifier_owners",
+        "receipts": 384,
+        "nativeNEAR": "186769.362052324741093260147588"
+      },
+      {
+        "month": "2026-09",
+        "classification": "other_native_transfer",
+        "receipts": 14,
+        "nativeNEAR": "7300.938126159989971160000000"
+      },
+      {
+        "month": "2026-09",
+        "classification": "within_tracked_group",
+        "receipts": 1,
+        "nativeNEAR": "502793.000000000000000000000000"
+      },
+      {
+        "month": "2026-10",
+        "classification": "additional_verifier_owners",
+        "receipts": 920,
+        "nativeNEAR": "318285.062833187270600342785907"
+      },
+      {
+        "month": "2026-10",
+        "classification": "original_three_verifier_owners",
+        "receipts": 357,
+        "nativeNEAR": "122700.803368779631549150600770"
+      }
+    ],
+    "matchedWallets": [
+      {
+        "wallet": "1csfundsadmin.sputnik-dao.near",
+        "classification": "original_three_verifier_owners",
+        "receipts": 1,
+        "nativeNEAR": "263.107004321113754467715181"
+      },
+      {
+        "wallet": "1csfundsadmin.sputnik-dao.near",
+        "classification": "other_native_transfer",
+        "receipts": 7,
+        "nativeNEAR": "1.217676159989971160000000"
+      },
+      {
+        "wallet": "buybacks.multisignature.near",
+        "classification": "additional_verifier_owners",
+        "receipts": 1022,
+        "nativeNEAR": "376958.423022912452896278350417"
+      },
+      {
+        "wallet": "buybacks.multisignature.near",
+        "classification": "original_three_verifier_owners",
+        "receipts": 740,
+        "nativeNEAR": "309207.058416783258887943033177"
+      },
+      {
+        "wallet": "buybacks.multisignature.near",
+        "classification": "other_native_transfer",
+        "receipts": 7,
+        "nativeNEAR": "7299.720450000000000000000000"
+      },
+      {
+        "wallet": "buybacks.multisignature.near",
+        "classification": "within_tracked_group",
+        "receipts": 1,
+        "nativeNEAR": "502793.000000000000000000000000"
+      },
+      {
+        "wallet": "fefundsadmin.sputnik-dao.near",
+        "classification": "additional_verifier_owners",
+        "receipts": 800,
+        "nativeNEAR": "311436.931351684142387007928933"
+      }
+    ],
+    "signedInstructionMix": [
+      {
+        "ownerScope": "additional",
+        "instructions": "native_withdraw",
+        "receipts": 1818,
+        "nativeNEAR": "685639.273239654036385373811771"
+      },
+      {
+        "ownerScope": "additional",
+        "instructions": "token_diff|native_withdraw",
+        "receipts": 3,
+        "nativeNEAR": "1766.181134942558897912467579"
+      },
+      {
+        "ownerScope": "additional",
+        "instructions": "transfer|native_withdraw",
+        "receipts": 1,
+        "nativeNEAR": "989.900000000000000000000000"
+      },
+      {
+        "ownerScope": "original_three",
+        "instructions": "native_withdraw",
+        "receipts": 551,
+        "nativeNEAR": "229841.897501507908499371756041"
+      },
+      {
+        "ownerScope": "original_three",
+        "instructions": "token_diff|native_withdraw",
+        "receipts": 190,
+        "nativeNEAR": "79628.267919596464143038992317"
+      }
+    ],
+    "distinctWithdrawalOwners": 1812,
+    "observedOnceOutsideOriginalThree": 1808,
+    "observedOnceOutsideOriginalThreeQuantities": {
+      "receipts": 1808,
+      "nativeNEAR": "682290.697381905140081672642002"
+    },
+    "linkedOriginalServiceRecord": {
+      "receipts": 708,
+      "nativeNEAR": "295157.024141169244167070183544"
+    },
+    "originalThreeOwnerButOutsideServiceRecords": {
+      "receipts": 33,
+      "nativeNEAR": "14313.141279935128475340564814"
+    },
+    "identifiedSameWithdrawalIntentAcquisitions": {
+      "receipts": 193,
+      "wNEAR": "2657.169232075316132573844904",
+      "byOwnerScope": {
+        "original_three": {
+          "receipts": 190,
+          "wNEAR": "1956.653396833939927651112737"
+        },
+        "additional": {
+          "receipts": 3,
+          "wNEAR": "700.515835241376204922732167"
+        }
+      }
+    },
+    "sixLargestAdditionalWithdrawals": {
+      "withdrawingOwners": 6,
+      "tracedNativeNEAR": "32495.199967053671576226201696",
+      "upstreamAccount": "51e8f94d77b5e90dc9852ca6113771e11e8382ce69473a75e313e41665de7cbe",
+      "ownersWithZeroOpeningAndFinalWNEAR": 6,
+      "independentlyVerifiedUpstreamSignatures": 6,
+      "upstreamTransactionsWithNoCounterassetOrReciprocalPayment": 6,
+      "exactUpstreamInventoryDebits": 6
+    },
+    "groupInventoryRecycled": {
+      "nativeNEAR": "989.900000000000000000000000",
+      "remainingWNEARToCollector": "0.098999899989998999899990",
+      "nativeRecipient": "buybacks.multisignature.near"
+    },
+    "sharedSourceMatches": {
+      "sharedSource": "51e8f94d77b5e90dc9852ca6113771e11e8382ce69473a75e313e41665de7cbe",
+      "minimumCandidateWNEAR": "171.210290793598139632196928",
+      "completeEligibleOutgoingMovements": 10289,
+      "distinctEligibleSourceOutgoingRecipients": 5344,
+      "totalEligibleSourceOutgoingWNEAR": "66328322.709293738820566978344651",
+      "exactEarlierAmountOwnerMatches": 1807,
+      "matchedNativePayoutNEAR": "681300.797381905140081672642002",
+      "distinctMatchedWithdrawalOwners": 1807,
+      "exactAmountOwnerCandidateTransactionsMissingVerifierTime": 0,
+      "transferThresholdCrossCheck": {
+        "unfilteredPrefixRows": 700,
+        "thresholdEligiblePrefixRows": 141,
+        "lastBlockHeight": 214019956
+      },
+      "matchedMonthAndOwnerScope": [
+        {
+          "month": "2026-09",
+          "ownerScope": "additional",
+          "receipts": 891,
+          "nativeNEAR": "363968.273765721158714520638795"
+        },
+        {
+          "month": "2026-10",
+          "ownerScope": "additional",
+          "receipts": 916,
+          "nativeNEAR": "317332.523616183981367152003207"
+        }
+      ],
+      "matchesWithinOneMinuteOfFunding": 1778,
+      "matchesWithinOneHourOfFunding": 1807
+    },
+    "sourceDigests": {
+      "public/data/near-intents-native-treasury-inflow-origins-2026-09-01-to-2026-10-30.csv": "2b125cf3f4e7edf7db49dfa4eaa1e1f9e12bd8a644940b1ec6412ab24db14711",
+      "data/verified/treasury-inflow-origins-2026-11-02/summary.json": "f164267619f90cd2f1a152108a4d9f7c143631e3f600b9147160b0ab21cf4aa6",
+      "public/data/near-intents-treasury-inventory-rerouting-2026-09-09.csv": "1e4eccb32f36f896e66fd3a7f3ab274466b9377e9b67e2578b183a9af442a8e6",
+      "public/data/near-intents-six-largest-additional-treasury-withdrawals-2026-09-01-to-2026-10-30.csv": "36fd3c0c0a56c315b302ba3d3d9b180ac6a7f0eebfd13acacf4fd374e604218b",
+      "public/data/near-intents-common-source-transfer-matches-2026-09-01-to-2026-10-30.csv": "bc86d21845dae8faf56d88e345dd4e8a3196720db9ed03d98c7915d7e8d7c4b1"
+    }
+  },
+  "recurringOwner": {
+    "owner": "176121bd389320632360a091f587af1e2de87d06d3b7c8eec7b2d2871442e3e8",
+    "windowStartInclusiveUTC": "2026-09-01",
+    "windowEndExclusiveUTC": "2026-10-31",
+    "indexedCreditEvents": 800,
+    "indexedDebitEvents": 14,
+    "treasuryRecipient": "fefundsadmin.sputnik-dao.near",
+    "directArchiveReceiptCount": 0,
+    "rawIndexedReceiptCount": 212,
+    "opening": {
+      "height": 213761241,
+      "hash": "21k95fSz7WmajTmy43BjaBcHZLwWZ4KUc31tg7DMnfi5",
+      "inventoryRaw": "449888546014227209965053231"
+    },
+    "closing": {
+      "height": 222343158,
+      "hash": "2N27GUxyHYefcGwDdwGRcn5urw3qacug8XYsPDL5uSZP",
+      "inventoryRaw": "89991764902262398004219228"
+    },
+    "grossCreditsWNEAR": "5744.760211579490389652803345",
+    "grossWithdrawalsNEAR": "6104.656992691455201613637348",
+    "openingInventoryNetConsumedWNEAR": "359.896781111964811960834003",
+    "rankedCreditLimit": 200,
+    "verifiedCreditReceipts": 201,
+    "verifiedGrossWNEARCredit": "5095.855325764153039932745414",
+    "remainingUnclassifiedWNEARCredits": "648.904885815337349720057931",
+    "signedExchangeAcquisitionsWNEAR": "3445.165413904440003392554663",
+    "verifiedUniqueNEP413Signatures": 201,
+    "verifiedAcquisitionReceipts": 112,
+    "signedExchangeWNEARInsidePayoutTransactions": "700.515835241376204922732167",
+    "signedExchangeWNEAROutsidePayoutTransactions": "2744.649578663063798469822496",
+    "exchangeReceiptsWithOtherOutputs": 0,
+    "explicitSwapLinkedIncomingWNEAR": "1089.760620491102958514551016",
+    "explicitOtherIncomingWNEAR": "560.929291368610078025639735",
+    "otherSignedWNEARChange": "0.000000000000000000000000",
+    "netMintLessBurnWNEAR": "-6104.656992691455201613637348",
+    "unattributedNetWNEAR": "0.000000000000000000000000",
+    "minimumNativeTreasuryDeliveryFromIdentifiedExchanges": "3416.638379460284976438890331",
+    "maximumIdentifiedWNEARRetained": "28.527034444155026953664332",
+    "minimumNativeTreasuryDeliveryFromIdentifiedExchangesRaw": "3416638379460284976438890331",
+    "closedAtZeroWithdrawals": 14,
+    "distinctSignedInputAssets": 18,
+    "sourceDigests": {
+      "data/verified/treasury-recurring-owner-2026-11-02/top-200-summary.json": "c9845d552015b086cff5ec3d772f139d61b85dd7e011258ecdea2b862b37b768",
+      "public/data/near-intents-recurring-owner-top-200-credit-transactions-2026-09-01-to-2026-10-30.csv": "2a0e79d739d5b41fae9afeebc22d1197cfcf97831257789a7616d2aa508866de",
+      "data/verified/treasury-recurring-owner-2026-11-02/top-200-sources.json": "ecffe6ea8f1ab8f7ccfee8762a4b0eecf44b69f46b8d3ad314f655e66be1f625"
+    }
+  },
+  "funding": {
+    "bridge": {
+      "owner": "143f2bb439575c286f4f585163f0e5fb4e464f8ce57ec06ae80741407d3cfb31",
+      "token": "nep141:eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near",
+      "tokenDecimals": 6,
+      "studyDayUTC": "2026-08-23",
+      "openingRaw": 35225278,
+      "grossCreditRaw": 1508696054,
+      "grossDebitRaw": 1540586014,
+      "closingRaw": 3335318,
+      "sourcePages": 3,
+      "totalCreditEvents": 252,
+      "totalDebitEvents": 26
+    },
+    "verifiedPayerSignatures": 252,
+    "chronology": {
+      "firstOpeningInventoryTrade": {
+        "blockHeight": 212494600,
+        "blockHash": "Au5zS5ZLapzYrYByxbGLok7AEQYm8Z5sKRqqh6aSRQi6",
+        "transactionHash": "AT6Xfhp6gvKfgzHGJxtFhviCZq7Y8qBgc61S2Hy2qk8t",
+        "firstSwapPaymentBlock": 212495153,
+        "usdtSpentRaw": 35225278,
+        "wnearAcquiredRaw": "18740777941939413772588887",
+        "rawUSDTBalanceAfterTrade": "0"
+      },
+      "whollySwapFundedTrades": 12,
+      "whollySwapFundedGrossUSDTSpendRaw": 1505360736,
+      "whollySwapFundedUSDTExchangeFeesRaw": 1512,
+      "whollySwapFundedWNEARAcquiredRaw": "775794746675695528840228978",
+      "verifiedNativeRecipient": "buybacks.multisignature.near",
+      "identifiedSwapFundedNativeDeliveryRaw": "747307949764020935708713660",
+      "identifiedWNEARAfterFinalDeliveryRaw": "28486796911674593131515318",
+      "payments": [
+        {
+          "blockHeight": 212540845,
+          "blockHash": "AGZbaqXcTAzt2ymezkCdp9CkPav5ifkeDk89DTN4MY5Y",
+          "rawVerifierBalanceAfterWithdrawal": "0",
+          "transactionHash": "8wqVfQWEJpEuDySsnmvqkzVKka9tGYpuNHTQD79FaPBz",
+          "nativeDeliveryRaw": "605300857606114656337558442",
+          "identifiedSwapFundedDeliveryRaw": "94059301194843103466780723"
+        },
+        {
+          "blockHeight": 212578662,
+          "blockHash": "9MfmXVWGkb1aE9ohBgf79s8iGaaRwBVq7T2jBf7DC856",
+          "rawVerifierBalanceAfterWithdrawal": "0",
+          "transactionHash": "94ZihT87A6T1aKGXDcTQkhSAGwjxQ6HKnxw2XTPprZvW",
+          "nativeDeliveryRaw": "650417277643647635316910608",
+          "identifiedSwapFundedDeliveryRaw": "114787335465745450627429510"
+        },
+        {
+          "blockHeight": 212595741,
+          "blockHash": "4CCfbk7xBfLsfYuKqmx5qgaSQMtT1DgvPttb15i8a5Kx",
+          "rawVerifierBalanceAfterWithdrawal": "0",
+          "transactionHash": "MGj1ZHB8Nmg1NM6UZ11dUa9AUEC8TnXc2KnXjw3VSEa",
+          "nativeDeliveryRaw": "565380463023935701818168571",
+          "identifiedSwapFundedDeliveryRaw": "201199880688781258035303427"
+        },
+        {
+          "blockHeight": 212609433,
+          "blockHash": "CqhmU6UeqhHUFaMLGBR2voifZ3DNKgD8WM6CdLQY751J",
+          "rawVerifierBalanceAfterWithdrawal": "0",
+          "transactionHash": "61BnZBh7Q6DAP5UBEcKf6Kn873B2qRriCUD3twJ2gtjR",
+          "nativeDeliveryRaw": "576960656967720052793526681",
+          "identifiedSwapFundedDeliveryRaw": "337261432414651123579200000"
+        }
+      ],
+      "method": "The earliest stablecoin debit exhausted the entire opening balance before the first verified incoming payment. Every subsequent USDT debit therefore spent swap-linked payments. The complete wNEAR ledger and separate pinned verifier state calls show that each native delivery emptied the entire collector wNEAR stock. Each delivery necessarily included all identified purchases since the preceding zero balance; the last identified purchase occurred after the fourth delivery."
+    },
+    "nativeDeliveredTotalRaw": "2398059255241418046266164302"
+  },
+  "acquisitions": {
+    "firstDay": {
+      "indexCreditReceipts": 574,
+      "verifiedExchangeReceipts": 283,
+      "canonicalWholeReceiptSignedExchangeWNEAR": "8340.681646998002721499424397",
+      "paidInputAssets": 34,
+      "canonicalWholeReceiptExplicitNetTransfersWNEAR": "114.609417451557265771204780",
+      "indexGrossWNEAR": "8455.291064449559987270629177"
+    }
+  },
+  "indexedAcquisitions": {
+    "cohorts": {
+      "atLeast100": {
+        "indexCreditReceipts": 609,
+        "indexGrossWNEAR": "161964.370192764663356648937403",
+        "verifiedExchangeReceipts": 604,
+        "canonicalWholeReceiptSignedExchangeWNEAR": "160855.341734865290733701070502",
+        "canonicalWholeReceiptExplicitNetTransfersWNEAR": "1109.028457899372622947866901"
+      }
+    },
+    "treesComparedWithRPC": 234,
+    "scope": "FastNear Explorer raw historical transaction and receipt index. All listed collector exchanges and swap-linked transfers are checked against successful receipt logs and signed instructions. The comparison fields identify the subset also reproduced from independent archival RPC or finalized full blocks."
+  },
+  "expandedAcquisitions": {
+    "edition": "2026-11-02",
+    "lastIncludedBatchCaptureUTC": "2026-11-02T17:36:51.071034+00:00",
+    "periodStartUTC": "2026-08-22T23:59:59.885903781Z",
+    "periodEndUTC": "2026-10-28T07:26:47.281150058Z",
+    "openingBlock": 212494411,
+    "openingBlockHash": "BEkkUfn7w4xKS4WojxeztawpcHzMXBetgZJWRDHnqaR2",
+    "closingBlock": 221944496,
+    "closingBlockHash": "9W1M6idoHgJt7X8GDtdVcB6c6yMsVa46qtSsMeRCZq3x",
+    "indexedTransactionTrees": 6366,
+    "indexedTreesComparedToDirectRPC": 912,
+    "combinedCreditedReceipts": 6125,
+    "original794SourceOnlyCreditedReceipts": 75,
+    "combinedReceiptsWithDirectRPCOrFinalizedBlockEvidence": 1027,
+    "signedCollectorExchangeReceipts": 5543,
+    "signedCollectorAcquisitionsWNEAR": "297020.014084668661483826780282",
+    "otherDirectedTransfersWNEAR": "6755.001992837035669902632090",
+    "observedRawGrossWNEAR": "303775.016077505697153729412372",
+    "classifiedGrossWNEAR": "303775.016077505697153729412372",
+    "allCollectorGrossWNEARCredits": "357607.377896623963323917514044",
+    "remainingUnclassifiedGrossWNEAR": "53832.361819118266170188101672",
+    "grossWNEAROutsideIncludedReceipts": "53832.361819118266170188101672",
+    "unclassifiedWNEARInsideIncludedReceipts": "0.000000000000000000000000",
+    "classifiedShareOfGrossCreditsPct": "84.94651812",
+    "acquisitionShareOfGrossCreditsPct": "83.05757444",
+    "minimumExchangeAcquiredNativeNEARDelivered": "296614.023830396368007679874791",
+    "recipientSpecificMinimumNEAR": {
+      "1csfundsadmin.sputnik-dao.near": "0.000000000000000000000000",
+      "buybacks.multisignature.near": "296614.023830396368007679874791"
+    },
+    "allVerifiedNativeDeliveriesNEAR": "357765.304921663062847815955323",
+    "matchedEpochPayouts": 219,
+    "matchedGrossNativeIssuanceNEAR": "5917262.053922024995765309928475",
+    "minimumDeliveredShareOfGrossMintingPct": "5.01269035",
+    "allThreeCollectorDeliveriesShareOfGrossMintingPct": "6.04612913",
+    "publicCsv": "/data/near-intents-collector-acquisition-priority-checkpoint-2026-11-02.csv",
+    "publicCsvSha256": "efb9fb09eaed353ae1257cf8b099f95533d6e405cd83793c3dfe50f7540c684e",
+    "scope": "Counts include only independently signed collector exchanges or executed directed transfers in the frozen receipt union. Direct archival evidence supplements the raw historical Explorer index. All three collectors\u2019 indexed gross wNEAR debits match the successful native deliveries. Closing inventory is assigned entirely to identified acquisitions before reporting a recipient-specific lower bound. Unclassified gross credits remain a quantity, with no assumed funding source or economic type. Neither gross exchanges nor treasury custody establish external cash earnings, incremental market demand or a native burn.",
+    "exchangeInputAssetIDs": 66,
+    "exchangeInputAssetIDsWithVerifiedUnitPrecision": 66,
+    "exchangeInputAssetIDsWithoutUnitPrecision": [],
+    "priorityCohort": {
+      "referenceTimeUTC": "2026-11-02T16:58:22+00:00",
+      "transactions": 2000,
+      "qualifyingCreditWNEAR": "41818.320809634021562342903987",
+      "distinctCreditedReceipts": 2000,
+      "wholeReceiptGrossWNEAR": "41818.320809634021562342903987",
+      "signedExchangeWNEAR": "40032.680083303441859718479220",
+      "otherDirectedWNEAR": "1785.640726330579702624424767",
+      "scope": "These are the 2,000 eligible previously unseen transaction hashes with the largest aggregate individual credits of at least one wNEAR at the declared reference time. The rest of the frozen release also includes qualifying evidence captured independently."
+    }
+  },
+  "intermediary": {
+    "transferringTreasury": "1csfundsadmin.sputnik-dao.near",
+    "intermediateOwner": "c0addac935f49baee1909a6fb4f08b57352a6d8c8ce7da27c59545fe45c5838c",
+    "nativeTreasuryRecipient": "buybacks.multisignature.near",
+    "fundingTransaction": "DbQwfZFHV3BmRN5DhSFjageys9bXKVbvMd5U3dYzdVjs",
+    "nativePaymentTransaction": "3ihccLWsPJnMEgF1o37Vb9vWhwqW4h4j3iA7qX5oQGKG",
+    "fundingUTC": "2026-09-09T12:28:03.642806669Z",
+    "nativeReceiptUtcNs": "1788956894725146120",
+    "wNEARFromTreasury": "989.998999899989998999899990",
+    "nativeNEARDelivered": "989.900000000000000000000000",
+    "minimumNativeNEARFromTrackedTreasuryInventory": "989.900000000000000000000000",
+    "otherWNEARSentToOriginalCollector": "0.098999899989998999899990",
+    "balances": [
+      {
+        "height": 214941382,
+        "hash": "AGQDzWPHKx6ZPeW7oXYsDZrbcyJyTQQqstriWzyGrDns",
+        "verifierWNEARRaw": "0"
+      },
+      {
+        "height": 214941383,
+        "hash": "3PinDypYma8i74BHhpy5LjDjaTZ9wgmv9u949qdCv9da",
+        "verifierWNEARRaw": "989998999899989998999899990"
+      },
+      {
+        "height": 214941397,
+        "hash": "3ZbyzMDZjVGYmcAtczjPYV1LqZ8fF52YK2RJBqULEDrT",
+        "verifierWNEARRaw": "0"
+      }
+    ],
+    "withdrawalAndCollectorTransferIntent": "5Zefhzr6e15jmv3Ba7Z9SgPydSVkG8apCayNhcQEXvUu",
+    "archivalTransactionSources": [
+      "final RPC / data/verified/treasury-outflows-2026-11-02/sources/2838e6b7183bb480d0b38e50fda43a721fecc48bb2a1bdb5d455da27b4d7bfc4.json.gz",
+      "final RPC / data/verified/treasury-inflow-origins-2026-11-02/archival-rpc/3ihccLWsPJnMEgF1o37Vb9vWhwqW4h4j3iA7qX5oQGKG.json.gz"
+    ],
+    "interpretation": "The complete bidirectional transfer window identifies the DAO credit and subsequent withdrawal debit. The entire opening intermediate stock is allowed as alternate funding. This is a re-routing of already-owned group inventory to the stated extent despite an intents.near native receipt predecessor."
+  },
+  "treasury": {
+    "blockHeight": 222728039,
+    "utc": "2026-11-02T13:58:23.911607825Z",
+    "indexCoverage": {
+      "buybacks.multisignature.near": {
+        "transactions": 3132,
+        "pages": 16,
+        "oldestIndexedTx": "FW2BpwusTDxipLa94yr6BCsdczTcgM94iatKQBS6NPzz",
+        "oldestIndexedUTC": "2026-03-18T12:42:28.722249839Z"
+      },
+      "fefundsadmin.sputnik-dao.near": {
+        "transactions": 2817,
+        "pages": 15,
+        "oldestIndexedTx": "3wRjcfEczR99DSXw2VSyD2TbCSa5gRFt2dafXyNQbgiy",
+        "oldestIndexedUTC": "2025-09-22T12:47:55.322075221Z"
+      },
+      "1csfundsadmin.sputnik-dao.near": {
+        "transactions": 535,
+        "pages": 3,
+        "oldestIndexedTx": "4wy1XsniBPohSpeFLGdS9fwmz7ZHmUJTUa2Svs83fTrH",
+        "oldestIndexedUTC": "2025-10-02T13:33:25.116201423Z"
+      }
+    },
+    "distinctIndexedTransactions": 6481,
+    "verifiedTransactions": 93,
+    "movements": [
+      {
+        "wallet": "1csfundsadmin.sputnik-dao.near",
+        "recipient": "buybacks.multisignature.near",
+        "entryType": "native_transfer",
+        "asset": "NEAR",
+        "count": 3,
+        "amountAtomic": "510068000000000000000000000000",
+        "amountUnits": "510068.000000000000000000000000",
+        "symbol": "NEAR"
+      },
+      {
+        "wallet": "1csfundsadmin.sputnik-dao.near",
+        "recipient": "c0addac935f49baee1909a6fb4f08b57352a6d8c8ce7da27c59545fe45c5838c",
+        "entryType": "nep245_transfer",
+        "asset": "intents.near/nep141:wrap.near",
+        "count": 1,
+        "amountAtomic": "989998999899989998999899990",
+        "amountUnits": "989.998999899989998999899990",
+        "symbol": "Internal wNEAR"
+      },
+      {
+        "wallet": "1csfundsadmin.sputnik-dao.near",
+        "recipient": "fdd59b04d49c7f535a441fa7ea24f6e5292e54f68f75ebbe2e41738301bcf9e4",
+        "entryType": "native_transfer",
+        "asset": "NEAR",
+        "count": 2,
+        "amountAtomic": "45010000000000000000000000000",
+        "amountUnits": "45010.000000000000000000000000",
+        "symbol": "NEAR"
+      },
+      {
+        "wallet": "buybacks.multisignature.near",
+        "recipient": "508aa18569e5a59d63b0f4c445e02e7b5fc53b86337328e756b32745ebac50e7",
+        "entryType": "native_transfer",
+        "asset": "NEAR",
+        "count": 1,
+        "amountAtomic": "12000000000000000000000000000",
+        "amountUnits": "12000.000000000000000000000000",
+        "symbol": "NEAR"
+      },
+      {
+        "wallet": "buybacks.multisignature.near",
+        "recipient": "nf-payments.near",
+        "entryType": "native_transfer",
+        "asset": "NEAR",
+        "count": 2,
+        "amountAtomic": "25000000000000000000000000",
+        "amountUnits": "25.000000000000000000000000",
+        "symbol": "NEAR"
+      },
+      {
+        "wallet": "fefundsadmin.sputnik-dao.near",
+        "recipient": "aurorafinance.sputnik-dao.near",
+        "entryType": "nep141_transfer",
+        "asset": "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+        "count": 4,
+        "amountAtomic": "200000000000",
+        "amountUnits": "200000.000000",
+        "symbol": "USDC"
+      },
+      {
+        "wallet": "fefundsadmin.sputnik-dao.near",
+        "recipient": "auroraliqsupport.near",
+        "entryType": "nep141_transfer",
+        "asset": "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+        "count": 10,
+        "amountAtomic": "2050900000000",
+        "amountUnits": "2050900.000000",
+        "symbol": "USDC"
+      },
+      {
+        "wallet": "fefundsadmin.sputnik-dao.near",
+        "recipient": "aurorasupport.near",
+        "entryType": "nep141_transfer",
+        "asset": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+        "count": 1,
+        "amountAtomic": "200000000000",
+        "amountUnits": "200000.000000",
+        "symbol": "Bridged USDC"
+      }
+    ],
+    "verifiedFrontendTransferProposals": 15,
+    "executionBySigner": {
+      "auroracfo.near": {
+        "transactions": 12,
+        "executionNEAR": "0.006965664740041400000000",
+        "gasRefundNEAR": "0.351499544985955300000000"
+      },
+      "aurorafinance1.near": {
+        "transactions": 30,
+        "executionNEAR": "0.028716486417394500000000",
+        "gasRefundNEAR": "0.822941563404574400000000"
+      },
+      "aurorafinance2.near": {
+        "transactions": 3,
+        "executionNEAR": "0.002930687748963700000000",
+        "gasRefundNEAR": "0.087431482583589500000000"
+      },
+      "buybacks.multisignature.near": {
+        "transactions": 13,
+        "executionNEAR": "0.019136204536876800000000",
+        "gasRefundNEAR": "0.327630887978867600000000"
+      },
+      "f7e23b5d988c35bd9a598671dcdb231e9763b47ac5105eb5d0c9e1427040d6c6": {
+        "transactions": 1,
+        "executionNEAR": "0.016958477092235200000000",
+        "gasRefundNEAR": "0.013184062902550500000000"
+      },
+      "nf-payments.near": {
+        "transactions": 1,
+        "executionNEAR": "0.005987275042811100000000",
+        "gasRefundNEAR": "0.024133729615396000000000"
+      },
+      "sponsor.trezu.near": {
+        "transactions": 33,
+        "executionNEAR": "0.023162869019420700000000",
+        "gasRefundNEAR": "3.344456334699942300000000"
+      }
+    },
+    "staking": {
+      "buybacks.multisignature.near": {
+        "indexedRows": 0,
+        "pools": [],
+        "nativeLiquidYocto": "2153767154110239810623596226365",
+        "nativeLockedYocto": "0",
+        "pinnedPoolBalances": {}
+      },
+      "fefundsadmin.sputnik-dao.near": {
+        "indexedRows": 0,
+        "pools": [],
+        "nativeLiquidYocto": "1966129645578891832942067760649",
+        "nativeLockedYocto": "0",
+        "pinnedPoolBalances": {}
+      },
+      "1csfundsadmin.sputnik-dao.near": {
+        "indexedRows": 0,
+        "pools": [],
+        "nativeLiquidYocto": "270875891412420848813311023",
+        "nativeLockedYocto": "0",
+        "pinnedPoolBalances": {}
+      }
+    }
+  },
+  "nativeAdjustments": {
+    "scope": "Consolidated three-wallet native balance change from 1 September through 30 October 2026. Zero net difference does not exclude offsetting unmeasured flows. Protocol execution credits are separate from external user fees.",
+    "measuredGroupChangeYocto": "1005166758545524448471557027707",
+    "indexedExternalTransfersYocto": "1005166457921860957896857027708",
+    "adjustmentsYocto": "300623663490574699999999",
+    "unexplainedYocto": "0",
+    "adjustmentsByTypeYocto": {
+      "contract_execution_reward": "623663490574700000000",
+      "incoming_add_proposal_attached_deposit": "300000000000000000000000",
+      "outgoing_mt_transfer_attached_deposit": "-1"
+    },
+    "csv": "near-intents-treasury-balance-adjustments-2026-09-01-to-2026-10-30.csv"
+  },
+  "treasuryControl": {
+    "blockHeight": 222728039,
+    "blockHash": "CPx6Jmn2THRCGYsqAGXU62YTkPEQnM9wgGmrdQ3vNs8G",
+    "wallets": {
+      "buybacks.multisignature.near": {
+        "codeHash": "2v9kZJHN4sogHuKtKHaqYAqQBazkqH2cjY1rrjQYvNQa",
+        "accessKeys": [
+          {
+            "access_key": {
+              "nonce": 190077123000000,
+              "permission": {
+                "FunctionCall": {
+                  "allowance": null,
+                  "method_names": [
+                    "add_request",
+                    "add_request_and_confirm",
+                    "delete_request",
+                    "confirm"
+                  ],
+                  "receiver_id": "buybacks.multisignature.near"
+                }
+              }
+            },
+            "public_key": "ed25519:4BGbi2xFEp7hBsfGGLsrzB2DY2VTaADxh4KdpqdCsgSf"
+          },
+          {
+            "access_key": {
+              "nonce": 190077123009517,
+              "permission": {
+                "FunctionCall": {
+                  "allowance": null,
+                  "method_names": [
+                    "add_request",
+                    "add_request_and_confirm",
+                    "delete_request",
+                    "confirm"
+                  ],
+                  "receiver_id": "buybacks.multisignature.near"
+                }
+              }
+            },
+            "public_key": "ed25519:52QSJjJv7Ra4NgpajbYLgX5nr9goszbZvkNTX72SjJtU"
+          },
+          {
+            "access_key": {
+              "nonce": 190077123000212,
+              "permission": {
+                "FunctionCall": {
+                  "allowance": null,
+                  "method_names": [
+                    "add_request",
+                    "add_request_and_confirm",
+                    "delete_request",
+                    "confirm"
+                  ],
+                  "receiver_id": "buybacks.multisignature.near"
+                }
+              }
+            },
+            "public_key": "ed25519:6ss8i9d8nG8vsiAw5DYrKbdrokmP9KCjSj6N3RhgjgrE"
+          },
+          {
+            "access_key": {
+              "nonce": 190077123000000,
+              "permission": {
+                "FunctionCall": {
+                  "allowance": null,
+                  "method_names": [
+                    "add_request",
+                    "add_request_and_confirm",
+                    "delete_request",
+                    "confirm"
+                  ],
+                  "receiver_id": "buybacks.multisignature.near"
+                }
+              }
+            },
+            "public_key": "ed25519:BFVZgNSbUf3rVcwFww7vbXXfWy38VLgpv3PdPFbHotkP"
+          }
+        ],
+        "requiredConfirmations": 2
+      },
+      "fefundsadmin.sputnik-dao.near": {
+        "codeHash": "4zSoHkLjJWZm34Psd4Eq2WUXHELt6LxtKmUXpsZWAECp",
+        "accessKeys": [],
+        "policy": {
+          "roles": [
+            {
+              "name": "Requestor",
+              "kind": {
+                "Group": [
+                  "aurorafinance1.near",
+                  "aurorafinance2.near",
+                  "paperclip-maximizer.near",
+                  "aurorafinance3.near",
+                  "auroracfo.near"
+                ]
+              },
+              "permissions": [
+                "call:AddProposal",
+                "transfer:VoteRemove",
+                "transfer:AddProposal",
+                "call:VoteRemove"
+              ],
+              "vote_policy": {
+                "call": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "transfer": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                }
+              }
+            },
+            {
+              "name": "Admin",
+              "kind": {
+                "Group": [
+                  "paperclip-maximizer.near",
+                  "aurorafinance2.near",
+                  "aurorafinance3.near",
+                  "auroracfo.near",
+                  "aurorafinance1.near"
+                ]
+              },
+              "permissions": [
+                "config:*",
+                "policy_update_parameters:*",
+                "add_bounty:*",
+                "remove_member_from_role:*",
+                "upgrade_self:*",
+                "policy_remove_role:*",
+                "set_vote_token:*",
+                "upgrade_remote:*",
+                "bounty_done:*",
+                "add_member_to_role:*",
+                "factory_info_update:*",
+                "policy:*",
+                "policy_add_or_update_role:*",
+                "policy_update_default_vote_policy:*"
+              ],
+              "vote_policy": {
+                "policy_remove_role": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "policy_update_parameters": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "remove_member_from_role": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "upgrade_remote": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "bounty_done": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "policy": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "config": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "add_member_to_role": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "set_vote_token": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "factory_info_update": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "policy_add_or_update_role": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "upgrade_self": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "add_bounty": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "policy_update_default_vote_policy": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                }
+              }
+            },
+            {
+              "name": "Approver",
+              "kind": {
+                "Group": [
+                  "auroracfo.near",
+                  "aurorafinance1.near",
+                  "paperclip-maximizer.near",
+                  "aurorafinance3.near",
+                  "aurorafinance2.near"
+                ]
+              },
+              "permissions": [
+                "transfer:VoteApprove",
+                "call:VoteApprove",
+                "transfer:RemoveProposal",
+                "call:VoteReject",
+                "transfer:VoteReject",
+                "transfer:Finalize",
+                "call:Finalize",
+                "call:RemoveProposal"
+              ],
+              "vote_policy": {
+                "transfer": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "config": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "add_bounty": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "set_vote_token": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "upgrade_remote": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "add_member_to_role": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "upgrade_self": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "call": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "policy": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "remove_member_from_role": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "bounty_done": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "vote": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                }
+              }
+            }
+          ],
+          "default_vote_policy": {
+            "weight_kind": "RoleWeight",
+            "quorum": "0",
+            "threshold": [
+              1,
+              2
+            ]
+          },
+          "proposal_bond": "100000000000000000000000",
+          "proposal_period": "604800000000000",
+          "bounty_bond": "100000000000000000000000",
+          "bounty_forgiveness_period": "604800000000000"
+        }
+      },
+      "1csfundsadmin.sputnik-dao.near": {
+        "codeHash": "4zSoHkLjJWZm34Psd4Eq2WUXHELt6LxtKmUXpsZWAECp",
+        "accessKeys": [],
+        "policy": {
+          "roles": [
+            {
+              "name": "Requestor",
+              "kind": {
+                "Group": [
+                  "f7e23b5d988c35bd9a598671dcdb231e9763b47ac5105eb5d0c9e1427040d6c6",
+                  "745def2beee571628e35743e564687bb11ae1cf312efd3c1e079d679e46e011b",
+                  "96c39c068d823af7d8aea81237eae07bc6f5f05fc19a0b34f170d700a6601850",
+                  "c7b5000cd52a65f02e3e5d5c071f7cf96492b31fc19e60163fe225f66c92a483"
+                ]
+              },
+              "permissions": [
+                "call:AddProposal",
+                "transfer:VoteRemove",
+                "transfer:AddProposal",
+                "call:VoteRemove"
+              ],
+              "vote_policy": {
+                "call": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                },
+                "transfer": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "1"
+                }
+              }
+            },
+            {
+              "name": "Admin",
+              "kind": {
+                "Group": [
+                  "745def2beee571628e35743e564687bb11ae1cf312efd3c1e079d679e46e011b",
+                  "f7e23b5d988c35bd9a598671dcdb231e9763b47ac5105eb5d0c9e1427040d6c6",
+                  "c7b5000cd52a65f02e3e5d5c071f7cf96492b31fc19e60163fe225f66c92a483",
+                  "96c39c068d823af7d8aea81237eae07bc6f5f05fc19a0b34f170d700a6601850"
+                ]
+              },
+              "permissions": [
+                "config:*",
+                "policy_update_parameters:*",
+                "add_bounty:*",
+                "remove_member_from_role:*",
+                "upgrade_self:*",
+                "policy_remove_role:*",
+                "set_vote_token:*",
+                "upgrade_remote:*",
+                "bounty_done:*",
+                "add_member_to_role:*",
+                "factory_info_update:*",
+                "policy:*",
+                "policy_add_or_update_role:*",
+                "policy_update_default_vote_policy:*"
+              ],
+              "vote_policy": {
+                "upgrade_remote": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "upgrade_self": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "call": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "bounty_done": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "policy": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "config": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "add_member_to_role": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "set_vote_token": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "vote": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "transfer": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "add_bounty": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "remove_member_from_role": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                }
+              }
+            },
+            {
+              "name": "Approver",
+              "kind": {
+                "Group": [
+                  "745def2beee571628e35743e564687bb11ae1cf312efd3c1e079d679e46e011b",
+                  "96c39c068d823af7d8aea81237eae07bc6f5f05fc19a0b34f170d700a6601850",
+                  "c7b5000cd52a65f02e3e5d5c071f7cf96492b31fc19e60163fe225f66c92a483",
+                  "f7e23b5d988c35bd9a598671dcdb231e9763b47ac5105eb5d0c9e1427040d6c6"
+                ]
+              },
+              "permissions": [
+                "transfer:VoteApprove",
+                "call:VoteApprove",
+                "transfer:RemoveProposal",
+                "call:VoteReject",
+                "transfer:VoteReject",
+                "transfer:Finalize",
+                "call:Finalize",
+                "call:RemoveProposal"
+              ],
+              "vote_policy": {
+                "transfer": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "config": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "add_bounty": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "set_vote_token": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "upgrade_remote": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "add_member_to_role": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "upgrade_self": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "call": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "policy": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "remove_member_from_role": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "bounty_done": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                },
+                "vote": {
+                  "weight_kind": "RoleWeight",
+                  "quorum": "0",
+                  "threshold": "2"
+                }
+              }
+            }
+          ],
+          "default_vote_policy": {
+            "weight_kind": "RoleWeight",
+            "quorum": "0",
+            "threshold": [
+              1,
+              2
+            ]
+          },
+          "proposal_bond": "100000000000000000000000",
+          "proposal_period": "604800000000000",
+          "bounty_bond": "100000000000000000000000",
+          "bounty_forgiveness_period": "604800000000000"
+        }
+      }
+    },
+    "scope": "Direct archival contract views and access-key lists at one pinned block. They establish the returned permissions, not independent controller identities, immutable policy, reviewed deployed code, or legal rights of token holders."
+  },
+  "onward": {
+    "incomingRaw": "12000000000000000000000000000",
+    "incomingUTC": "2026-07-10T12:04:14.148307609Z",
+    "transfers": [
+      {
+        "from": "508aa18569e5a59d63b0f4c445e02e7b5fc53b86337328e756b32745ebac50e7",
+        "to": "bridge-mng.near",
+        "receiptId": "ETvH4xZHQqbNyZLbYXDowshUVjHMMNeSCD773Nrn5ioz",
+        "status": "success",
+        "utc": "2026-07-10T12:04:24.285464190Z",
+        "timestampNs": "1783685064285464190",
+        "height": 206365740,
+        "blockHash": "Hcbdj77iQtCqKBZ2ErHuwe6xf3LtMTWTzXmH8MRh9P65",
+        "action": "Transfer",
+        "depositYocto": "11999999950500000000000000000",
+        "method": null,
+        "args": null,
+        "transactionHash": "J5xM6BW3xm1fLUa155k1ZavxcbrcrCi5jgTJMTCDMA1E"
+      }
+    ]
+  },
+  "cohort": {
+    "windows": {
+      "baselineStartUtc": "2026-08-01T12:00:00.000000000Z",
+      "baselineEndExclusiveUtc": "2026-08-01T12:10:00.000000000Z",
+      "days1to30StartUtc": "2026-08-02T00:00:00.000000000Z",
+      "days1to30EndExclusiveUtc": "2026-09-01T00:00:00.000000000Z",
+      "days61to90StartUtc": "2026-10-01T00:00:00.000000000Z",
+      "days61to90EndExclusiveUtc": "2026-10-31T00:00:00.000000000Z"
+    },
+    "candidateAccounts": 186,
+    "baselineVerifiedAccounts": 183,
+    "candidatesWithoutMatchingFee": 3,
+    "cohortOutcomes": {
+      "days1to30": {
+        "verified-repeat": 34,
+        "no-qualifying-indexed-event": 149,
+        "unknown": 0
+      },
+      "days61to90": {
+        "verified-repeat": 34,
+        "no-qualifying-indexed-event": 149,
+        "unknown": 0
+      }
+    },
+    "outcomesByWitnessRole": {
+      "1Click-referred intent": {
+        "baseline": 164,
+        "windows": {
+          "days1to30": {
+            "verified-repeat": 15,
+            "no-qualifying-indexed-event": 149,
+            "unknown": 0
+          },
+          "days61to90": {
+            "verified-repeat": 15,
+            "no-qualifying-indexed-event": 149,
+            "unknown": 0
+          }
+        }
+      },
+      "configured aggregation account": {
+        "baseline": 2,
+        "windows": {
+          "days1to30": {
+            "verified-repeat": 2,
+            "no-qualifying-indexed-event": 0,
+            "unknown": 0
+          },
+          "days61to90": {
+            "verified-repeat": 2,
+            "no-qualifying-indexed-event": 0,
+            "unknown": 0
+          }
+        }
+      },
+      "counterparty in a 1Click-referred execution": {
+        "baseline": 17,
+        "windows": {
+          "days1to30": {
+            "verified-repeat": 17,
+            "no-qualifying-indexed-event": 0,
+            "unknown": 0
+          },
+          "days61to90": {
+            "verified-repeat": 17,
+            "no-qualifying-indexed-event": 0,
+            "unknown": 0
+          }
+        }
+      }
+    },
+    "baselineReferralCounts": {
+      "1click-swapkit": 64,
+      "1click-unknown": 31,
+      "1click-rango": 21,
+      "1click-new.intents-referral.near": 1,
+      "1click-e2e_tests": 4,
+      "1click-lifi": 11,
+      "1click-1cs": 2,
+      "1click-e1a72603-64b3-4be1-8265-8bae5970d396": 3,
+      "1click-sweat-app": 4,
+      "1click-intents.tg": 6,
+      "1click-zodl": 3,
+      "1click-cow": 3,
+      "1click-aurora-widget-cmrakvhfr00sd0ci61bhajpgn": 3,
+      "1click-rubic": 2,
+      "1click-near-intents.intents-referral.near": 1,
+      "1click-stableflow": 2,
+      "1click-brave": 1,
+      "1click-vizor": 1,
+      "1click-gas-refueler": 1,
+      "1click-uswap": 1,
+      "1click-near-mobile": 1
+    },
+    "primaryBaselineRPCConfirmations": 96,
+    "primaryBaselineBlockConfirmations": 87,
+    "scope": "The full candidate population is defined by positive transfers returned by the NearBlocks account index in a predeclared ten-minute interval. Membership needs a successful finalized verifier token_diff with a positive fee, matching account and intent in intents_executed, and an actual same-asset credit to the configured protocol collector in the same receipt. Recurrence is a distinct qualifying fee in each stated calendar window. A negative observation is scoped to paginated public index coverage; unresolved histories stay unknown. This is a baseline of active signers, not first-acquisition cohorts, end customer identity, profit or continuous usage. Solver, collection, transaction-specific and other intermediary accounts may participate."
+  },
+  "allocation": {
+    "baselineWitnesses": 183,
+    "accountsWithTransferToKnownAggregator": 53,
+    "sameSignedIntentTransferAssetRows": 57,
+    "distinctTokenIds": 20,
+    "independentlyVerifiedImplicitSignatures": 53,
+    "sameInputAssetRatios": 18,
+    "minObservedBps": "1.000000",
+    "maxObservedBps": "102.000000",
+    "countsByObservedBps": {
+      "1.000000": 5,
+      "4.999926": 1,
+      "5.000000": 6,
+      "10.000000": 4,
+      "30.000000": 1,
+      "102.000000": 1
+    },
+    "nonemptyMemos": 0,
+    "scope": "One qualifying fee witness per baseline signer, not all its trades or a protocol take-rate estimate. Transfers require the same executed account and intent hash as the charge. Ratios require an independently verified NEP-413 implicit signature, exhaustively understood signed debits, a spent input asset with no positive trade leg or withdrawal of the same asset, and all other same-asset transfer debits in the denominator. The entire actual ledger debit for the asset must equal the signed denominator, with no credit of that asset to the signer in the receipt. Blank ratios are unavailable, not zero. Transfer purpose and partner cash entitlements remain unassigned."
+  },
+  "destinations": {
+    "baselinePaidSignersWithExplicitDestination": 102,
+    "signedWithdrawalInstructions": 103,
+    "distinctDestinations": 97,
+    "destinationsNamedByMultiplePaidSignerAccounts": 6,
+    "distinctSignersAtSharedDestinations": 12,
+    "scope": "One qualifying August 1 baseline witness per signer. Only independently verified implicit NEP-413 signatures, matching executed FT withdrawal events and same-amount internal withdrawal burns qualify. OMFT destinations require exact token contract and identical memo address. Omni Bridge destinations require an exact chain-prefixed recipient. Digest is SHA-256 of the JSON tuple [format, scope, exact-case address]. An instruction is not proof of payout completion on its destination chain or control of that address by a customer."
+  }
+}
