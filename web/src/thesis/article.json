@@ -1,0 +1,395 @@
+{
+  "version": "2026-11-02.onchain.2",
+  "title": "Can NEAR Intents outrun dilution?",
+  "subtitle": "A live investment thesis connecting cross-chain economics, token demand and valuation.",
+  "position": "{{position}}",
+  "chapters": {
+    "opening": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "{{premise}}",
+          "{{onchainOpening}}",
+          "{{openingCase}}",
+          "{{findingHurdle}}",
+          "{{findingPrice}}",
+          "{{findingTrend}}",
+          "Purchases can support demand without stopping dilution. Holding or staking acquired NEAR leaves total supply unchanged; a holder with a fixed balance still loses ownership share as supply grows. The investment case therefore requires both a recurring source of acquisition funding and growth sufficient to support the price paid for the token."
+        ]
+      }
+    ],
+    "fees": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "Only a small part of each swap becomes fee income, and several parties can claim a share of it. The [Intents verifier](https://github.com/near/intents) settles the trade, market makers [compete to quote it](https://docs.near-intents.org/integration/market-makers/message-bus/introduction), and a distribution partner can bring the customer and charge a fee. Settled volume supports buybacks only through the fees retained from it and the cash left for NEAR purchases.",
+          "{{protocolFeeObservation}}",
+          {
+            "text": "The [1Click fee schedule](https://docs.near-intents.org/resources/fees) sets the ordinary platform charge at 20 basis points for authenticated requests with no added partner fee. Qualifying stablecoin pairs and same-asset routes across chains carry 1 basis point. At those rates, the cheaper route needs twenty times as much volume to earn the same platform fee. Aggregation quotes are exempt, and partners can negotiate other terms.",
+            "historical": "On 2 November 2026 the [1Click fee schedule](https://docs.near-intents.org/resources/fees) listed a 20-basis-point platform charge for ordinary authenticated requests without added partner fees. Qualifying stablecoin pairs and same-asset routes across chains carried 1 basis point. At those rates, the cheaper route needed twenty times as much volume to earn the same platform fee. Aggregation quotes were exempt and partner terms could differ.",
+            "requiresReview": [
+              "fees"
+            ]
+          },
+          "The [1Click terms dated 7 October 2026](https://docs.near-intents.org/security-compliance/terms-of-service) named Intents Technology Limited as the operator. They distinguished application fees shared with developers on public swaps from confidential-swap infrastructure fees retained by the company. The purchase model therefore cannot assign all service fees to a NEAR treasury: it needs the share that treasury actually receives, after the other parties’ claims.",
+          {
+            "text": "The [fee aggregation service](https://docs.near-intents.org/integration/distribution-channels/1click-api/fee-config) allows an integrator to collect fees in several assets, convert them into one selected asset and withdraw to a designated wallet. Collection accounts hold the pooled assets before conversion and treasury withdrawal. A collector configured to deliver NEAR can therefore send a treasury NEAR even if the customer paid in another token.",
+            "historical": "On 2 November 2026 the [fee aggregation guide](https://docs.near-intents.org/integration/distribution-channels/1click-api/fee-config) described how an integrator could pool fees in several assets, convert them into a selected asset and withdraw to a designated wallet. Collection accounts held the pooled assets before conversion and treasury withdrawal. This mechanism explains how a treasury could receive NEAR even if the customer paid in another token.",
+            "requiresReview": [
+              "configuration"
+            ]
+          },
+          "[NEAR’s treasury framework](https://near.org/blog/evolving-near-tokenomics) leaves governance to decide whether to hold, stake or redeploy acquired NEAR. Funding purchases and retaining the tokens are separate decisions. The acquisition case must account for both."
+        ]
+      }
+    ],
+    "withdrawals": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "This chapter follows the money from late August to late October 2026: what the collectors bought, what paid for it, what else reached the three treasury wallets, where their assets went and who controls them. Each table states its exact dates. This trail is a dated study, rebuilt from saved records so anyone can check it. The treasury balances and the two most recent 30-day periods at the end of the chapter update live, so the trend continues past the study."
+        ]
+      },
+      {
+        "heading": "What the collectors acquired",
+        "paragraphs": [
+          "{{acquiredDeliveredBound}}",
+          "{{collectorAcquisitions}}"
+        ]
+      },
+      {
+        "heading": "Payments that funded NEAR purchases",
+        "paragraphs": [
+          "{{swapFundingCase}}",
+          "{{swapFundedDelivery}}",
+          "{{fundingExplanation}}"
+        ],
+        "equations": [
+          "fundingTrace"
+        ],
+        "figureAfter": "swap-funded-treasury"
+      },
+      {
+        "heading": "Collector balances",
+        "paragraphs": [
+          "{{collectorVerification}}",
+          "{{collectorFlowBridge}}",
+          "{{allAssetInventory}}",
+          "{{verifierInventory}}"
+        ],
+        "figureAfter": "collector-flow"
+      },
+      {
+        "heading": "Funding beyond the three collectors",
+        "paragraphs": [
+          "{{allTreasuryOrigins}}"
+        ],
+        "figureAfter": "native-inflow-origins"
+      },
+      {
+        "heading": null,
+        "paragraphs": [
+          "{{additionalOwnerMatches}}",
+          "{{additionalOwnerFunding}}",
+          "{{recurringOwnerAcquisitions}}"
+        ]
+      }
+    ],
+    "balances": [
+      {
+        "heading": "What the treasury wallets kept",
+        "paragraphs": [
+          "{{archivalBalances}}",
+          "The [502,793 NEAR transfer](https://nearblocks.io/txns/CMfn15uTJF5DX9wFzV5G2JdHpy3qmHa5NJNUH9uj5Jp6) on 9 September moved existing inventory from the 1Click treasury to the buyback wallet. It is an internal transfer and adds no income to the three wallets.",
+          "{{treasuryRerouting}}"
+        ],
+        "figureAfter": "treasury-reconciliation"
+      },
+      {
+        "heading": null,
+        "paragraphs": [
+          "{{archivalGroup}}",
+          "{{inventory}}"
+        ]
+      },
+      {
+        "heading": "Where the treasury assets went",
+        "paragraphs": [
+          "{{treasuryGovernance}}",
+          "{{treasuryDisposition}}"
+        ],
+        "figureAfter": "treasury-payments"
+      },
+      {
+        "heading": null,
+        "paragraphs": [
+          "{{observedExecutionCosts}}"
+        ]
+      },
+      {
+        "heading": "Control over the treasury",
+        "paragraphs": [
+          "{{treasuryControl}}"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "heading": "Recent fees and receipts",
+        "figureAfter": "recent-receipts",
+        "paragraphs": [
+          {
+            "text": "{{collectionComparison}}",
+            "links": [
+              {
+                "phrase": "settled volume",
+                "url": "https://api.llama.fi/summary/dexs/near-intents"
+              },
+              {
+                "phrase": "dollar-valued collections",
+                "url": "https://api.llama.fi/summary/fees/near-intents?dataType=dailyRevenue"
+              }
+            ]
+          },
+          "{{nativeComparison}}"
+        ]
+      },
+      {
+        "heading": "Receipts against gross issuance",
+        "paragraphs": [
+          "{{supplyComparison}}",
+          {
+            "text": "{{burnComparison}}",
+            "links": [
+              {
+                "phrase": "Derived native burns",
+                "url": "https://github.com/near/nearcore/blob/2.13.4/core/primitives/src/block.rs#L320-L339"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "How much NEAR could Intents fees buy each year? Cash available after partner shares and operating costs sets the purchase capacity. For each route k in year t, multiply settled dollar volume V by the retained rate τ. Their sum is annual retained revenue R. Deduct attributable cash costs O to find the cash available F. If costs exceed revenue, the purchase budget is zero. The share a allocated to purchases determines the budget A. Five basis points is 0.0005 dollars per dollar settled.",
+          "{{feeRateBasis}}",
+          "The budget A buys Q tokens at the average execution price Pᵉˣᵉᶜ. Purchase coverage K is the acquired quantity divided by gross issuance I. A higher execution price buys fewer tokens from the same dollar budget.",
+          "Ending supply S equals opening supply plus issuance I, less native burns B. A purchase adds demand. Holding or staking the tokens leaves total supply unchanged. A [wrapped-token withdrawal](https://docs.near-intents.org/integration/verifier-contract/deposits-and-withdrawals/near-token) cancels the wrapped claim and releases its native backing. Only destruction of native NEAR reduces native supply."
+        ],
+        "equationsAfter": {
+          "0": [
+            "revenue"
+          ],
+          "2": [
+            "acquisition"
+          ],
+          "3": [
+            "supply"
+          ]
+        }
+      }
+    ],
+    "purchaseHurdle": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "{{purchaseHurdle}}"
+        ]
+      }
+    ],
+    "durability": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "{{longSummary}}",
+          "{{paidAccountCohort}}"
+        ],
+        "figureAfter": "paid-account-recurrence"
+      },
+      {
+        "heading": null,
+        "paragraphs": [
+          "{{paidAccountInterpretation}}",
+          "{{observedAggregationPayments}}",
+          "The ten-minute cohort on 1 August is neither a first-use cohort nor a representative sample of all customers. Accounts can belong to traders, service providers or collection services, and several accounts can share a withdrawal destination. A revenue forecast needs retention measured by customer and by income retained after partner shares and incentive costs; this sample supplies neither measure."
+        ]
+      },
+      {
+        "heading": "Distribution and fee concentration",
+        "paragraphs": [
+          "{{routingSummary}}",
+          "{{routingRepeat}}"
+        ],
+        "figureAfter": "routing-concentration"
+      },
+      {
+        "heading": null,
+        "paragraphs": [
+          "Negotiated fees and revenue sharing determine how much of each distributor’s volume becomes retained income. The [1Click Explorer](https://docs.near-intents.org/integration/distribution-channels/1click-api/explorer/introduction) groups swaps by referral and exposes application-fee fields, but volume shares alone cannot supply those income shares.",
+          "Even customers who return can shift toward cheaper routes. If settlement rises 50% while the average retained fee falls from five to three basis points, revenue before costs falls 10% (1.5 × 3/5 = 0.9)."
+        ]
+      }
+    ],
+    "valuation": [
+      {
+        "heading": "Purchase coverage and the valuation multiple",
+        "paragraphs": [
+          "If NEAR’s price rises in step with revenue, bigger fees do not buy a bigger share of the new NEAR. Let m be total token capitalization divided by annual retained revenue, r the gross issuance rate, μ the fraction of that revenue available after attributable cash costs, and a the acquisition allocation. If the valuation price and execution price coincide, substitution of P = mR/S and I = rS gives:",
+          "{{multipleExample}}",
+          "A larger dollar budget then faces proportionately more expensive tokens. The purchase case consequently depends on stronger cash availability or allocation, a lower multiple relative to revenue, or lower issuance. A different execution price changes the result. These conditions explain why a growing business can support price appreciation without its purchases catching up with issuance."
+        ],
+        "equations": [
+          "coverage"
+        ],
+        "equationAfter": 0
+      },
+      {
+        "heading": null,
+        "paragraphs": [
+          "The price cases above assign a value to the whole NEAR supply at the end of Year 5. A treasury buying during that year may pay a different price. The next cases vary that execution price to estimate how much NEAR the annual fee budget could buy."
+        ],
+        "figureAfter": "acquisition-scenarios"
+      },
+      {
+        "heading": "Testing the published bull case",
+        "paragraphs": [
+          "A bull case has to allow for NEAR becoming more expensive as Intents grows. [SVRN’s published investment case](https://svrn-research-nearprotocol.netlify.app/) makes that constraint visible: its price-sensitivity table raises the required daily volume from about $177 million at $1.22 per NEAR to $724 million at $5. Its later volume assumptions must overcome the reduction in tokens acquired per dollar.",
+          "The denominator also changes the apparent valuation. [SVRN](https://svrn.net/research/near-protocol) combines a published $1.49bn market cap with $6.93bn of 90-day volume. Four-quarter annualization at its 19-basis-point gross fee assumption produces 28.29×; substituting its own 6.101-basis-point retained model rate produces 88.10×. These revenue multiples use SVRN’s dated inputs and modeled fee rates.",
+          "At SVRN’s 2027 price range of $15–25, modeled annual retained fees of $214.0m buy 26.6–44.3% of its assumed 32.2m annual issuance. Its much larger 2029 and 2030 volume paths reach approximately 99–153% and 252–378% respectively. Those results require very large adoption, fee retention and coherent execution prices."
+        ],
+        "figureAfter": "published-model"
+      },
+      {
+        "heading": "What comparables can establish",
+        "paragraphs": [
+          "Other fee-sharing tokens cannot tell us what multiple NEAR deserves. Aave and Hyperliquid help assess how fee income reaches token holders, but their published revenue measures cannot justify a NEAR valuation multiple on their own. Gross fees, retained revenue and available cash measure different economic interests. A comparison must match recipients, operating costs, allocation, supply changes and dates.",
+          "As of 28 October 2026, [Aave’s holders-revenue proxy](https://github.com/DefiLlama/dimension-adapters/blob/ebda192788c681a7613d80e71dc2bd3704b81a74/fees/aave-v3.ts) valued selected AAVE treasury inflows; [Hyperliquid’s proxy](https://github.com/DefiLlama/dimension-adapters/blob/ebda192788c681a7613d80e71dc2bd3704b81a74/dexs/hyperliquid-perp/index.ts) chiefly measured allocated fee and yield amounts with product-specific burn components. Intents’ marked wallet collections measure another event. These sources help evaluate transmission and disclosure; they do not establish that 60×, 100× or any other revenue multiple is fair for NEAR.",
+          {
+            "text": "Other sources of demand warrant separate treatment. [NEAR AI Cloud’s terms](https://near.ai/terms-of-service) identify Jasnah, Inc. as the service counterparty. [Staking for compute](https://near.ai/blog/staking-for-near-ai) can encourage users to hold NEAR. Redirecting staking rewards into compute credits does not by itself establish external cash earnings. The valuation here assigns no separate dollar value to that activity.",
+            "requiresReview": [
+              "ai"
+            ]
+          }
+        ]
+      }
+    ],
+    "scenario": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "The 200× case sets each year’s execution price using that year’s retained revenue and opening supply. The table reports purchases during Year 5."
+        ]
+      }
+    ],
+    "holders": [
+      {
+        "heading": "Ownership share and dollar returns",
+        "paragraphs": [
+          "If you hold NEAR without staking, your share of all NEAR shrinks every year as new tokens are created, even when treasury purchases support demand. Staking passes part of that issuance to participating holders, after commission and subject to participation and operational risks. Those rewards change who receives the new tokens; they are not external customer earnings. For a holder, the outcomes that matter are ownership share and dollar return. In the equations below, H is the holder’s token balance, S total supply and P token price.",
+          "{{holderExample}}"
+        ],
+        "equations": [
+          "holder"
+        ],
+        "equationAfter": 0
+      }
+    ],
+    "closing": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "{{verdictLead}}",
+          "{{investmentConclusion}}"
+        ]
+      },
+      {
+        "heading": "The case for",
+        "paragraphs": [
+          "{{caseForGrowth}}",
+          "{{caseForFees}}",
+          "{{caseForRoute}}",
+          "{{caseForPartners}}"
+        ]
+      },
+      {
+        "heading": "The case against",
+        "paragraphs": [
+          "{{caseAgainstSmall}}",
+          "{{caseAgainstSlowing}}",
+          "**Bought NEAR is held, not burned.** It does not reduce total supply, and the treasury can move it: on 10 July 2026 the buyback wallet sent 12,000 NEAR to an address that passed nearly all of it on to a bridge account.",
+          "{{caseAgainstControl}}"
+        ]
+      },
+      {
+        "heading": "What would change our view",
+        "paragraphs": [
+          "{{checkpointVolume}}",
+          "{{checkpointGrowth}}",
+          "{{checkpointFee}}",
+          "{{checkpointIssuance}}",
+          "{{checkpointWorse}}"
+        ]
+      },
+      {
+        "heading": "What we couldn’t measure",
+        "paragraphs": [
+          "**Intents’ costs.** The treasury payment records do not add up to an operating budget, so the model assumes zero costs.",
+          "{{cannotMeasureFee}}",
+          "{{cannotMeasureFunding}}",
+          "**Customer retention.** Our repeat-customer sample is one ten-minute window on 1 August 2026, not all customers.",
+          "**Other demand for NEAR.** Staking for NEAR AI compute and NEAR’s use as money or collateral are not valued here.",
+          "**Wider chain use.** This thesis measures one mechanism, Intents fees and buybacks, not all activity on NEAR."
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "heading": "Execution and distribution",
+        "paragraphs": [
+          "[Across](https://docs.across.to/introduction/fees) and [LI.FI](https://docs.li.fi/api-reference/get-a-quote-for-a-token-transfer) demonstrate that partners have alternatives for routing orders. Intents’ ability to retain fees therefore depends on competitive execution: for the same asset pair, chains, trade size and time, how much the customer receives, how often the trade completes and how long delivery takes. A lower advertised fee loses its appeal if the customer receives fewer tokens.",
+          "Reaching customers directly could give Intents a larger share of each fee. It would also bring the cost of attracting and supporting those customers. The comparison with partner distribution depends on how much cash remains per dollar settled after those costs."
+        ]
+      },
+      {
+        "heading": "Security and fee durability",
+        "paragraphs": [
+          "A security failure can cost Intents both partners and fees, because partners route orders elsewhere when their users are at risk. In its [16 October 2026 postmortem](https://x.com/AlexAuroraDev/status/2111124226962870770), the team described a $3.8 million deposit-accounting exploit and said it recovered the funds, removed the affected feature and strengthened monitoring. The commercial effect remains unquantified: the record does not independently confirm full recovery or measure partners’ responses. The recovery claim therefore supplies no basis for assuming that fee income was unaffected.",
+          "The deployed contract reported version 0.4.5 on 2 November 2026 and linked to the [deposit-notification removal](https://github.com/near/intents/pull/374). The [published 2025 audits](https://drive.google.com/drive/folders/1fd75SgBs5T02Y28wP7V3N6lcHG2YfB6Z) do not establish review of that version, and its declaration does not establish correspondence with the reviewed source. The available audit record therefore cannot support treating that deployment as independently reviewed."
+        ]
+      }
+    ],
+    "issuancePolicy": [
+      {
+        "heading": "Issuance policy and validator incentives",
+        "paragraphs": [
+          {
+            "text": "{{protocolPolicy}}",
+            "links": [
+              {
+                "phrase": "HSP-029",
+                "url": "https://gov.near.org/t/hsp-029-establish-a-24-month-issuance-ramp-to-a-1-6-target-rate-of-near-token-emissions/42644"
+              }
+            ]
+          },
+          "Reducing issuance would lower the purchase hurdle and reduce the tokens available for validator rewards. Whether validators would continue to participate depends on compensation, operating costs and the price of NEAR. The holder comparison keeps staking participation fixed.",
+          "Protocol version 87, active by 5 November 2026, changed the burn side. Under [HSP-027](https://gov.near.org/t/hsp-027-remove-the-near-developer-gas-rebate/42213), contract calls no longer pay 30% of their burned gas back to the contract, so all of it is now burned. The derived burns above include this change as days after the upgrade enter the comparison windows."
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "The data behind each finding can be downloaded from the links in the text, and each table and chart states its dates. The line under the title shows which figures are live and when they were last updated.",
+          "The code and the saved source data are in the project’s [GitHub repository](https://github.com/chigozzdevv/outrun). After `npm ci` installs the code and `npm run evidence:download` fetches the saved data, two commands check the results:",
+          "`npm run verify:research` rebuilds all 38 studies from the saved data, with network access blocked, and checks every result against the published files.",
+          "`npm run verify:data` rechecks the supply accounting and the signed withdrawals.",
+          "The README lists every other command, including `npm run live:refresh`, which fetches fresh data from the sources."
+        ]
+      }
+    ]
+  }
+}

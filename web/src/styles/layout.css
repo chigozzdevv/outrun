@@ -1,0 +1,159 @@
+/* One reading measure for the argument, evidence and figure captions. */
+:root {
+  --reading-width: 760px;
+  --page-gutter: 32px;
+}
+.hero,
+.article-shell {
+  width: calc(100% - 2 * var(--page-gutter));
+  max-width: var(--reading-width);
+  margin-inline: auto;
+  padding: 0;
+  display: block;
+}
+.article-content { width: 100%; min-width: 0; }
+.chapter { scroll-margin-top: 0; padding: 32px 0; border: 0; }
+.chapter-intro { display: block; position: relative; margin-bottom: 24px; }
+.chapter-intro h2 { font-size: 36px; margin-top: 0; }
+
+.prose,
+.chapter-intro .prose,
+.thesis-prose,
+.authored-thesis .thesis-seal {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+}
+
+.chapter > .editorial-note {
+  max-width: none;
+  margin-inline: 0;
+}
+
+/* Figures belong to the article column, with no second horizontal inset. */
+.chart-frame {
+  width: 100%;
+  margin: 28px 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+.chart-frame figcaption { margin-bottom: 18px; }
+.chart-frame h3 { font-size: 24px; letter-spacing: -.5px; }
+.observed-comparison { padding-inline: 0; }
+.research-numbers strong { font-size: 36px; }
+
+.hero { padding-top: 48px; }
+.hero-layout { display: block; padding: 20px 0 32px; }
+.hero-deck { width: 100%; max-width: none; }
+.data-status { margin-top: 14px; font-size: 13px; line-height: 1.6; color: var(--muted); }
+.hero-art { margin: 0 0 8px; }
+.hero-art img { display: block; width: 100%; height: auto; }
+a, a:visited { color: var(--accent); font-weight: 600; }
+.skip-link { background: var(--paper); color: var(--accent); }
+.hero h1 em { font-weight: 600; }
+.research-numbers { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.source-downloads { grid-template-columns: 1fr; }
+.mechanism-chain { border: 0; padding-block: 12px; margin-block: 24px; }
+.thesis-prose { margin-block: 24px; }
+.thesis-text-block { margin-block: 28px; }
+.thesis-prose h3 { margin-bottom: 16px; }
+.thesis-prose p { margin-bottom: 20px; }
+.thesis-text-block:first-child { margin-top: 0; }
+.thesis-text-block:last-child, .thesis-text-block:last-child > p:last-child { margin-bottom: 0; }
+/* Keep one rhythm where separate text groups meet: 20px between paragraphs, 28px before a subheading. */
+.thesis-text-block { margin-block: 20px; }
+.thesis-text-block:has(> h3:first-child) { margin-top: 28px; }
+.thesis-prose > .thesis-text-block:first-child { margin-top: 0; }
+#scenario > .thesis-prose { margin-top: 20px; }
+.thesis-prose:has(+ .thesis-prose) { margin-bottom: 20px; }
+.thesis-prose + .thesis-prose { margin-top: 20px; }
+.thesis-prose + .thesis-prose:has(> .thesis-text-block:first-child > h3:first-child) { margin-top: 28px; }
+.chapter > :last-child figure.chart-frame:last-child, .chapter > figure.chart-frame:last-child { margin-bottom: 24px; }
+.comparison-row { margin-bottom: 18px; }
+.comparison-label { margin-bottom: 6px; }
+.comparison-label > span { font-size: 13px; font-weight: 500; }
+.comparison-label strong { font-family: inherit; font-size: 21px; font-weight: 500; letter-spacing: -.5px; font-variant-numeric: tabular-nums; }
+.comparison-row:last-child { margin-bottom: 0; }
+.table-scroll > table { margin: 0; font-size: 13px; font-variant-numeric: tabular-nums; }
+.table-scroll thead th { font-size: 11px; text-transform: none; letter-spacing: normal; }
+.table-scroll tbody th { font: inherit; text-transform: none; letter-spacing: normal; }
+.table-scroll :is(td, th):not(:first-child) { text-align: right; }
+@media (max-width: 650px) {
+  .table-scroll > table { font-size: 12px; }
+  .table-scroll :is(td, th) { padding-inline: 5px; }
+}
+.thesis-prose a { font-family: inherit; font-size: inherit; line-height: inherit; }
+.thesis-prose code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .84em; color: var(--ink); background: var(--figure); padding: .12em .4em; border-radius: 3px; white-space: nowrap; }
+.equation { margin: 24px 0; padding-block: 8px; max-width: 100%; overflow-x: auto; color: var(--ink); font-size: clamp(20px, 3vw, 25px); }
+.equation math { margin-inline: auto; }
+.equation mtable { row-spacing: .7em; }
+
+.is-presenting .article-shell { display: block; max-width: 760px; }
+.is-presenting .article-content { width: 100%; }
+.is-presenting .chapter-intro h2 { font-size: 40px; }
+
+@media (max-width: 1180px) {
+  :root { --page-gutter: 24px; }
+}
+
+@media (max-width: 760px) {
+  .chapter-intro h2, .is-presenting .chapter-intro h2 { font-size: 30px; }
+  .chart-frame h3 { font-size: 23px; }
+  .research-numbers strong { font-size: 30px; }
+}
+
+@media (max-width: 650px) {
+  :root { --page-gutter: 20px; }
+  .hero { padding-top: 32px; }
+  .hero-layout { padding: 12px 0 24px; }
+}
+
+@media print {
+  .hero, .article-shell, .is-presenting .article-shell { display: block; width: 100%; max-width: none; padding: 0; }
+  .chapter-intro h2, .is-presenting .chapter-intro h2 { font-size: 28px; }
+}
+
+/* Keep the headline balanced after naming NEAR in the question itself. */
+.hero h1 { font-size: clamp(54px, 5.5vw, 76px); letter-spacing: -2.8px; }
+.chart-frame h3 { margin-top: 0; }
+@media (max-width: 650px) {
+  .hero h1 { font-size: clamp(35px, 10vw, 54px); letter-spacing: -2px; }
+}
+
+/* Consistent arrow inset for native select controls. */
+.figure-controls select,
+.trace-heading select {
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 36px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='m1 1 5 5 5-5' stroke='%23647064' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px 8px;
+  text-overflow: ellipsis;
+}
+
+@media (forced-colors: active) {
+  .figure-controls select,
+  .trace-heading select {
+    -webkit-appearance: menulist;
+    appearance: auto;
+    background-image: none;
+  }
+}
+
+.echart { min-width: 0; width: 100%; }
+.echart-surface { width: 100%; min-width: 0; }
+.fee-multiples { display: grid; grid-template-columns: minmax(145px, 230px) minmax(0, 1fr); column-gap: 14px; }
+.multiple-labels { display: grid; grid-auto-rows: 64px; font-size: 12px; }
+.multiple-labels > div { display: flex; flex-direction: column; justify-content: center; }
+.multiple-labels small { margin-top: 7px; font-size: 10px; line-height: 1.5; color: var(--muted); }
+@media (max-width: 650px) {
+  .fee-multiples { grid-template-columns: minmax(130px, 1fr) minmax(0, 1.1fr); column-gap: 8px; }
+  .multiple-labels { font-size: 11px; }
+}
