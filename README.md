@@ -16,7 +16,7 @@ Built for NEAR HACKATHON 2026, Investment Thesis track. Everything in this repos
 - To keep NEAR's price flat for five years at 100 times Intents' yearly fees, volume would need to grow about **17%** a year.
 - Volume over the last 90 days was **223%** higher than a year earlier, but the last 30 days fell **21.7%** from the 30 days before.
 
-The page updates these figures from live data, dates every number and lists what the data cannot show.
+The page updates these figures from live data, dates every number and lists what the data cannot show. The full argument, with the evidence for and against it, is in [THESIS.md](THESIS.md).
 
 ## What's inside
 
