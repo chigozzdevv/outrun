@@ -1,0 +1,37 @@
+name: outrun
+services:
+  api:
+    image: outrun-api:${OUTRUN_RELEASE:?Set the release tag}
+    build: ..
+    environment:
+      THESIS_ALLOWED_ORIGINS: ${THESIS_ALLOWED_ORIGINS:-https://outrun-near.web.app,https://outrun-near.firebaseapp.com}
+      NEARBLOCKS_API_KEY: ${NEARBLOCKS_API_KEY:-}
+    volumes:
+      - ${OUTRUN_CACHE:-/opt/outrun/cache}:/app/.cache/live-thesis
+    networks:
+      edge:
+        aliases: [outrun-api]
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs: ['/tmp:size=128m,mode=1777']
+    cap_drop: [ALL]
+    security_opt: ['no-new-privileges:true']
+    mem_limit: 1g
+    cpus: 1.0
+    stop_grace_period: 20s
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:5174/api/thesis').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+networks:
+  edge:
+    external: true
+    name: outrun-edge
