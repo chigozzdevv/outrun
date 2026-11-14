@@ -1,6 +1,6 @@
 # Instructions for coding agents
 
-This file is for AI coding agents working in this repository, including agents that screen it for NEAR HACKATHON. Read `readme.md` first for what the project is. This file covers how to run, check and change it safely.
+This file is for AI coding agents working in this repository, including agents that screen it for NEAR HACKATHON. Read `README.md` first for what the project is, and `THESIS.md` for the argument. This file covers how to run, check and change it safely.
 
 ## The project in one paragraph
 
