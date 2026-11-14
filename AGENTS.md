@@ -55,6 +55,15 @@ npm run live:refresh # one forced refresh of every live source, then exit
 - Only one process refreshes at a time, coordinated by `.cache/live-thesis/refresh.lock`. A lock left by a dead process is removed automatically. If refreshes seem to do nothing, check whether another server is running.
 - The line under the page title states which figures are live and the last date the volume figures cover.
 
+## Deployment
+
+The page and the live server are hosted separately. Deploy only with the owner's approval.
+
+- **Page:** Firebase Hosting, project `outrun-near` (https://outrun-near.web.app). Run `VITE_THESIS_API=https://intent.trydepth.xyz npm run build`, then `npx firebase-tools deploy --only hosting`.
+- **Live server:** Docker on the owner's server, behind its Caddy at https://intent.trydepth.xyz. From a copy of the release, run `OUTRUN_RELEASE=<tag> docker compose -f deploy/compose.yaml up -d --build --wait`. The live-data cache is mounted from `/opt/outrun/cache`.
+- `THESIS_ALLOWED_ORIGINS` lists the sites that may read `/api/thesis` from another address. `deploy/compose.yaml` allows `https://outrun-near.web.app` and `https://outrun-near.firebaseapp.com`.
+- A build without `VITE_THESIS_API` reads live data from the server that sent the page, as with `npm start`.
+
 ## Repository map
 
 | Path | What it holds |

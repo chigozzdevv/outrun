@@ -6,6 +6,8 @@ NEAR creates new tokens every year to pay validators. Part of the fees from NEAR
 
 Built for NEAR HACKATHON 2026, Investment Thesis track. Everything in this repository was built during the hackathon.
 
+**Live page:** https://outrun-near.web.app
+
 ## The answer
 
 **Not yet.** As of 14 November 2026:
@@ -62,6 +64,12 @@ Then open http://127.0.0.1:5174/.
 | `NEARBLOCKS_API_KEY` | Faster NearBlocks access for the treasury receipts |
 | `PORT`, `HOST` | Address for `npm start`. Default: `127.0.0.1:5174` |
 | `THESIS_EVIDENCE_URL` | Download `sources.zip` from another location |
+| `VITE_THESIS_API` | At build time: the live server's address, when the page is hosted elsewhere. Default: the server that sends the page |
+| `THESIS_ALLOWED_ORIGINS` | Comma-separated sites allowed to read `/api/thesis` from another address |
+
+### Hosting
+
+The page is a static build on Firebase Hosting. The live server runs in Docker (`Dockerfile`, `deploy/compose.yaml`) at https://intent.trydepth.xyz, and the page reads `/api/thesis` from there.
 
 ## How NEAR fits in
 
