@@ -1,0 +1,10 @@
+{
+  "reviewedAt": "2026-11-13",
+  "hashes": {
+    "fees": "a761f1d6a3e4855c40dcbb0b219b5fb4f689122b8be140ad1c817e07f09600a0",
+    "configuration": "391ae3c6d2827368839e8f0cecf0aede2f2c287af51c6df83a5ae9d470507b68",
+    "terms": "bfb430cff34fd16a642a656c18a687d9797673367c3fb38671d42ee5a07dec89",
+    "ai": "a00b7acab47e27f47750d21d0b088040e720abd203da48c50703fd842152ba08",
+    "adapter": "177acbfb6630bf303739206a1f558050c6bb216666e78f064c1053503f4668ee"
+  }
+}
