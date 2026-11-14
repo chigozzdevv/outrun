@@ -10,6 +10,7 @@ const ROOT = fileURLToPath(new URL('../../../', import.meta.url));
 const CACHE = resolve(ROOT, '.cache/live-thesis');
 const RPC = process.env.NEAR_RPC_URL || 'https://rpc.mainnet.near.org';
 const ARCHIVE = process.env.NEAR_ARCHIVE_URL || 'https://archival-rpc.mainnet.fastnear.com';
+const ALLOWED_ORIGINS = new Set((process.env.THESIS_ALLOWED_ORIGINS ?? '').split(',').map(origin => origin.trim().replace(/\/+$/, '')).filter(Boolean));
 const NEARDATA = 'https://mainnet.neardata.xyz/v0/block';
 const USDC = '17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1';
 const OPERATING_INTERVAL = 5 * 60_000;
@@ -500,19 +501,22 @@ export class LiveService {
   async handle(req: IncomingMessage, res: ServerResponse): Promise<boolean> {
     const url = new URL(req.url || '/', 'http://localhost');
     if (!url.pathname.startsWith('/api/thesis')) return false;
+    const origin = req.headers?.origin;
+    const cors: Record<string, string> = { Vary: 'Origin', ...(origin && ALLOWED_ORIGINS.has(origin) ? { 'Access-Control-Allow-Origin': origin } : {}) };
+    if (req.method === 'OPTIONS' && 'Access-Control-Allow-Origin' in cors) { res.writeHead(204, { ...cors, 'Access-Control-Allow-Methods': 'GET, HEAD', 'Access-Control-Max-Age': '86400' }); res.end(); return true; }
     if (req.method !== 'GET' && req.method !== 'HEAD') { res.writeHead(405, { Allow: 'GET, HEAD' }); res.end(); return true; }
     await this.start();
-    const send = (status: number, value: string, type = 'application/json; charset=utf-8') => { res.writeHead(status, { 'Content-Type': type, 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' }); res.end(req.method === 'HEAD' ? undefined : value); };
+    const send = (status: number, value: string, type = 'application/json; charset=utf-8', filename?: string) => { res.writeHead(status, { 'Content-Type': type, 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff', ...cors, ...(filename ? { 'Content-Disposition': `attachment; filename="${filename}"` } : {}) }); res.end(req.method === 'HEAD' ? undefined : value); };
     if (url.pathname === '/api/thesis') { send(200, JSON.stringify(this.snapshot)); return true; }
     if (url.pathname === '/api/thesis/daily.csv' || url.pathname === '/api/thesis/native.csv') {
       const version = this.versions.get(url.searchParams.get('snapshot') || this.snapshot.id);
       if (!version) { send(410, JSON.stringify({ error: 'This snapshot expired. Refresh the page for matching data.' })); return true; }
       if (url.pathname.endsWith('daily.csv')) {
         const keys = ['date','volumeUsd','grossFeesUsd','collectionsUsd','nativeReceiptsNear','priceUsd'] as const;
-        send(200, [keys.join(','), ...version.snapshot.operating.daily.map(row => keys.map(key => row[key] ?? '').join(','))].join('\n') + '\n', 'text/csv; charset=utf-8');
+        send(200, [keys.join(','), ...version.snapshot.operating.daily.map(row => keys.map(key => row[key] ?? '').join(','))].join('\n') + '\n', 'text/csv; charset=utf-8', 'daily-observations.csv');
       } else {
         const end = ns(version.snapshot.operating.endExclusive), start = ns(version.snapshot.operating.nativeCoverage.start);
-        send(200, 'utc,block,receipt_id,transaction_hash,predecessor,receiver,amount_near,classification\n' + version.receipts.filter(r => BigInt(r.timestampNs) >= start && BigInt(r.timestampNs) < end).map(r => [new Date(Number(BigInt(r.timestampNs) / 1_000_000n)).toISOString(),r.block,r.id,r.transactionHash,r.predecessor,r.receiver,native(BigInt(r.amountYocto)),WALLETS.includes(r.predecessor as typeof WALLETS[number]) ? 'internal_native_transfer' : 'external_native_inflow'].join(',')).join('\n') + '\n', 'text/csv; charset=utf-8');
+        send(200, 'utc,block,receipt_id,transaction_hash,predecessor,receiver,amount_near,classification\n' + version.receipts.filter(r => BigInt(r.timestampNs) >= start && BigInt(r.timestampNs) < end).map(r => [new Date(Number(BigInt(r.timestampNs) / 1_000_000n)).toISOString(),r.block,r.id,r.transactionHash,r.predecessor,r.receiver,native(BigInt(r.amountYocto)),WALLETS.includes(r.predecessor as typeof WALLETS[number]) ? 'internal_native_transfer' : 'external_native_inflow'].join(',')).join('\n') + '\n', 'text/csv; charset=utf-8', 'native-receipts.csv');
       }
       return true;
     }

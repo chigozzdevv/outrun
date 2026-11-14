@@ -1,13 +1,14 @@
 import catalogue from '../../../data/evidence/2026-11-02/catalog.json';
 import { shortDate } from '../../../compute/src/format.ts';
 import { DAY, type LiveSnapshot } from '../../../compute/src/live/schema.ts';
+import { apiUrl } from '../live/api.ts';
 
 export function downloadUrl(path: string): string {
   return catalogue.datasets.find(item => item.source.replace(/^public/, '') === path)?.download?.url ?? path;
 }
 
 export function downloadName(path: string): string {
-  const live = path.match(/^\/api\/thesis\/(daily|native)\.csv\?snapshot=/);
+  const live = path.match(/^(?:https?:\/\/[^/]+)?\/api\/thesis\/(daily|native)\.csv\?snapshot=/);
   if (live) return live[1] === 'daily' ? 'daily-observations.csv' : 'native-receipts.csv';
   const url = downloadUrl(path);
   return catalogue.datasets.find(item => item.download?.url === url)?.download?.filename ?? url.slice(url.lastIndexOf('/') + 1);
@@ -23,7 +24,7 @@ export function snapshotDownload(snapshot: LiveSnapshot, kind: 'daily' | 'native
   const title = native ? 'Native NEAR transfers into treasury wallets' : 'Daily settlement volume, fees and treasury receipts';
   const stem = native ? 'native-receipts' : 'daily-observations';
   return {
-    href: `/api/thesis/${kind}.csv?snapshot=${encodeURIComponent(snapshot.id)}`,
+    href: apiUrl(`/api/thesis/${kind}.csv?snapshot=${encodeURIComponent(snapshot.id)}`),
     title: `${title}, ${dates}`,
     filename: `${stem}.csv`,
   };
