@@ -11,3 +11,4 @@ __pycache__/
 *.part
 # Attached to the evidence-2026-11-02 GitHub release; fetch it with `npm run evidence:download`.
 data/evidence/2026-11-02/sources.zip
+.firebase/
